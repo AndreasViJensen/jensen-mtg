@@ -23,6 +23,7 @@ const COLOR_LABELS = {
   C: "Colorless",
 };
 const BROWSE_RARITY_LABELS = {
+  common: "Commons",
   uncommon: "Uncommons",
   rarePlus: "Mythics / Rares",
 };
@@ -505,8 +506,8 @@ function setButtonGroupState(buttons, value, datasetKey) {
 }
 
 function matchesBrowseRarity(card, rarity) {
-  if (rarity === "uncommon") {
-    return card.rarity === "uncommon";
+  if (rarity === "common" || rarity === "uncommon") {
+    return card.rarity === rarity;
   }
 
   return card.rarity === "rare" || card.rarity === "mythic";
