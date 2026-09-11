@@ -1,0 +1,4469 @@
+{
+  "sourceName": "SOS ratings v2",
+  "sourceUrl": "https://toskicologist.github.io/MTG-draft-sets-infographics/sos-ratings-v2.html",
+  "cards": [
+    {
+      "name": "Emeritus of Ideation // Ancestral Recall",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{U}{U} // {U}",
+      "avgNorm": 2.213,
+      "avgRaw": 9.0,
+      "controversy": 0.219
+    },
+    {
+      "name": "Germination Practicum",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{3}{G}{G}",
+      "avgNorm": 1.968,
+      "avgRaw": 8.5,
+      "controversy": 0.268
+    },
+    {
+      "name": "Moment of Reckoning",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{3}{W}{W}{B}{B}",
+      "avgNorm": 2.182,
+      "avgRaw": 9.0,
+      "controversy": 0.484
+    },
+    {
+      "name": "Akroma's Will",
+      "setCode": "SOA",
+      "rarity": "rare",
+      "colors": [
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{3}{W}",
+      "avgNorm": 1.416,
+      "avgRaw": 7.38,
+      "controversy": 0.843
+    },
+    {
+      "name": "Quandrix, the Proof",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{4}{G}{U}",
+      "avgNorm": 1.708,
+      "avgRaw": 8.25,
+      "controversy": 0.506
+    },
+    {
+      "name": "Winds of Abandon",
+      "setCode": "SOA",
+      "rarity": "rare",
+      "colors": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{W}",
+      "avgNorm": 1.847,
+      "avgRaw": 8.5,
+      "controversy": 0.347
+    },
+    {
+      "name": "Professor Dellian Fel",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Legendary Planeswalker",
+      "manaCost": "{2}{B}{G}",
+      "avgNorm": 2.036,
+      "avgRaw": 8.7,
+      "controversy": 0.335
+    },
+    {
+      "name": "Berta, Wise Extrapolator",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{2}{G}{U}",
+      "avgNorm": 0.942,
+      "avgRaw": 6.5,
+      "controversy": 0.987
+    },
+    {
+      "name": "Jadzi, Steward of Fate // Oracle's Gift",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "U"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{2}{U} // {X}{X}{U}",
+      "avgNorm": 1.629,
+      "avgRaw": 7.8,
+      "controversy": 0.241
+    },
+    {
+      "name": "Lorehold, the Historian",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{3}{R}{W}",
+      "avgNorm": 1.766,
+      "avgRaw": 8.1,
+      "controversy": 0.271
+    },
+    {
+      "name": "Emeritus of Truce // Swords to Plowshares",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{W}{W} // {W}",
+      "avgNorm": 1.669,
+      "avgRaw": 8.0,
+      "controversy": 0.447
+    },
+    {
+      "name": "Armageddon",
+      "setCode": "SOA",
+      "rarity": "mythic",
+      "colors": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{3}{W}",
+      "avgNorm": -0.825,
+      "avgRaw": 3.0,
+      "controversy": 1.778
+    },
+    {
+      "name": "Conciliator's Duelist",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{W}{W}{B}{B}",
+      "avgNorm": 1.241,
+      "avgRaw": 7.12,
+      "controversy": 0.32
+    },
+    {
+      "name": "Crackle with Power",
+      "setCode": "SOA",
+      "rarity": "mythic",
+      "colors": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{X}{X}{X}{R}{R}",
+      "avgNorm": 1.385,
+      "avgRaw": 7.25,
+      "controversy": 0.798
+    },
+    {
+      "name": "Cyclonic Rift",
+      "setCode": "SOA",
+      "rarity": "mythic",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{U}",
+      "avgNorm": 1.261,
+      "avgRaw": 7.38,
+      "controversy": 0.833
+    },
+    {
+      "name": "Dismember",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{B/P}{B/P}",
+      "avgNorm": 1.38,
+      "avgRaw": 7.38,
+      "controversy": 0.301
+    },
+    {
+      "name": "Silverquill, the Disputant",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{2}{W}{B}",
+      "avgNorm": 1.337,
+      "avgRaw": 7.38,
+      "controversy": 0.306
+    },
+    {
+      "name": "Sylvan Library",
+      "setCode": "SPG",
+      "rarity": "mythic",
+      "colors": [
+        "G"
+      ],
+      "type": "Enchantment",
+      "manaCost": "{1}{G}",
+      "avgNorm": 0.827,
+      "avgRaw": 6.25,
+      "controversy": 0.683
+    },
+    {
+      "name": "Emeritus of Abundance // Regrowth",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{G} // {1}{G}",
+      "avgNorm": 1.577,
+      "avgRaw": 7.8,
+      "controversy": 0.381
+    },
+    {
+      "name": "Improvisation Capstone",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{5}{R}{R}",
+      "avgNorm": 0.95,
+      "avgRaw": 6.4,
+      "controversy": 0.662
+    },
+    {
+      "name": "Stirring Hopesinger",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{W}",
+      "avgNorm": 1.496,
+      "avgRaw": 7.5,
+      "controversy": 0.296
+    },
+    {
+      "name": "Ral Zarek, Guest Lecturer",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "B"
+      ],
+      "type": "Legendary Planeswalker",
+      "manaCost": "{1}{B}{B}",
+      "avgNorm": 0.727,
+      "avgRaw": 5.9,
+      "controversy": 0.672
+    },
+    {
+      "name": "Antiquities on the Loose",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{W}{W}",
+      "avgNorm": 1.746,
+      "avgRaw": 8.1,
+      "controversy": 0.366
+    },
+    {
+      "name": "Applied Geometry",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{G}{U}",
+      "avgNorm": 1.585,
+      "avgRaw": 7.7,
+      "controversy": 0.285
+    },
+    {
+      "name": "Informed Inkwright",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{W}",
+      "avgNorm": 1.284,
+      "avgRaw": 7.1,
+      "controversy": 0.257
+    },
+    {
+      "name": "Magmablood Archaic",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{2/R}{2/R}{2/R}",
+      "avgNorm": 0.955,
+      "avgRaw": 6.4,
+      "controversy": 0.564
+    },
+    {
+      "name": "Splatter Technique",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{U}{U}{R}{R}",
+      "avgNorm": 1.199,
+      "avgRaw": 7.0,
+      "controversy": 0.364
+    },
+    {
+      "name": "Archmage Emeritus",
+      "setCode": "SPG",
+      "rarity": "rare",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{U}{U}",
+      "avgNorm": 0.703,
+      "avgRaw": 5.88,
+      "controversy": 0.647
+    },
+    {
+      "name": "Murmuring Mystic",
+      "setCode": "SPG",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{U}",
+      "avgNorm": 0.97,
+      "avgRaw": 6.5,
+      "controversy": 0.292
+    },
+    {
+      "name": "Subterranean Tremors",
+      "setCode": "SOA",
+      "rarity": "mythic",
+      "colors": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{X}{R}",
+      "avgNorm": 0.745,
+      "avgRaw": 6.0,
+      "controversy": 0.78
+    },
+    {
+      "name": "Triumph of the Hordes",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{G}{G}",
+      "avgNorm": -1.292,
+      "avgRaw": 2.0,
+      "controversy": 1.748
+    },
+    {
+      "name": "Traumatic Critique",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{X}{U}{R}",
+      "avgNorm": 1.134,
+      "avgRaw": 6.9,
+      "controversy": 0.395
+    },
+    {
+      "name": "Vicious Rivalry",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{B}{G}",
+      "avgNorm": 0.565,
+      "avgRaw": 5.6,
+      "controversy": 0.834
+    },
+    {
+      "name": "Wildgrowth Archaic",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{2/G}{2/G}",
+      "avgNorm": 0.89,
+      "avgRaw": 6.3,
+      "controversy": 0.549
+    },
+    {
+      "name": "Colorstorm Stallion",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{U}{R}",
+      "avgNorm": 1.254,
+      "avgRaw": 7.1,
+      "controversy": 0.332
+    },
+    {
+      "name": "Vastlands Scavenger // Bind to Life",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{G}{G} // {4}{G}",
+      "avgNorm": 1.641,
+      "avgRaw": 7.8,
+      "controversy": 0.387
+    },
+    {
+      "name": "Withering Curse",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{B}{B}",
+      "avgNorm": 0.762,
+      "avgRaw": 6.1,
+      "controversy": 0.558
+    },
+    {
+      "name": "Mind into Matter",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{X}{G}{U}",
+      "avgNorm": 1.217,
+      "avgRaw": 6.9,
+      "controversy": 0.25
+    },
+    {
+      "name": "Blech, Loafing Pest",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{1}{B}{G}",
+      "avgNorm": 0.984,
+      "avgRaw": 6.5,
+      "controversy": 0.301
+    },
+    {
+      "name": "Witherbloom, the Balancer",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{6}{B}{G}",
+      "avgNorm": 0.8,
+      "avgRaw": 6.0,
+      "controversy": 0.372
+    },
+    {
+      "name": "Cauldron of Essence",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Artifact",
+      "manaCost": "{1}{B}{G}",
+      "avgNorm": 1.065,
+      "avgRaw": 6.8,
+      "controversy": 0.487
+    },
+    {
+      "name": "Ambitious Augmenter",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{G}",
+      "avgNorm": 1.219,
+      "avgRaw": 7.0,
+      "controversy": 0.21
+    },
+    {
+      "name": "Emeritus of Woe // Demonic Tutor",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{B} // {1}{B}",
+      "avgNorm": 1.434,
+      "avgRaw": 7.5,
+      "controversy": 0.499
+    },
+    {
+      "name": "Erode",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{W}",
+      "avgNorm": 0.297,
+      "avgRaw": 5.2,
+      "controversy": 1.138
+    },
+    {
+      "name": "Stress Dream",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{3}{U}{R}",
+      "avgNorm": 1.162,
+      "avgRaw": 6.9,
+      "controversy": 0.241
+    },
+    {
+      "name": "The Dawning Archaic",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [],
+      "type": "Legendary Creature",
+      "manaCost": "{10}",
+      "avgNorm": 0.868,
+      "avgRaw": 6.2,
+      "controversy": 0.412
+    },
+    {
+      "name": "Additive Evolution",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Enchantment",
+      "manaCost": "{3}{G}{G}",
+      "avgNorm": 0.934,
+      "avgRaw": 6.3,
+      "controversy": 0.219
+    },
+    {
+      "name": "Grave Researcher // Reanimate",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{B} // {B}",
+      "avgNorm": 0.74,
+      "avgRaw": 6.0,
+      "controversy": 0.411
+    },
+    {
+      "name": "Practiced Offense",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{W}",
+      "avgNorm": 0.995,
+      "avgRaw": 6.3,
+      "controversy": 0.727
+    },
+    {
+      "name": "Practiced Scrollsmith",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{R}{R/W}{W}",
+      "avgNorm": 1.095,
+      "avgRaw": 6.7,
+      "controversy": 0.2
+    },
+    {
+      "name": "Tragedy Feaster",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{B}{B}",
+      "avgNorm": 0.318,
+      "avgRaw": 4.9,
+      "controversy": 1.075
+    },
+    {
+      "name": "Echocasting Symposium",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{4}{U}{U}",
+      "avgNorm": 0.89,
+      "avgRaw": 6.3,
+      "controversy": 0.752
+    },
+    {
+      "name": "Skycoach Conductor // All Aboard",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{U} // {U}",
+      "avgNorm": 0.989,
+      "avgRaw": 6.6,
+      "controversy": 0.361
+    },
+    {
+      "name": "Awaken the Woods",
+      "setCode": "SOA",
+      "rarity": "mythic",
+      "colors": [
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{X}{G}{G}",
+      "avgNorm": 1.282,
+      "avgRaw": 7.12,
+      "controversy": 0.268
+    },
+    {
+      "name": "Aziza, Mage Tower Captain",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{R}{W}",
+      "avgNorm": 0.189,
+      "avgRaw": 4.88,
+      "controversy": 0.493
+    },
+    {
+      "name": "Bitter Triumph",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{B}",
+      "avgNorm": 0.666,
+      "avgRaw": 5.88,
+      "controversy": 0.172
+    },
+    {
+      "name": "Expressive Iteration",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{U}{R}",
+      "avgNorm": 0.629,
+      "avgRaw": 5.75,
+      "controversy": 0.406
+    },
+    {
+      "name": "Grim Haruspex",
+      "setCode": "SPG",
+      "rarity": "rare",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{B}",
+      "avgNorm": 0.427,
+      "avgRaw": 5.38,
+      "controversy": 0.327
+    },
+    {
+      "name": "Lluwen, Exchange Student // Pest Friend",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{2}{B}{G} // {B/G}",
+      "avgNorm": 0.661,
+      "avgRaw": 6.0,
+      "controversy": 0.622
+    },
+    {
+      "name": "Orysa, Tide Choreographer",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{4}{U}",
+      "avgNorm": 0.628,
+      "avgRaw": 5.88,
+      "controversy": 0.377
+    },
+    {
+      "name": "Poisoner's Apprentice",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{B}",
+      "avgNorm": 0.49,
+      "avgRaw": 5.62,
+      "controversy": 0.534
+    },
+    {
+      "name": "Reprieve",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{W}",
+      "avgNorm": 0.863,
+      "avgRaw": 6.38,
+      "controversy": 0.419
+    },
+    {
+      "name": "Stock Up",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{U}",
+      "avgNorm": 1.044,
+      "avgRaw": 6.62,
+      "controversy": 0.141
+    },
+    {
+      "name": "Tam, Observant Sequencer // Deep Sight",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{2}{G}{U} // {G}{U}",
+      "avgNorm": -0.059,
+      "avgRaw": 4.5,
+      "controversy": 0.762
+    },
+    {
+      "name": "Veil of Summer",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Instant",
+      "manaCost": "{G}",
+      "avgNorm": -0.255,
+      "avgRaw": 4.0,
+      "controversy": 1.638
+    },
+    {
+      "name": "Ark of Hunger",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Artifact",
+      "manaCost": "{2}{R}{W}",
+      "avgNorm": 0.899,
+      "avgRaw": 6.2,
+      "controversy": 0.442
+    },
+    {
+      "name": "Colossus of the Blood Age",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Artifact Creature",
+      "manaCost": "{4}{R}{W}",
+      "avgNorm": 1.029,
+      "avgRaw": 6.6,
+      "controversy": 0.216
+    },
+    {
+      "name": "Environmental Scientist",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{G}",
+      "avgNorm": 1.171,
+      "avgRaw": 6.8,
+      "controversy": 0.349
+    },
+    {
+      "name": "Exhibition Tidecaller",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{U}",
+      "avgNorm": 0.353,
+      "avgRaw": 5.1,
+      "controversy": 0.613
+    },
+    {
+      "name": "Molten-Core Maestro",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{R}",
+      "avgNorm": 1.331,
+      "avgRaw": 7.2,
+      "controversy": 0.425
+    },
+    {
+      "name": "Scheming Silvertongue // Sign in Blood",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{B} // {B}{B}",
+      "avgNorm": 1.278,
+      "avgRaw": 7.1,
+      "controversy": 0.403
+    },
+    {
+      "name": "Stirring Honormancer",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{W}{W/B}{B}",
+      "avgNorm": 0.976,
+      "avgRaw": 6.5,
+      "controversy": 0.244
+    },
+    {
+      "name": "Abigale, Poet Laureate // Heroic Stanza",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{1}{W}{B} // {1}{W/B}",
+      "avgNorm": 0.381,
+      "avgRaw": 5.2,
+      "controversy": 0.336
+    },
+    {
+      "name": "Flashback",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R"
+      ],
+      "type": "Instant",
+      "manaCost": "{R}",
+      "avgNorm": -0.274,
+      "avgRaw": 3.8,
+      "controversy": 0.655
+    },
+    {
+      "name": "Moseo, Vein's New Dean",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "B"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{2}{B}",
+      "avgNorm": 1.061,
+      "avgRaw": 6.6,
+      "controversy": 0.372
+    },
+    {
+      "name": "Prismari, the Inspiration",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{5}{U}{R}",
+      "avgNorm": 0.463,
+      "avgRaw": 5.4,
+      "controversy": 0.678
+    },
+    {
+      "name": "Hardened Academic",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{R}{W}",
+      "avgNorm": 1.318,
+      "avgRaw": 7.1,
+      "controversy": 0.503
+    },
+    {
+      "name": "Harmonized Trio // Brainstorm",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{U} // {U}",
+      "avgNorm": 0.829,
+      "avgRaw": 6.0,
+      "controversy": 0.469
+    },
+    {
+      "name": "Essenceknit Scholar",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{B}{B/G}{G}",
+      "avgNorm": 0.773,
+      "avgRaw": 6.1,
+      "controversy": 0.185
+    },
+    {
+      "name": "Forum Necroscribe",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{5}{B}",
+      "avgNorm": 0.166,
+      "avgRaw": 4.9,
+      "controversy": 0.627
+    },
+    {
+      "name": "Matterbending Mage",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{U}",
+      "avgNorm": 1.075,
+      "avgRaw": 6.7,
+      "controversy": 0.357
+    },
+    {
+      "name": "Vibrant Outburst",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{U}{R}",
+      "avgNorm": 0.884,
+      "avgRaw": 6.3,
+      "controversy": 0.204
+    },
+    {
+      "name": "Foolish Fate",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Instant",
+      "manaCost": "{2}{B}",
+      "avgNorm": 0.87,
+      "avgRaw": 6.2,
+      "controversy": 0.214
+    },
+    {
+      "name": "Impractical Joke",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{R}",
+      "avgNorm": 0.649,
+      "avgRaw": 5.8,
+      "controversy": 0.263
+    },
+    {
+      "name": "Mana Sculpt",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{U}{U}",
+      "avgNorm": 0.274,
+      "avgRaw": 4.9,
+      "controversy": 0.546
+    },
+    {
+      "name": "Pensive Professor",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{U}{U}",
+      "avgNorm": 0.816,
+      "avgRaw": 6.1,
+      "controversy": 0.194
+    },
+    {
+      "name": "Witherbloom Charm",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Instant",
+      "manaCost": "{B}{G}",
+      "avgNorm": 0.488,
+      "avgRaw": 5.4,
+      "controversy": 0.243
+    },
+    {
+      "name": "Fractal Tender",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{G}{U}",
+      "avgNorm": 0.108,
+      "avgRaw": 4.7,
+      "controversy": 0.562
+    },
+    {
+      "name": "Garrison Excavator",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{R}",
+      "avgNorm": 0.107,
+      "avgRaw": 4.8,
+      "controversy": 0.547
+    },
+    {
+      "name": "Silverquill Charm",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{W}{B}",
+      "avgNorm": 0.517,
+      "avgRaw": 5.6,
+      "controversy": 0.261
+    },
+    {
+      "name": "Topiary Lecturer",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{G}",
+      "avgNorm": 0.027,
+      "avgRaw": 4.6,
+      "controversy": 0.561
+    },
+    {
+      "name": "Emil, Vastlands Roamer",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{2}{G}",
+      "avgNorm": 0.345,
+      "avgRaw": 5.1,
+      "controversy": 0.36
+    },
+    {
+      "name": "Killian's Confidence",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{W}{B}",
+      "avgNorm": 0.503,
+      "avgRaw": 5.5,
+      "controversy": 0.077
+    },
+    {
+      "name": "Kirol, History Buff // Pack a Punch",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{R}{W} // {1}{R}{W}",
+      "avgNorm": 0.583,
+      "avgRaw": 5.7,
+      "controversy": 0.237
+    },
+    {
+      "name": "Emeritus of Conflict // Lightning Bolt",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{R} // {R}",
+      "avgNorm": 0.372,
+      "avgRaw": 5.2,
+      "controversy": 0.286
+    },
+    {
+      "name": "Grapple with Death",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{B}{G}",
+      "avgNorm": 0.529,
+      "avgRaw": 5.6,
+      "controversy": 0.286
+    },
+    {
+      "name": "Last Gasp",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{B}",
+      "avgNorm": 0.503,
+      "avgRaw": 5.5,
+      "controversy": 0.077
+    },
+    {
+      "name": "Lecturing Scornmage",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{B}",
+      "avgNorm": 0.208,
+      "avgRaw": 4.8,
+      "controversy": 0.473
+    },
+    {
+      "name": "Paradox Surveyor",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{G}{G/U}{U}",
+      "avgNorm": 0.747,
+      "avgRaw": 6.0,
+      "controversy": 0.254
+    },
+    {
+      "name": "Snooping Page",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{W}{B}",
+      "avgNorm": 0.258,
+      "avgRaw": 5.0,
+      "controversy": 0.251
+    },
+    {
+      "name": "Studious First-Year // Rampant Growth",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{G} // {1}{G}",
+      "avgNorm": 0.472,
+      "avgRaw": 5.5,
+      "controversy": 0.345
+    },
+    {
+      "name": "Suspend Aggression",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{R}{W}",
+      "avgNorm": 0.938,
+      "avgRaw": 6.4,
+      "controversy": 0.418
+    },
+    {
+      "name": "Thornfist Striker",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{G}",
+      "avgNorm": 0.613,
+      "avgRaw": 5.7,
+      "controversy": 0.107
+    },
+    {
+      "name": "Wilt in the Heat",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{2}{R}{W}",
+      "avgNorm": 0.556,
+      "avgRaw": 5.6,
+      "controversy": 0.142
+    },
+    {
+      "name": "Abrade",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{R}",
+      "avgNorm": 0.396,
+      "avgRaw": 5.25,
+      "controversy": 0.148
+    },
+    {
+      "name": "Ad Nauseam",
+      "setCode": "SOA",
+      "rarity": "rare",
+      "colors": [
+        "B"
+      ],
+      "type": "Instant",
+      "manaCost": "{3}{B}{B}",
+      "avgNorm": -1.49,
+      "avgRaw": 1.5,
+      "controversy": 1.358
+    },
+    {
+      "name": "Archaeomancer",
+      "setCode": "SPG",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{U}{U}",
+      "avgNorm": -0.115,
+      "avgRaw": 4.12,
+      "controversy": 0.663
+    },
+    {
+      "name": "Brain Freeze",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{U}",
+      "avgNorm": -1.163,
+      "avgRaw": 2.0,
+      "controversy": 1.458
+    },
+    {
+      "name": "Brotherhood's End",
+      "setCode": "SOA",
+      "rarity": "rare",
+      "colors": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{R}{R}",
+      "avgNorm": -0.174,
+      "avgRaw": 4.0,
+      "controversy": 0.738
+    },
+    {
+      "name": "Burst Lightning",
+      "setCode": "SOA",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Instant",
+      "manaCost": "{R}",
+      "avgNorm": 0.806,
+      "avgRaw": 6.12,
+      "controversy": 0.222
+    },
+    {
+      "name": "Daze",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{U}",
+      "avgNorm": 0.458,
+      "avgRaw": 5.38,
+      "controversy": 0.424
+    },
+    {
+      "name": "Ennis, Debate Moderator",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{1}{W}",
+      "avgNorm": 0.085,
+      "avgRaw": 4.62,
+      "controversy": 0.347
+    },
+    {
+      "name": "Hop to It",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{W}",
+      "avgNorm": 0.496,
+      "avgRaw": 5.5,
+      "controversy": 0.087
+    },
+    {
+      "name": "Knockout Maneuver",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{G}",
+      "avgNorm": 0.567,
+      "avgRaw": 5.62,
+      "controversy": 0.079
+    },
+    {
+      "name": "Preordain",
+      "setCode": "SOA",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{U}",
+      "avgNorm": 0.424,
+      "avgRaw": 5.38,
+      "controversy": 0.223
+    },
+    {
+      "name": "Proctor's Gaze",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{2}{G}{U}",
+      "avgNorm": 0.563,
+      "avgRaw": 5.62,
+      "controversy": 0.163
+    },
+    {
+      "name": "Sanar, Unfinished Genius // Wild Idea",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{U}{R} // {3}{U}{R}",
+      "avgNorm": 0.329,
+      "avgRaw": 5.12,
+      "controversy": 0.144
+    },
+    {
+      "name": "Shared Roots",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{G}",
+      "avgNorm": -0.359,
+      "avgRaw": 3.75,
+      "controversy": 0.583
+    },
+    {
+      "name": "Teacher's Pest",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{B}{G}",
+      "avgNorm": 0.357,
+      "avgRaw": 5.25,
+      "controversy": 0.232
+    },
+    {
+      "name": "Charging Strifeknight",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{R}",
+      "avgNorm": 0.562,
+      "avgRaw": 5.7,
+      "controversy": 0.401
+    },
+    {
+      "name": "Artistic Process",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{3}{R}{R}",
+      "avgNorm": 0.414,
+      "avgRaw": 5.3,
+      "controversy": 0.209
+    },
+    {
+      "name": "Muse Seeker",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{U}",
+      "avgNorm": 0.029,
+      "avgRaw": 4.5,
+      "controversy": 0.435
+    },
+    {
+      "name": "Pestbrood Sloth",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{G}",
+      "avgNorm": 0.518,
+      "avgRaw": 5.6,
+      "controversy": 0.294
+    },
+    {
+      "name": "Group Project",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{W}",
+      "avgNorm": 0.477,
+      "avgRaw": 5.4,
+      "controversy": 0.248
+    },
+    {
+      "name": "Leech Collector // Bloodletting",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{B} // {B}",
+      "avgNorm": -0.173,
+      "avgRaw": 4.1,
+      "controversy": 0.602
+    },
+    {
+      "name": "Postmortem Professor",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{B}",
+      "avgNorm": 0.29,
+      "avgRaw": 5.0,
+      "controversy": 0.167
+    },
+    {
+      "name": "Scolding Administrator",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{W}{B}",
+      "avgNorm": 0.668,
+      "avgRaw": 5.8,
+      "controversy": 0.379
+    },
+    {
+      "name": "Startled Relic Sloth",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{R}{W}",
+      "avgNorm": 0.202,
+      "avgRaw": 4.9,
+      "controversy": 0.346
+    },
+    {
+      "name": "Steal the Show",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{R}",
+      "avgNorm": -0.18,
+      "avgRaw": 4.1,
+      "controversy": 0.52
+    },
+    {
+      "name": "Thunderdrum Soloist",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{R}",
+      "avgNorm": 0.183,
+      "avgRaw": 4.7,
+      "controversy": 0.474
+    },
+    {
+      "name": "Together as One",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [],
+      "type": "Sorcery",
+      "manaCost": "{6}",
+      "avgNorm": 0.936,
+      "avgRaw": 6.6,
+      "controversy": 1.173
+    },
+    {
+      "name": "Ajani's Response",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{4}{W}",
+      "avgNorm": -0.126,
+      "avgRaw": 4.1,
+      "controversy": 0.326
+    },
+    {
+      "name": "Deathcap Glade",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [],
+      "type": "Land",
+      "manaCost": "",
+      "avgNorm": 0.469,
+      "avgRaw": 5.4,
+      "controversy": 0.293
+    },
+    {
+      "name": "Dreamroot Cascade",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [],
+      "type": "Land",
+      "manaCost": "",
+      "avgNorm": 0.469,
+      "avgRaw": 5.4,
+      "controversy": 0.293
+    },
+    {
+      "name": "Shattered Sanctum",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [],
+      "type": "Land",
+      "manaCost": "",
+      "avgNorm": 0.469,
+      "avgRaw": 5.4,
+      "controversy": 0.293
+    },
+    {
+      "name": "Stormcarved Coast",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [],
+      "type": "Land",
+      "manaCost": "",
+      "avgNorm": 0.469,
+      "avgRaw": 5.4,
+      "controversy": 0.293
+    },
+    {
+      "name": "Sundown Pass",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [],
+      "type": "Land",
+      "manaCost": "",
+      "avgNorm": 0.469,
+      "avgRaw": 5.4,
+      "controversy": 0.293
+    },
+    {
+      "name": "Aberrant Manawurm",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{G}",
+      "avgNorm": -0.114,
+      "avgRaw": 4.2,
+      "controversy": 0.558
+    },
+    {
+      "name": "Cuboid Colony",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{G}{U}",
+      "avgNorm": 0.459,
+      "avgRaw": 5.4,
+      "controversy": 0.434
+    },
+    {
+      "name": "Eternal Student",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{B}",
+      "avgNorm": 0.264,
+      "avgRaw": 5.1,
+      "controversy": 0.325
+    },
+    {
+      "name": "Quandrix Charm",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{G}{U}",
+      "avgNorm": 0.261,
+      "avgRaw": 5.1,
+      "controversy": 0.295
+    },
+    {
+      "name": "Soaring Stoneglider",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{W}",
+      "avgNorm": -0.198,
+      "avgRaw": 4.1,
+      "controversy": 0.451
+    },
+    {
+      "name": "Social Snub",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{W}{B}",
+      "avgNorm": -0.339,
+      "avgRaw": 3.9,
+      "controversy": 0.622
+    },
+    {
+      "name": "Burrog Barrage",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{G}",
+      "avgNorm": 0.304,
+      "avgRaw": 5.1,
+      "controversy": 0.188
+    },
+    {
+      "name": "Dissection Practice",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Instant",
+      "manaCost": "{B}",
+      "avgNorm": -0.131,
+      "avgRaw": 4.2,
+      "controversy": 0.306
+    },
+    {
+      "name": "Encouraging Aviator // Jump",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{U} // {U}",
+      "avgNorm": 0.113,
+      "avgRaw": 4.7,
+      "controversy": 0.096
+    },
+    {
+      "name": "Molten Note",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{X}{R}{W}",
+      "avgNorm": 0.224,
+      "avgRaw": 4.9,
+      "controversy": 0.099
+    },
+    {
+      "name": "Old-Growth Educator",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{B}{G}",
+      "avgNorm": -0.246,
+      "avgRaw": 4.0,
+      "controversy": 0.419
+    },
+    {
+      "name": "Prismari Charm",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{U}{R}",
+      "avgNorm": 0.469,
+      "avgRaw": 5.4,
+      "controversy": 0.293
+    },
+    {
+      "name": "Spectacular Skywhale",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{U}{R}",
+      "avgNorm": -0.024,
+      "avgRaw": 4.4,
+      "controversy": 0.181
+    },
+    {
+      "name": "Stand Up for Yourself",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{2}{W}",
+      "avgNorm": 0.301,
+      "avgRaw": 5.1,
+      "controversy": 0.231
+    },
+    {
+      "name": "Unsubtle Mockery",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Instant",
+      "manaCost": "{2}{R}",
+      "avgNorm": 0.358,
+      "avgRaw": 5.2,
+      "controversy": 0.201
+    },
+    {
+      "name": "Wander Off",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B"
+      ],
+      "type": "Instant",
+      "manaCost": "{3}{B}",
+      "avgNorm": 0.194,
+      "avgRaw": 4.9,
+      "controversy": 0.239
+    },
+    {
+      "name": "Campus Composer // Aqueous Aria",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{U} // {4}{U}",
+      "avgNorm": 0.348,
+      "avgRaw": 5.0,
+      "controversy": 0.575
+    },
+    {
+      "name": "Elite Interceptor // Rejoinder",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{W} // {1}{W}",
+      "avgNorm": 0.566,
+      "avgRaw": 5.5,
+      "controversy": 0.524
+    },
+    {
+      "name": "Flow State",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{U}",
+      "avgNorm": 0.295,
+      "avgRaw": 4.9,
+      "controversy": 0.502
+    },
+    {
+      "name": "Pigment Wrangler // Striking Palette",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{4}{R} // {R}",
+      "avgNorm": 0.291,
+      "avgRaw": 5.0,
+      "controversy": 0.35
+    },
+    {
+      "name": "Quill-Blade Laureate // Twofold Intent",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{W} // {1}{W}",
+      "avgNorm": 0.348,
+      "avgRaw": 5.0,
+      "controversy": 0.575
+    },
+    {
+      "name": "Run Behind",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{3}{U}",
+      "avgNorm": 0.153,
+      "avgRaw": 4.7,
+      "controversy": 0.293
+    },
+    {
+      "name": "Tome Blast",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{R}",
+      "avgNorm": 0.043,
+      "avgRaw": 4.5,
+      "controversy": 0.326
+    },
+    {
+      "name": "Arnyn, Deathbloom Botanist",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{2}{B}",
+      "avgNorm": 0.091,
+      "avgRaw": 4.62,
+      "controversy": 0.094
+    },
+    {
+      "name": "Locust Spray",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Instant",
+      "manaCost": "{B}",
+      "avgNorm": -0.592,
+      "avgRaw": 3.25,
+      "controversy": 0.513
+    },
+    {
+      "name": "Page, Loose Leaf",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [],
+      "type": "Legendary Artifact Creature",
+      "manaCost": "{2}",
+      "avgNorm": -0.793,
+      "avgRaw": 2.75,
+      "controversy": 0.659
+    },
+    {
+      "name": "Repel Calamity",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{W}",
+      "avgNorm": 0.225,
+      "avgRaw": 4.88,
+      "controversy": 0.189
+    },
+    {
+      "name": "Stadium Tidalmage",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{U}{R}",
+      "avgNorm": 0.086,
+      "avgRaw": 4.5,
+      "controversy": 0.549
+    },
+    {
+      "name": "Abstract Paintmage",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{U}{U/R}{R}",
+      "avgNorm": -0.183,
+      "avgRaw": 4.2,
+      "controversy": 0.418
+    },
+    {
+      "name": "Mind Roots",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{B}{G}",
+      "avgNorm": 0.008,
+      "avgRaw": 4.5,
+      "controversy": 0.523
+    },
+    {
+      "name": "Strixhaven Skycoach",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [],
+      "type": "Artifact",
+      "manaCost": "{3}",
+      "avgNorm": 0.012,
+      "avgRaw": 4.5,
+      "controversy": 0.508
+    },
+    {
+      "name": "Blazing Firesinger // Seething Song",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{R} // {2}{R}",
+      "avgNorm": 0.048,
+      "avgRaw": 4.6,
+      "controversy": 0.126
+    },
+    {
+      "name": "Chelonian Tackle",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{G}",
+      "avgNorm": -0.224,
+      "avgRaw": 4.1,
+      "controversy": 0.519
+    },
+    {
+      "name": "Embrace the Paradox",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{3}{G}{U}",
+      "avgNorm": 0.078,
+      "avgRaw": 4.6,
+      "controversy": 0.246
+    },
+    {
+      "name": "Noxious Newt",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{G}",
+      "avgNorm": 0.212,
+      "avgRaw": 4.9,
+      "controversy": 0.244
+    },
+    {
+      "name": "Slumbering Trudge",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{X}{G}",
+      "avgNorm": 0.812,
+      "avgRaw": 6.2,
+      "controversy": 0.802
+    },
+    {
+      "name": "Terramorphic Expanse",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [],
+      "type": "Land",
+      "manaCost": "",
+      "avgNorm": 0.212,
+      "avgRaw": 4.9,
+      "controversy": 0.244
+    },
+    {
+      "name": "Banishing Betrayal",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{U}",
+      "avgNorm": -0.023,
+      "avgRaw": 4.4,
+      "controversy": 0.22
+    },
+    {
+      "name": "Bogwater Lumaret",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{B}{G}",
+      "avgNorm": 0.279,
+      "avgRaw": 5.0,
+      "controversy": 0.347
+    },
+    {
+      "name": "Burrog Banemaker",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{B}",
+      "avgNorm": 0.119,
+      "avgRaw": 4.6,
+      "controversy": 0.351
+    },
+    {
+      "name": "Dig Site Inventory",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{W}",
+      "avgNorm": -0.371,
+      "avgRaw": 3.6,
+      "controversy": 0.454
+    },
+    {
+      "name": "End of the Hunt",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{B}",
+      "avgNorm": 0.172,
+      "avgRaw": 4.8,
+      "controversy": 0.344
+    },
+    {
+      "name": "Inkshape Demonstrator",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{W}",
+      "avgNorm": -0.291,
+      "avgRaw": 3.8,
+      "controversy": 0.33
+    },
+    {
+      "name": "Rubble Rouser",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{R}",
+      "avgNorm": 0.038,
+      "avgRaw": 4.4,
+      "controversy": 0.471
+    },
+    {
+      "name": "Send in the Pest",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{B}",
+      "avgNorm": 0.39,
+      "avgRaw": 5.2,
+      "controversy": 0.433
+    },
+    {
+      "name": "Spiritcall Enthusiast // Scrollboost",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{W} // {1}{W}",
+      "avgNorm": -0.13,
+      "avgRaw": 4.2,
+      "controversy": 0.331
+    },
+    {
+      "name": "Summoned Dromedary",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{W}",
+      "avgNorm": -0.049,
+      "avgRaw": 4.3,
+      "controversy": 0.247
+    },
+    {
+      "name": "Elemental Mascot",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{U}{R}",
+      "avgNorm": 0.158,
+      "avgRaw": 4.6,
+      "controversy": 0.592
+    },
+    {
+      "name": "Great Hall of the Biblioplex",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [],
+      "type": "Land",
+      "manaCost": "",
+      "avgNorm": -0.41,
+      "avgRaw": 4.0,
+      "controversy": 1.067
+    },
+    {
+      "name": "Fields of Strife",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [],
+      "type": "Land",
+      "manaCost": "",
+      "avgNorm": 0.212,
+      "avgRaw": 4.9,
+      "controversy": 0.244
+    },
+    {
+      "name": "Forum of Amity",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [],
+      "type": "Land",
+      "manaCost": "",
+      "avgNorm": 0.212,
+      "avgRaw": 4.9,
+      "controversy": 0.244
+    },
+    {
+      "name": "Geometer's Arthropod",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{G}{U}",
+      "avgNorm": -0.057,
+      "avgRaw": 4.3,
+      "controversy": 0.375
+    },
+    {
+      "name": "Paradox Gardens",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [],
+      "type": "Land",
+      "manaCost": "",
+      "avgNorm": 0.212,
+      "avgRaw": 4.9,
+      "controversy": 0.244
+    },
+    {
+      "name": "Spectacle Summit",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [],
+      "type": "Land",
+      "manaCost": "",
+      "avgNorm": 0.212,
+      "avgRaw": 4.9,
+      "controversy": 0.244
+    },
+    {
+      "name": "Titan's Grave",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [],
+      "type": "Land",
+      "manaCost": "",
+      "avgNorm": 0.212,
+      "avgRaw": 4.9,
+      "controversy": 0.244
+    },
+    {
+      "name": "Visionary's Dance",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{5}{U}{R}",
+      "avgNorm": -0.112,
+      "avgRaw": 4.2,
+      "controversy": 0.149
+    },
+    {
+      "name": "Tester of the Tangential",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{U}",
+      "avgNorm": -0.678,
+      "avgRaw": 3.2,
+      "controversy": 0.568
+    },
+    {
+      "name": "Deluge Virtuoso",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{U}",
+      "avgNorm": -0.47,
+      "avgRaw": 3.5,
+      "controversy": 0.259
+    },
+    {
+      "name": "Duel Tactics",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{R}",
+      "avgNorm": -0.112,
+      "avgRaw": 4.2,
+      "controversy": 0.149
+    },
+    {
+      "name": "Eager Glyphmage",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{W}",
+      "avgNorm": 0.214,
+      "avgRaw": 4.9,
+      "controversy": 0.393
+    },
+    {
+      "name": "Fractal Mascot",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{4}{G}{U}",
+      "avgNorm": -0.058,
+      "avgRaw": 4.3,
+      "controversy": 0.216
+    },
+    {
+      "name": "Goblin Glasswright // Craft with Pride",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{R} // {R}",
+      "avgNorm": 0.022,
+      "avgRaw": 4.5,
+      "controversy": 0.22
+    },
+    {
+      "name": "Homesickness",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{4}{U}{U}",
+      "avgNorm": -0.112,
+      "avgRaw": 4.2,
+      "controversy": 0.149
+    },
+    {
+      "name": "Pest Mascot",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{B}{G}",
+      "avgNorm": -0.192,
+      "avgRaw": 4.0,
+      "controversy": 0.272
+    },
+    {
+      "name": "Pterafractyl",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{X}{G}{U}",
+      "avgNorm": -0.031,
+      "avgRaw": 4.4,
+      "controversy": 0.186
+    },
+    {
+      "name": "Pursue the Past",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{R}{W}",
+      "avgNorm": -0.329,
+      "avgRaw": 3.7,
+      "controversy": 0.393
+    },
+    {
+      "name": "Decorum Dissertation",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{3}{B}{B}",
+      "avgNorm": -0.226,
+      "avgRaw": 4.2,
+      "controversy": 1.195
+    },
+    {
+      "name": "Restoration Seminar",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{5}{W}{W}",
+      "avgNorm": 0.333,
+      "avgRaw": 5.7,
+      "controversy": 1.684
+    },
+    {
+      "name": "Hydro-Channeler",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{U}",
+      "avgNorm": -0.125,
+      "avgRaw": 4.1,
+      "controversy": 0.346
+    },
+    {
+      "name": "Lorehold Charm",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{R}{W}",
+      "avgNorm": -0.182,
+      "avgRaw": 4.0,
+      "controversy": 0.324
+    },
+    {
+      "name": "Big Score",
+      "setCode": "SOA",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Instant",
+      "manaCost": "{3}{R}",
+      "avgNorm": -0.041,
+      "avgRaw": 4.25,
+      "controversy": 0.246
+    },
+    {
+      "name": "Codie, Vociferous Codex",
+      "setCode": "SPG",
+      "rarity": "rare",
+      "colors": [],
+      "type": "Legendary Artifact Creature",
+      "manaCost": "{3}",
+      "avgNorm": -0.49,
+      "avgRaw": 3.5,
+      "controversy": 0.566
+    },
+    {
+      "name": "Deduce",
+      "setCode": "SOA",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{U}",
+      "avgNorm": 0.098,
+      "avgRaw": 4.5,
+      "controversy": 0.402
+    },
+    {
+      "name": "Dualcaster Mage",
+      "setCode": "SPG",
+      "rarity": "rare",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{R}{R}",
+      "avgNorm": 0.494,
+      "avgRaw": 5.5,
+      "controversy": 0.742
+    },
+    {
+      "name": "Helping Hand",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{W}",
+      "avgNorm": -0.657,
+      "avgRaw": 3.0,
+      "controversy": 0.308
+    },
+    {
+      "name": "Oracle's Restoration",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{G}",
+      "avgNorm": -0.791,
+      "avgRaw": 2.75,
+      "controversy": 0.369
+    },
+    {
+      "name": "Potioner's Trove",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [],
+      "type": "Artifact",
+      "manaCost": "{3}",
+      "avgNorm": -0.657,
+      "avgRaw": 3.0,
+      "controversy": 0.308
+    },
+    {
+      "name": "Prismatic Ending",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{X}{W}",
+      "avgNorm": -0.557,
+      "avgRaw": 3.25,
+      "controversy": 0.199
+    },
+    {
+      "name": "Royal Treatment",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Instant",
+      "manaCost": "{G}",
+      "avgNorm": 0.336,
+      "avgRaw": 5.0,
+      "controversy": 0.484
+    },
+    {
+      "name": "Shamanic Revelation",
+      "setCode": "SOA",
+      "rarity": "rare",
+      "colors": [
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{3}{G}{G}",
+      "avgNorm": -0.38,
+      "avgRaw": 3.5,
+      "controversy": 0.434
+    },
+    {
+      "name": "Sheoldred's Edict",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{B}",
+      "avgNorm": -0.514,
+      "avgRaw": 3.25,
+      "controversy": 0.37
+    },
+    {
+      "name": "Sleight of Hand",
+      "setCode": "SOA",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{U}",
+      "avgNorm": 0.059,
+      "avgRaw": 4.5,
+      "controversy": 0.236
+    },
+    {
+      "name": "Tablet of Discovery",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Artifact",
+      "manaCost": "{2}{R}",
+      "avgNorm": -0.119,
+      "avgRaw": 4.3,
+      "controversy": 0.704
+    },
+    {
+      "name": "Rapturous Moment",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{4}{U}{R}",
+      "avgNorm": -0.59,
+      "avgRaw": 3.4,
+      "controversy": 0.683
+    },
+    {
+      "name": "Strife Scholar // Awaken the Ages",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{R} // {5}{R}",
+      "avgNorm": -0.563,
+      "avgRaw": 3.4,
+      "controversy": 0.371
+    },
+    {
+      "name": "Zealous Lorecaster",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{5}{R}",
+      "avgNorm": -0.097,
+      "avgRaw": 4.3,
+      "controversy": 0.267
+    },
+    {
+      "name": "Adventurous Eater // Have a Bite",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{B} // {B}",
+      "avgNorm": -0.355,
+      "avgRaw": 3.7,
+      "controversy": 0.252
+    },
+    {
+      "name": "Expressive Firedancer",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{R}",
+      "avgNorm": -0.248,
+      "avgRaw": 3.9,
+      "controversy": 0.251
+    },
+    {
+      "name": "Infirmary Healer // Stream of Life",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{G} // {X}{G}",
+      "avgNorm": 0.081,
+      "avgRaw": 4.6,
+      "controversy": 0.499
+    },
+    {
+      "name": "Inkling Mascot",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{W}{B}",
+      "avgNorm": -0.11,
+      "avgRaw": 4.2,
+      "controversy": 0.341
+    },
+    {
+      "name": "Joined Researchers // Secret Rendezvous",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{W} // {1}{W}{W}",
+      "avgNorm": -0.08,
+      "avgRaw": 4.2,
+      "controversy": 0.415
+    },
+    {
+      "name": "Landscape Painter // Vibrant Idea",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{U} // {4}{U}",
+      "avgNorm": -0.362,
+      "avgRaw": 3.7,
+      "controversy": 0.334
+    },
+    {
+      "name": "Melancholic Poet",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{B}",
+      "avgNorm": -0.271,
+      "avgRaw": 3.8,
+      "controversy": 0.352
+    },
+    {
+      "name": "Mindful Biomancer",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{G}",
+      "avgNorm": -0.271,
+      "avgRaw": 3.8,
+      "controversy": 0.352
+    },
+    {
+      "name": "Quick Study",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{2}{U}",
+      "avgNorm": -0.248,
+      "avgRaw": 3.9,
+      "controversy": 0.251
+    },
+    {
+      "name": "Rehearsed Debater",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{W}",
+      "avgNorm": -0.194,
+      "avgRaw": 4.0,
+      "controversy": 0.325
+    },
+    {
+      "name": "Shattered Acolyte",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{W}",
+      "avgNorm": -0.057,
+      "avgRaw": 4.3,
+      "controversy": 0.375
+    },
+    {
+      "name": "Stone Docent",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{W}",
+      "avgNorm": -0.137,
+      "avgRaw": 4.1,
+      "controversy": 0.351
+    },
+    {
+      "name": "Tackle Artist",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{R}",
+      "avgNorm": -0.63,
+      "avgRaw": 3.1,
+      "controversy": 0.326
+    },
+    {
+      "name": "Snarl Song",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{5}{G}",
+      "avgNorm": 0.291,
+      "avgRaw": 5.3,
+      "controversy": 1.156
+    },
+    {
+      "name": "Lumaret's Favor",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{G}",
+      "avgNorm": -0.421,
+      "avgRaw": 3.6,
+      "controversy": 0.217
+    },
+    {
+      "name": "Shopkeeper's Bane",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{G}",
+      "avgNorm": -0.473,
+      "avgRaw": 3.4,
+      "controversy": 0.405
+    },
+    {
+      "name": "Spellbook Seeker // Careful Study",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{U} // {U}",
+      "avgNorm": -0.476,
+      "avgRaw": 3.4,
+      "controversy": 0.586
+    },
+    {
+      "name": "Cheerful Osteomancer // Raise Dead",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{B} // {B}",
+      "avgNorm": -0.427,
+      "avgRaw": 3.8,
+      "controversy": 0.562
+    },
+    {
+      "name": "Daydream",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{W}",
+      "avgNorm": -0.855,
+      "avgRaw": 2.8,
+      "controversy": 0.588
+    },
+    {
+      "name": "Essence Scatter",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{U}",
+      "avgNorm": 0.073,
+      "avgRaw": 4.7,
+      "controversy": 0.697
+    },
+    {
+      "name": "Primary Research",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Enchantment",
+      "manaCost": "{4}{W}",
+      "avgNorm": 0.02,
+      "avgRaw": 4.5,
+      "controversy": 0.884
+    },
+    {
+      "name": "Sundering Archaic",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [],
+      "type": "Creature",
+      "manaCost": "{6}",
+      "avgNorm": -0.121,
+      "avgRaw": 4.3,
+      "controversy": 0.606
+    },
+    {
+      "name": "Brush Off",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{2}{U}{U}",
+      "avgNorm": -0.252,
+      "avgRaw": 3.8,
+      "controversy": 0.666
+    },
+    {
+      "name": "Growth Curve",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{G}{U}",
+      "avgNorm": -1.024,
+      "avgRaw": 2.4,
+      "controversy": 0.481
+    },
+    {
+      "name": "Heated Argument",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Instant",
+      "manaCost": "{4}{R}",
+      "avgNorm": -0.535,
+      "avgRaw": 3.4,
+      "controversy": 0.215
+    },
+    {
+      "name": "Interjection",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{W}",
+      "avgNorm": -0.501,
+      "avgRaw": 3.4,
+      "controversy": 0.193
+    },
+    {
+      "name": "Living History",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Enchantment",
+      "manaCost": "{1}{R}",
+      "avgNorm": -0.364,
+      "avgRaw": 3.7,
+      "controversy": 0.311
+    },
+    {
+      "name": "Skycoach Waypoint",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [],
+      "type": "Land",
+      "manaCost": "",
+      "avgNorm": -0.769,
+      "avgRaw": 2.8,
+      "controversy": 0.494
+    },
+    {
+      "name": "Sneering Shadewriter",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{4}{B}",
+      "avgNorm": -0.256,
+      "avgRaw": 3.9,
+      "controversy": 0.313
+    },
+    {
+      "name": "Ascendant Dustspeaker",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{4}{W}",
+      "avgNorm": -0.595,
+      "avgRaw": 3.1,
+      "controversy": 0.445
+    },
+    {
+      "name": "Biblioplex Tomekeeper",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [],
+      "type": "Artifact Creature",
+      "manaCost": "{4}",
+      "avgNorm": -1.065,
+      "avgRaw": 2.3,
+      "controversy": 0.776
+    },
+    {
+      "name": "Imperious Inkmage",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{W}{B}",
+      "avgNorm": -0.163,
+      "avgRaw": 4.0,
+      "controversy": 0.58
+    },
+    {
+      "name": "Maelstrom Artisan // Rocket Volley",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{1}{R}{R} // {1}{R}",
+      "avgNorm": -0.365,
+      "avgRaw": 4.0,
+      "controversy": 0.879
+    },
+    {
+      "name": "Planar Engineering",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{3}{G}",
+      "avgNorm": -0.941,
+      "avgRaw": 2.8,
+      "controversy": 0.859
+    },
+    {
+      "name": "Fractalize",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{X}{U}",
+      "avgNorm": -0.528,
+      "avgRaw": 3.2,
+      "controversy": 0.622
+    },
+    {
+      "name": "Rabid Attack",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{B}",
+      "avgNorm": -0.391,
+      "avgRaw": 3.4,
+      "controversy": 0.796
+    },
+    {
+      "name": "Tenured Concocter",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{4}{G}",
+      "avgNorm": -0.562,
+      "avgRaw": 3.2,
+      "controversy": 0.628
+    },
+    {
+      "name": "Ancestral Anger",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{R}",
+      "avgNorm": -0.388,
+      "avgRaw": 3.7,
+      "controversy": 0.483
+    },
+    {
+      "name": "Archaic's Agony",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{4}{R}",
+      "avgNorm": -0.991,
+      "avgRaw": 2.25,
+      "controversy": 0.338
+    },
+    {
+      "name": "Diary of Dreams",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [],
+      "type": "Artifact",
+      "manaCost": "{2}",
+      "avgNorm": -0.415,
+      "avgRaw": 3.6,
+      "controversy": 0.619
+    },
+    {
+      "name": "Disdainful Stroke",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{U}",
+      "avgNorm": -0.102,
+      "avgRaw": 4.0,
+      "controversy": 0.63
+    },
+    {
+      "name": "Duty Beyond Death",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{W}",
+      "avgNorm": -0.479,
+      "avgRaw": 3.25,
+      "controversy": 0.45
+    },
+    {
+      "name": "Feed the Swarm",
+      "setCode": "SOA",
+      "rarity": "common",
+      "colors": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{B}",
+      "avgNorm": -0.732,
+      "avgRaw": 3.0,
+      "controversy": 0.672
+    },
+    {
+      "name": "Follow the Lumarets",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{1}{G}",
+      "avgNorm": -0.334,
+      "avgRaw": 3.8,
+      "controversy": 0.544
+    },
+    {
+      "name": "Giant Growth",
+      "setCode": "SOA",
+      "rarity": "common",
+      "colors": [
+        "G"
+      ],
+      "type": "Instant",
+      "manaCost": "{G}",
+      "avgNorm": -0.832,
+      "avgRaw": 2.75,
+      "controversy": 0.495
+    },
+    {
+      "name": "Graduation Day",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Enchantment",
+      "manaCost": "{W}",
+      "avgNorm": -0.388,
+      "avgRaw": 3.7,
+      "controversy": 0.483
+    },
+    {
+      "name": "Magus of the Library",
+      "setCode": "SPG",
+      "rarity": "rare",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{G}{G}",
+      "avgNorm": -1.587,
+      "avgRaw": 1.25,
+      "controversy": 0.873
+    },
+    {
+      "name": "Monstrous Rage",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Instant",
+      "manaCost": "{R}",
+      "avgNorm": 0.099,
+      "avgRaw": 4.5,
+      "controversy": 0.535
+    },
+    {
+      "name": "Rapier Wit",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{W}",
+      "avgNorm": -0.774,
+      "avgRaw": 3.0,
+      "controversy": 0.35
+    },
+    {
+      "name": "Zombify",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{3}{B}",
+      "avgNorm": -0.79,
+      "avgRaw": 2.75,
+      "controversy": 0.221
+    },
+    {
+      "name": "Efflorescence",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G"
+      ],
+      "type": "Instant",
+      "manaCost": "{2}{G}",
+      "avgNorm": -0.916,
+      "avgRaw": 2.6,
+      "controversy": 0.368
+    },
+    {
+      "name": "Render Speechless",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{W}{B}",
+      "avgNorm": -0.194,
+      "avgRaw": 3.9,
+      "controversy": 0.749
+    },
+    {
+      "name": "Honorbound Page // Forum's Favor",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{W} // {W}",
+      "avgNorm": -0.896,
+      "avgRaw": 2.5,
+      "controversy": 0.501
+    },
+    {
+      "name": "Mage Tower Referee",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [],
+      "type": "Artifact Creature",
+      "manaCost": "{2}",
+      "avgNorm": -0.869,
+      "avgRaw": 2.5,
+      "controversy": 0.573
+    },
+    {
+      "name": "Root Manipulation",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{3}{B}{G}",
+      "avgNorm": -0.429,
+      "avgRaw": 3.4,
+      "controversy": 0.641
+    },
+    {
+      "name": "Scathing Shadelock // Venomous Words",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{4}{B} // {B}",
+      "avgNorm": -1.01,
+      "avgRaw": 2.3,
+      "controversy": 0.527
+    },
+    {
+      "name": "Transcendent Archaic",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [],
+      "type": "Creature",
+      "manaCost": "{7}",
+      "avgNorm": -0.44,
+      "avgRaw": 3.7,
+      "controversy": 0.795
+    },
+    {
+      "name": "Choreographed Sparks",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R"
+      ],
+      "type": "Instant",
+      "manaCost": "{R}{R}",
+      "avgNorm": -1.291,
+      "avgRaw": 1.6,
+      "controversy": 0.861
+    },
+    {
+      "name": "Cost of Brilliance",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{B}",
+      "avgNorm": -0.246,
+      "avgRaw": 3.9,
+      "controversy": 0.783
+    },
+    {
+      "name": "Pull from the Grave",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{B}",
+      "avgNorm": -0.712,
+      "avgRaw": 3.0,
+      "controversy": 0.367
+    },
+    {
+      "name": "Rearing Embermare",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Creature",
+      "manaCost": "{4}{R}",
+      "avgNorm": -0.632,
+      "avgRaw": 3.2,
+      "controversy": 0.327
+    },
+    {
+      "name": "Seize the Spoils",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{R}",
+      "avgNorm": -0.762,
+      "avgRaw": 2.9,
+      "controversy": 0.511
+    },
+    {
+      "name": "Spirit Mascot",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{R}{W}",
+      "avgNorm": -0.333,
+      "avgRaw": 3.8,
+      "controversy": 0.556
+    },
+    {
+      "name": "Masterful Flourish",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B"
+      ],
+      "type": "Instant",
+      "manaCost": "{B}",
+      "avgNorm": -0.773,
+      "avgRaw": 2.8,
+      "controversy": 0.406
+    },
+    {
+      "name": "Ulna Alley Shopkeep",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "B"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{B}",
+      "avgNorm": -1.102,
+      "avgRaw": 2.2,
+      "controversy": 0.536
+    },
+    {
+      "name": "Mathemagics",
+      "setCode": "SOS",
+      "rarity": "mythic",
+      "colors": [
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{X}{X}{U}{U}",
+      "avgNorm": -0.328,
+      "avgRaw": 3.9,
+      "controversy": 0.85
+    },
+    {
+      "name": "Muse's Encouragement",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{4}{U}",
+      "avgNorm": -0.825,
+      "avgRaw": 2.8,
+      "controversy": 0.253
+    },
+    {
+      "name": "Nita, Forum Conciliator",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{1}{W}{B}",
+      "avgNorm": -0.408,
+      "avgRaw": 3.6,
+      "controversy": 0.828
+    },
+    {
+      "name": "Owlin Historian",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "W"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{W}",
+      "avgNorm": -0.332,
+      "avgRaw": 3.8,
+      "controversy": 0.695
+    },
+    {
+      "name": "Wild Hypothesis",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{X}{G}",
+      "avgNorm": -0.745,
+      "avgRaw": 3.0,
+      "controversy": 0.373
+    },
+    {
+      "name": "Zimone's Experiment",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{3}{G}",
+      "avgNorm": -0.985,
+      "avgRaw": 2.4,
+      "controversy": 0.344
+    },
+    {
+      "name": "Berserk",
+      "setCode": "SOA",
+      "rarity": "mythic",
+      "colors": [
+        "G"
+      ],
+      "type": "Instant",
+      "manaCost": "{G}",
+      "avgNorm": -0.831,
+      "avgRaw": 2.75,
+      "controversy": 0.691
+    },
+    {
+      "name": "Bring to Light",
+      "setCode": "SOA",
+      "rarity": "rare",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{3}{G}{U}",
+      "avgNorm": -1.551,
+      "avgRaw": 1.25,
+      "controversy": 0.676
+    },
+    {
+      "name": "Culling Ritual",
+      "setCode": "SOA",
+      "rarity": "rare",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{B}{G}",
+      "avgNorm": -1.446,
+      "avgRaw": 1.0,
+      "controversy": 0.523
+    },
+    {
+      "name": "Mica, Reader of Ruins",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{3}{R}",
+      "avgNorm": -0.755,
+      "avgRaw": 2.75,
+      "controversy": 0.229
+    },
+    {
+      "name": "Pick Your Poison",
+      "setCode": "SOA",
+      "rarity": "rare",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{3}{B}{G}",
+      "avgNorm": -1.245,
+      "avgRaw": 1.5,
+      "controversy": 0.239
+    },
+    {
+      "name": "Requisition Raid",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{W}",
+      "avgNorm": -0.889,
+      "avgRaw": 2.5,
+      "controversy": 0.243
+    },
+    {
+      "name": "Stargaze",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{X}{B}{B}",
+      "avgNorm": -0.746,
+      "avgRaw": 2.75,
+      "controversy": 0.435
+    },
+    {
+      "name": "Hungry Graffalon",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G"
+      ],
+      "type": "Creature",
+      "manaCost": "{3}{G}",
+      "avgNorm": -1.4,
+      "avgRaw": 1.8,
+      "controversy": 0.527
+    },
+    {
+      "name": "Chase Inspiration",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{U}",
+      "avgNorm": -0.904,
+      "avgRaw": 2.6,
+      "controversy": 0.381
+    },
+    {
+      "name": "Divergent Equation",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{X}{X}{U}",
+      "avgNorm": -1.036,
+      "avgRaw": 2.4,
+      "controversy": 0.453
+    },
+    {
+      "name": "Rancorous Archaic",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [],
+      "type": "Creature",
+      "manaCost": "{5}",
+      "avgNorm": -1.036,
+      "avgRaw": 2.4,
+      "controversy": 0.453
+    },
+    {
+      "name": "Textbook Tabulator",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Creature",
+      "manaCost": "{2}{U}",
+      "avgNorm": -1.036,
+      "avgRaw": 2.4,
+      "controversy": 0.453
+    },
+    {
+      "name": "Adrix and Nev, Twincasters",
+      "setCode": "SPG",
+      "rarity": "mythic",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{2}{G}{U}",
+      "avgNorm": -1.985,
+      "avgRaw": 0.25,
+      "controversy": 0.435
+    },
+    {
+      "name": "Bulk Up",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{R}",
+      "avgNorm": -1.131,
+      "avgRaw": 2.0,
+      "controversy": 0.377
+    },
+    {
+      "name": "Deflecting Palm",
+      "setCode": "SOA",
+      "rarity": "rare",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{R}{W}",
+      "avgNorm": -1.885,
+      "avgRaw": 0.5,
+      "controversy": 0.524
+    },
+    {
+      "name": "Empty the Warrens",
+      "setCode": "SOA",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{3}{R}",
+      "avgNorm": -0.988,
+      "avgRaw": 2.25,
+      "controversy": 0.384
+    },
+    {
+      "name": "Flusterstorm",
+      "setCode": "SOA",
+      "rarity": "rare",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{U}",
+      "avgNorm": -1.443,
+      "avgRaw": 1.0,
+      "controversy": 0.041
+    },
+    {
+      "name": "Force of Will",
+      "setCode": "SOA",
+      "rarity": "mythic",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{3}{U}{U}",
+      "avgNorm": -0.711,
+      "avgRaw": 2.75,
+      "controversy": 0.542
+    },
+    {
+      "name": "Fracture",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{W}{B}",
+      "avgNorm": -1.443,
+      "avgRaw": 1.0,
+      "controversy": 0.041
+    },
+    {
+      "name": "Smallpox",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{B}{B}",
+      "avgNorm": -1.885,
+      "avgRaw": 0.5,
+      "controversy": 0.524
+    },
+    {
+      "name": "Spell Pierce",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{U}",
+      "avgNorm": -1.443,
+      "avgRaw": 1.0,
+      "controversy": 0.041
+    },
+    {
+      "name": "Wisdom of Ages",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{4}{U}{U}{U}",
+      "avgNorm": -1.088,
+      "avgRaw": 2.4,
+      "controversy": 0.76
+    },
+    {
+      "name": "Borrowed Knowledge",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{R}{W}",
+      "avgNorm": -1.94,
+      "avgRaw": 0.6,
+      "controversy": 0.39
+    },
+    {
+      "name": "Comforting Counsel",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "G"
+      ],
+      "type": "Enchantment",
+      "manaCost": "{1}{G}",
+      "avgNorm": -1.86,
+      "avgRaw": 0.8,
+      "controversy": 0.457
+    },
+    {
+      "name": "Fractal Anomaly",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{U}",
+      "avgNorm": -1.25,
+      "avgRaw": 2.0,
+      "controversy": 0.528
+    },
+    {
+      "name": "Fix What's Broken",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{W}{B}",
+      "avgNorm": -2.019,
+      "avgRaw": 0.4,
+      "controversy": 0.301
+    },
+    {
+      "name": "Glorious Decay",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "G"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{G}",
+      "avgNorm": -1.635,
+      "avgRaw": 1.33,
+      "controversy": 0.697
+    },
+    {
+      "name": "Angel's Grace",
+      "setCode": "SOA",
+      "rarity": "rare",
+      "colors": [
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{W}",
+      "avgNorm": -2.084,
+      "avgRaw": 0.0,
+      "controversy": 0.305
+    },
+    {
+      "name": "Crop Rotation",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "G"
+      ],
+      "type": "Instant",
+      "manaCost": "{G}",
+      "avgNorm": -2.084,
+      "avgRaw": 0.0,
+      "controversy": 0.305
+    },
+    {
+      "name": "Culling the Weak",
+      "setCode": "SOA",
+      "rarity": "common",
+      "colors": [
+        "B"
+      ],
+      "type": "Instant",
+      "manaCost": "{B}",
+      "avgNorm": -1.883,
+      "avgRaw": 0.5,
+      "controversy": 0.631
+    },
+    {
+      "name": "Dina's Guidance",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{B}{G}",
+      "avgNorm": -1.984,
+      "avgRaw": 0.25,
+      "controversy": 0.453
+    },
+    {
+      "name": "Glimpse of Nature",
+      "setCode": "SOA",
+      "rarity": "rare",
+      "colors": [
+        "G"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{G}",
+      "avgNorm": -1.665,
+      "avgRaw": 0.75,
+      "controversy": 0.242
+    },
+    {
+      "name": "Jeska's Will",
+      "setCode": "SOA",
+      "rarity": "rare",
+      "colors": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{2}{R}",
+      "avgNorm": -1.707,
+      "avgRaw": 0.75,
+      "controversy": 0.226
+    },
+    {
+      "name": "Library of Leng",
+      "setCode": "SPG",
+      "rarity": "common",
+      "colors": [],
+      "type": "Artifact",
+      "manaCost": "{1}",
+      "avgNorm": -1.841,
+      "avgRaw": 0.0,
+      "controversy": 0.036
+    },
+    {
+      "name": "Living End",
+      "setCode": "SOA",
+      "rarity": "mythic",
+      "colors": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "manaCost": "",
+      "avgNorm": -1.941,
+      "avgRaw": 0.25,
+      "controversy": 0.164
+    },
+    {
+      "name": "Pongify",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "U"
+      ],
+      "type": "Instant",
+      "manaCost": "{U}",
+      "avgNorm": -1.984,
+      "avgRaw": 0.25,
+      "controversy": 0.453
+    },
+    {
+      "name": "Pyretic Ritual",
+      "setCode": "SOA",
+      "rarity": "common",
+      "colors": [
+        "R"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{R}",
+      "avgNorm": -1.95,
+      "avgRaw": 0.25,
+      "controversy": 0.361
+    },
+    {
+      "name": "Return the Favor",
+      "setCode": "SOA",
+      "rarity": "uncommon",
+      "colors": [
+        "R"
+      ],
+      "type": "Instant",
+      "manaCost": "{R}{R}",
+      "avgNorm": -1.65,
+      "avgRaw": 1.0,
+      "controversy": 0.949
+    },
+    {
+      "name": "Return to the Ranks",
+      "setCode": "SOA",
+      "rarity": "rare",
+      "colors": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{X}{W}{W}",
+      "avgNorm": -1.941,
+      "avgRaw": 0.25,
+      "controversy": 0.164
+    },
+    {
+      "name": "Vampiric Tutor",
+      "setCode": "SOA",
+      "rarity": "mythic",
+      "colors": [
+        "B"
+      ],
+      "type": "Instant",
+      "manaCost": "{B}",
+      "avgNorm": -1.582,
+      "avgRaw": 1.25,
+      "controversy": 1.208
+    },
+    {
+      "name": "Arcane Omens",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{4}{B}",
+      "avgNorm": -1.201,
+      "avgRaw": 2.12,
+      "controversy": 1.044
+    },
+    {
+      "name": "Harsh Annotation",
+      "setCode": "SOS",
+      "rarity": "uncommon",
+      "colors": [
+        "W"
+      ],
+      "type": "Instant",
+      "manaCost": "{1}{W}",
+      "avgNorm": -2.071,
+      "avgRaw": 0.4,
+      "controversy": 0.423
+    },
+    {
+      "name": "Procrastinate",
+      "setCode": "SOS",
+      "rarity": "common",
+      "colors": [
+        "U"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{X}{U}",
+      "avgNorm": -1.415,
+      "avgRaw": 1.8,
+      "controversy": 0.793
+    },
+    {
+      "name": "Zaffai and the Tempests",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Legendary Creature",
+      "manaCost": "{5}{U}{R}",
+      "avgNorm": -1.377,
+      "avgRaw": 1.8,
+      "controversy": 1.005
+    },
+    {
+      "name": "Petrified Hamlet",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [],
+      "type": "Land",
+      "manaCost": "",
+      "avgNorm": -2.281,
+      "avgRaw": 0.0,
+      "controversy": 0.514
+    },
+    {
+      "name": "Pox Plague",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "manaCost": "{B}{B}{B}{B}{B}",
+      "avgNorm": -2.281,
+      "avgRaw": 0.0,
+      "controversy": 0.514
+    },
+    {
+      "name": "Resonating Lute",
+      "setCode": "SOS",
+      "rarity": "rare",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "type": "Artifact",
+      "manaCost": "{2}{U}{R}",
+      "avgNorm": -2.121,
+      "avgRaw": 0.4,
+      "controversy": 0.762
+    }
+  ]
+}

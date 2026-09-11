@@ -1,0 +1,19 @@
+{
+  "name": "mtg-card-eval-trainer",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Static MTG card evaluation trainer packaged for web and Capacitor iOS.",
+  "scripts": {
+    "serve": "python3 -m http.server 4173",
+    "cap:add:ios": "npx cap add ios",
+    "cap:sync:ios": "npx cap sync ios",
+    "cap:open:ios": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/ios": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0"
+  }
+}

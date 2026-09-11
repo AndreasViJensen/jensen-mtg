@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#5a3425">
+  <meta name="description" content="Compare draft cards and train against Avg Norm rankings from the source page.">
+  <title>MTG Card Eval Trainer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <main class="app-shell">
+      <section class="status-panel">
+        <div class="status-block">
+          <span class="status-label" id="roundLabel">Round</span>
+          <strong id="roundCount">0</strong>
+        </div>
+        <div class="status-block">
+          <span class="status-label" id="accuracyLabel">Decisive Accuracy</span>
+          <strong id="accuracyStat">0/0</strong>
+        </div>
+        <div class="status-block bucket-block">
+          <span class="status-label" id="bucketLabelTitle">Current Bucket</span>
+          <strong id="bucketLabel">Waiting for data</strong>
+        </div>
+      </section>
+
+      <section class="mode-panel" aria-label="View mode">
+        <span class="control-label">Mode</span>
+        <div class="segmented-control" id="viewModeControls">
+          <button class="segmented-button is-active" type="button" data-view-mode="train">Train</button>
+          <button class="segmented-button" type="button" data-view-mode="browse">Browse Top 30</button>
+        </div>
+      </section>
+
+      <section class="prompt-panel">
+        <p id="promptText">Loading cards...</p>
+      </section>
+
+      <section class="arena" id="arena" aria-live="polite">
+        <button class="card-option" id="cardA" type="button" data-side="left" disabled>
+          <div class="card-frame">
+            <div class="image-shell">
+              <img alt="" class="card-image" loading="lazy">
+              <div class="image-fallback">Loading image...</div>
+            </div>
+            <div class="card-copy" hidden>
+              <h2 class="card-name">Loading...</h2>
+              <p class="card-meta"></p>
+            </div>
+          </div>
+        </button>
+
+        <div class="versus">vs</div>
+
+        <button class="card-option" id="cardB" type="button" data-side="right" disabled>
+          <div class="card-frame">
+            <div class="image-shell">
+              <img alt="" class="card-image" loading="lazy">
+              <div class="image-fallback">Loading image...</div>
+            </div>
+            <div class="card-copy" hidden>
+              <h2 class="card-name">Loading...</h2>
+              <p class="card-meta"></p>
+            </div>
+          </div>
+        </button>
+      </section>
+
+      <section class="result-panel">
+        <p id="resultText">Choose the better card.</p>
+        <div class="result-callout" id="resultCallout" hidden>
+          <article class="result-card result-card-left" id="resultCardLeft">
+            <h2 class="result-card-name">Waiting...</h2>
+            <div class="result-grade-row">
+              <span class="result-grade" data-grade>--</span>
+              <span class="result-score" data-score>--</span>
+            </div>
+          </article>
+          <article class="result-card result-card-right" id="resultCardRight">
+            <h2 class="result-card-name">Waiting...</h2>
+            <div class="result-grade-row">
+              <span class="result-grade" data-grade>--</span>
+              <span class="result-score" data-score>--</span>
+            </div>
+          </article>
+        </div>
+        <button id="nextButton" type="button" hidden>Next Pair</button>
+      </section>
+
+      <section class="browse-panel" id="browsePanel" hidden>
+        <div class="browse-toolbar">
+          <div class="control-group">
+            <span class="control-label">Rarity</span>
+            <div class="segmented-control" id="browseRarityControls">
+              <button class="segmented-button" type="button" data-browse-rarity="uncommon">Uncommons</button>
+              <button class="segmented-button is-active" type="button" data-browse-rarity="rarePlus">Mythics / Rares</button>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <span class="control-label">Color</span>
+            <div class="filter-chip-row" id="browseColorControls">
+              <button class="filter-chip" type="button" data-browse-color="W">White</button>
+              <button class="filter-chip" type="button" data-browse-color="U">Blue</button>
+              <button class="filter-chip" type="button" data-browse-color="B">Black</button>
+              <button class="filter-chip" type="button" data-browse-color="R">Red</button>
+              <button class="filter-chip" type="button" data-browse-color="G">Green</button>
+              <button class="filter-chip is-active" type="button" data-browse-color="M">Multicolor</button>
+              <button class="filter-chip" type="button" data-browse-color="C">Colorless</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="browse-list" id="browseList" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <header class="hero">
+      <p class="eyebrow">Magic: The Gathering</p>
+      <h1>Card Evaluation Trainer</h1>
+      <p class="hero-copy">
+        Pick the stronger card using the source page’s <strong>Avg Norm</strong> as the answer key.
+      </p>
+      <div class="hero-meta">
+        <span id="sourceStatus">Loading source data...</span>
+        <a href="https://toskicologist.github.io/MTG-draft-sets-infographics/sos-ratings-v2.html" target="_blank" rel="noreferrer">Open ranking source</a>
+      </div>
+    </header>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
