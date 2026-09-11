@@ -4,13 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#5a3425">
-  <meta name="description" content="Compare draft cards and train against Avg Norm rankings from the source page.">
+  <meta name="description" content="Compare draft cards using ratings for your selected set.">
   <title>MTG Card Eval Trainer</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="page-shell">
     <main class="app-shell">
+      <section class="mode-panel set-panel">
+        <label class="control-label" for="setSelect">Set</label>
+        <select id="setSelect">
+          <option value="SOS">SOS</option>
+          <option value="DFT">Aetherdrift (DFT)</option>
+        </select>
+      </section>
       <section class="status-panel">
         <div class="status-block">
           <span class="status-label" id="roundLabel">Round</span>
@@ -120,12 +127,12 @@
     <header class="hero">
       <p class="eyebrow">Magic: The Gathering</p>
       <h1>Card Evaluation Trainer</h1>
-      <p class="hero-copy">
+      <p class="hero-copy" id="sourceDescription">
         Pick the stronger card using the source page’s <strong>Avg Norm</strong> as the answer key.
       </p>
       <div class="hero-meta">
         <span id="sourceStatus">Loading source data...</span>
-        <a href="https://toskicologist.github.io/MTG-draft-sets-infographics/sos-ratings-v2.html" target="_blank" rel="noreferrer">Open ranking source</a>
+        <a id="sourceLink" href="https://toskicologist.github.io/MTG-draft-sets-infographics/sos-ratings-v2.html" target="_blank" rel="noreferrer">Open ranking source</a>
       </div>
     </header>
   </div>

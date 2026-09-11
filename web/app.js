@@ -1,4 +1,7 @@
-const DATA_URL = "data/cards.json";
+const SETS = {
+  SOS: { name: "SOS", url: "data/cards.json", scoreKey: "avgNorm", metric: "Avg Norm" },
+  DFT: { name: "Aetherdrift", url: "data/aetherdrift.json", scoreKey: "winRate", metric: "win rate in hand" },
+};
 const SCRYFALL_NAMED_URL = "https://api.scryfall.com/cards/named";
 const EPSILON = 0.000001;
 const SCRYFALL_TIMEOUT_MS = 4500;
@@ -25,6 +28,10 @@ const BROWSE_RARITY_LABELS = {
 };
 
 const state = {
+  setCode: "SOS",
+  loadId: 0,
+  pairId: 0,
+  loading: false,
   cards: [],
   buckets: [],
   currentPair: null,
@@ -47,6 +54,13 @@ const imageCache = new Map();
 const pendingImageRequests = new Map();
 const imageRequestQueue = [];
 let activeImageRequests = 0;
+
+const setSelect = document.getElementById("setSelect");
+const sourceLink = document.getElementById("sourceLink");
+const sourceDescription = document.getElementById("sourceDescription");
+const metricLabel = () => SETS[state.setCode].metric;
+const cardScore = (card) => card[SETS[state.setCode].scoreKey];
+const cardGrade = (card) => state.setCode === "DFT" ? card.grade : avgNormToGrade(card.avgNorm);
 
 const sourceStatus = document.getElementById("sourceStatus");
 const roundLabel = document.getElementById("roundLabel");
@@ -141,7 +155,7 @@ function pickPairFromBucket(bucketCards) {
 
 function normalizeCards(rawCards) {
   return rawCards
-    .filter((card) => card && typeof card.avgNorm === "number")
+    .filter((card) => card && Number.isFinite(cardScore(card)))
     .map((card) => {
       const colorKey = createColorKey(card.colors);
 
@@ -322,6 +336,7 @@ async function fetchJsonWithTimeout(url, timeoutMs) {
 }
 
 async function fetchCardImage(card) {
+  if (card.imageUrl) return card.imageUrl;
   const cacheKey = `${card.name}::${card.setCode || ""}`;
   if (imageCache.has(cacheKey)) {
     return imageCache.get(cacheKey);
@@ -410,15 +425,15 @@ function renderTrainerPair(pair) {
 }
 
 function formatScore(score) {
-  return score.toFixed(3);
+  return state.setCode === "DFT" ? `${score.toFixed(1)}%` : score.toFixed(3);
 }
 
 function setResultCardState(element, card, tone) {
   element.classList.remove("is-winner", "is-loser", "is-tie");
   element.classList.add(tone);
   element.querySelector(".result-card-name").textContent = card.name;
-  element.querySelector("[data-grade]").textContent = avgNormToGrade(card.avgNorm);
-  element.querySelector("[data-score]").textContent = formatScore(card.avgNorm);
+  element.querySelector("[data-grade]").textContent = cardGrade(card);
+  element.querySelector("[data-score]").textContent = formatScore(cardScore(card));
 }
 
 function resetResultCardState(element) {
@@ -440,7 +455,9 @@ function clearResultState() {
   nextButton.hidden = true;
   resultCallout.hidden = true;
   resultPanel.classList.remove("is-correct", "is-wrong", "is-tie");
-  promptText.textContent = "Click the card you think has the higher Avg Norm.";
+  if (state.viewMode === "train") {
+    promptText.textContent = `Click the card you think has the higher ${metricLabel()}.`;
+  }
   resetResultCardState(resultCardLeft);
   resetResultCardState(resultCardRight);
   for (const button of cardButtons) {
@@ -504,8 +521,8 @@ function getBrowseCards() {
     .filter((card) => matchesBrowseRarity(card, state.browse.rarity))
     .filter((card) => card.browseColorKey === state.browse.color)
     .sort((leftCard, rightCard) => {
-      if (rightCard.avgNorm !== leftCard.avgNorm) {
-        return rightCard.avgNorm - leftCard.avgNorm;
+      if (cardScore(rightCard) !== cardScore(leftCard)) {
+        return cardScore(rightCard) - cardScore(leftCard);
       }
 
       return leftCard.name.localeCompare(rightCard.name);
@@ -526,8 +543,8 @@ function createBrowseCardElement(card, index) {
       <div class="browse-heading">
         <h2 class="browse-name">${card.name}</h2>
         <div class="browse-grade-pill">
-          <span class="browse-grade">${avgNormToGrade(card.avgNorm)}</span>
-          <span class="browse-score">${formatScore(card.avgNorm)}</span>
+          <span class="browse-grade">${cardGrade(card)}</span>
+          <span class="browse-score">${formatScore(cardScore(card))}</span>
         </div>
       </div>
       <p class="browse-meta">${card.rarityLabel} rarity • ${describeColors(card.colorKey)} • ${card.type || "Unknown type"}</p>
@@ -575,7 +592,7 @@ function renderBrowseList() {
   }
 
   promptText.textContent = cards.length
-    ? `Top ${cards.length} ${BROWSE_RARITY_LABELS[state.browse.rarity].toLowerCase()} in ${COLOR_LABELS[state.browse.color]}, sorted by Avg Norm.`
+    ? `Top ${cards.length} ${BROWSE_RARITY_LABELS[state.browse.rarity].toLowerCase()} in ${COLOR_LABELS[state.browse.color]}, sorted by ${metricLabel()}.`
     : `No ${BROWSE_RARITY_LABELS[state.browse.rarity].toLowerCase()} are available for ${COLOR_LABELS[state.browse.color]}.`;
 
   const requestId = state.browse.requestId;
@@ -621,6 +638,9 @@ function setViewMode(mode) {
 }
 
 async function nextRound() {
+  if (state.loading || !state.buckets.length) return;
+  const pairId = ++state.pairId;
+  state.currentPair = null;
   clearResultState();
   scrollArenaIntoView();
   setButtonsEnabled(false);
@@ -635,6 +655,8 @@ async function nextRound() {
     fetchCardImage(leftCard),
     fetchCardImage(rightCard),
   ]);
+
+  if (pairId !== state.pairId) return;
 
   state.currentPair = {
     bucket,
@@ -665,8 +687,8 @@ function revealOutcome(selectedSide) {
   const selectedButton = selectedSide === "left" ? cardButtons[0] : cardButtons[1];
   selectedButton.classList.add("is-selected");
 
-  const leftScore = state.currentPair.leftCard.avgNorm;
-  const rightScore = state.currentPair.rightCard.avgNorm;
+  const leftScore = cardScore(state.currentPair.leftCard);
+  const rightScore = cardScore(state.currentPair.rightCard);
 
   for (const button of cardButtons) {
     button.querySelector(".card-copy").hidden = false;
@@ -681,7 +703,7 @@ function revealOutcome(selectedSide) {
     cardButtons[1].classList.add("is-tie");
     setResultCardState(resultCardLeft, state.currentPair.leftCard, "is-tie");
     setResultCardState(resultCardRight, state.currentPair.rightCard, "is-tie");
-    resultText.textContent = "Dead even. Both cards landed on the same tier.";
+    resultText.textContent = `Tie. Both cards have the same ${metricLabel()}.`;
     scrollResultIntoView();
     return;
   }
@@ -712,34 +734,53 @@ function revealOutcome(selectedSide) {
   scrollResultIntoView();
 }
 
-async function loadData() {
-  const response = await fetch(DATA_URL);
-  if (!response.ok) {
-    throw new Error(`Could not load ${DATA_URL}`);
-  }
+async function selectSet(setCode) {
+  const loadId = ++state.loadId;
+  state.pairId += 1;
+  state.browse.requestId += 1;
+  state.setCode = setCode;
+  state.loading = true;
+  state.cards = [];
+  state.buckets = [];
+  state.currentPair = null;
+  state.round = state.decisiveRounds = state.correctDecisions = state.ties = 0;
+  clearQueuedImageRequests();
+  clearResultState();
+  cardButtons.forEach(resetCardButton);
+  browseList.innerHTML = "";
+  sourceStatus.textContent = `Loading ${SETS[setCode].name}…`;
+  sourceLink.hidden = true;
+  sourceDescription.textContent = `Pick the stronger card using ${metricLabel()} as the answer key.`;
+  updateTrainerStatus();
+  promptText.textContent = "Loading cards…";
 
-  const payload = await response.json();
-  state.cards = normalizeCards(payload.cards || []);
-  state.buckets = buildBuckets(state.cards);
-
-  sourceStatus.textContent =
-    `${state.cards.length} cards across ${state.buckets.length} buckets from ${payload.sourceName || "the source page"}`;
-}
-
-async function initialize() {
   try {
-    await loadData();
-    if (state.buckets.length === 0) {
-      throw new Error("No valid rarity/color buckets with at least two cards were found.");
-    }
-    await nextRound();
+    const response = await fetch(SETS[setCode].url);
+    if (!response.ok) throw new Error(`Could not load ${SETS[setCode].name}.`);
+    const payload = await response.json();
+    if (loadId !== state.loadId) return;
+    state.cards = normalizeCards(payload.cards || []);
+    state.buckets = buildBuckets(state.cards);
+    if (!state.buckets.length) throw new Error("No comparable cards found.");
+    const excluded = payload.cards.length - state.cards.length;
+    sourceStatus.textContent = `${state.cards.length} rated cards from ${payload.sourceName}` +
+      (setCode === "DFT" ? ` • Premier Draft • All users • All time • Snapshot ${payload.retrievedAt}` : "") +
+      (excluded ? ` • ${excluded} unrated cards excluded` : "");
+    sourceLink.href = payload.sourceUrl;
+    sourceLink.hidden = false;
+    state.loading = false;
     setViewMode(state.viewMode);
+    await nextRound();
   } catch (error) {
-    promptText.textContent = "The trainer could not load.";
+    if (loadId !== state.loadId) return;
+    state.loading = false;
+    promptText.textContent = "The selected set could not load. Choose another set or reload to retry.";
     resultText.textContent = error.message;
     sourceStatus.textContent = "Source load failed";
   }
 }
+
+setSelect.addEventListener("change", () => selectSet(setSelect.value));
 
 cardButtons[0].addEventListener("click", () => revealOutcome("left"));
 cardButtons[1].addEventListener("click", () => revealOutcome("right"));
@@ -776,7 +817,7 @@ for (const button of browseColorButtons) {
 }
 
 window.addEventListener("keydown", (event) => {
-  if (state.viewMode !== "train") {
+  if (state.viewMode !== "train" || state.loading || event.target.closest("select, input, textarea, button")) {
     return;
   }
 
@@ -794,4 +835,4 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
-initialize();
+selectSet(setSelect.value);

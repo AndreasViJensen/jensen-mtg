@@ -1,0 +1,3624 @@
+{
+  "sourceName": "17Lands",
+  "sourceUrl": "https://www.17lands.com/card_data?expansion=DFT&format=PremierDraft&time_period=ALL_TIME",
+  "retrievedAt": "2026-09-11",
+  "metric": "Win Rate in Hand (Opener or Drawn)",
+  "format": "PremierDraft",
+  "timePeriod": "ALL_TIME",
+  "userGroup": "All",
+  "scorePrecision": "Displayed percentage, one decimal place",
+  "cards": [
+    {
+      "name": "Mu Yanling, Wind Rider",
+      "grade": "A+",
+      "winRate": 65.3,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "mythic",
+      "type": "Legendary Creature \u2014 Human Wizard Pilot",
+      "manaCost": "{2}{U}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/6/76423446-d62f-4cc5-a23a-3175be88bd73.jpg?1783907905"
+    },
+    {
+      "name": "Lumbering Worldwagon",
+      "grade": "A+",
+      "winRate": 65.4,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "rare",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{2}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/f/9f989c59-7b2a-4036-9ea2-cd0c7e85c15b.jpg?1783907870"
+    },
+    {
+      "name": "Agonasaur Rex",
+      "grade": "A+",
+      "winRate": 64.3,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Dinosaur",
+      "manaCost": "{3}{G}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/b/5b11ec26-9e07-45e1-bcaa-5d44d1231586.jpg?1783907875"
+    },
+    {
+      "name": "Sab-Sunen, Luxa Embodied",
+      "grade": "A+",
+      "winRate": 68.0,
+      "setCode": "DFT",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "rarity": "mythic",
+      "type": "Legendary Creature \u2014 God",
+      "manaCost": "{3}{G}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/e/2ef555b1-666d-4386-8983-0e88f9b6cdec.jpg?1783907852"
+    },
+    {
+      "name": "Loot, the Pathfinder",
+      "grade": "A+",
+      "winRate": 64.1,
+      "setCode": "DFT",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "rarity": "mythic",
+      "type": "Legendary Creature \u2014 Beast Noble",
+      "manaCost": "{2}{G}{U}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/3/33c59c04-4c0b-4a60-826e-3a7757d0b2a2.jpg?1783907856"
+    },
+    {
+      "name": "Skysovereign, Consul Flagship",
+      "grade": "A+",
+      "winRate": 66.3,
+      "setCode": "NEC",
+      "colors": [],
+      "rarity": "mythic",
+      "type": "Legendary Artifact \u2014 Vehicle",
+      "manaCost": "{5}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/f/4f8075be-8932-49b3-990b-4b365fa27e94.jpg?1783923937"
+    },
+    {
+      "name": "Perilous Snare",
+      "grade": "A",
+      "winRate": 62.1,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "rare",
+      "type": "Artifact",
+      "manaCost": "{2}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/7/47f7e468-2196-4960-a612-37ab326e2a17.jpg?1783907916"
+    },
+    {
+      "name": "March of the World Ooze",
+      "grade": "A",
+      "winRate": 62.7,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "mythic",
+      "type": "Enchantment",
+      "manaCost": "{3}{G}{G}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/b/1/b1964ec5-0dd1-4b54-917c-cbeab05aba79.jpg?1783907868"
+    },
+    {
+      "name": "Riptide Gearhulk",
+      "grade": "A",
+      "winRate": 63.0,
+      "setCode": "DFT",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "rarity": "mythic",
+      "type": "Artifact Creature \u2014 Construct",
+      "manaCost": "{1}{W}{W}{U}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/4/44bfb0f7-18ca-4f6e-ba64-92120010456e.jpg?1783907853"
+    },
+    {
+      "name": "Cavalier of Dawn",
+      "grade": "A-",
+      "winRate": 61.7,
+      "setCode": "M20",
+      "colors": [
+        "W"
+      ],
+      "rarity": "mythic",
+      "type": "Creature \u2014 Elemental Knight",
+      "manaCost": "{2}{W}{W}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/7/f7b1919e-c0c1-4ac7-9061-a337b6fe7273.jpg?1783933033"
+    },
+    {
+      "name": "Howlsquad Heavy",
+      "grade": "A-",
+      "winRate": 61.8,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Goblin Mercenary",
+      "manaCost": "{2}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/f/df582f80-7b9a-4f71-95a9-70548ec7d2d7.jpg?1783907881"
+    },
+    {
+      "name": "Draconautics Engineer",
+      "grade": "A-",
+      "winRate": 61.8,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Goblin Artificer",
+      "manaCost": "{1}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/4/c44440be-e611-4e70-9919-b08e2354b7ad.jpg?1783907884"
+    },
+    {
+      "name": "Debris Beetle",
+      "grade": "A-",
+      "winRate": 61.4,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "rarity": "rare",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{2}{B}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/0/405e7900-f6df-4033-b70b-b1d2a8b6d7c8.jpg?1783907860"
+    },
+    {
+      "name": "Thundering Broodwagon",
+      "grade": "A-",
+      "winRate": 61.1,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{2}{B}{B}{G}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/d/2d1576d4-15a3-4e91-84ef-e71e258185e7.jpg?1783907851"
+    },
+    {
+      "name": "Pyrewood Gearhulk",
+      "grade": "A-",
+      "winRate": 60.9,
+      "setCode": "DFT",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "rarity": "mythic",
+      "type": "Artifact Creature \u2014 Construct",
+      "manaCost": "{2}{R}{R}{G}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/d/3d8493ee-bd06-4583-9908-a0dbcc5be6d7.jpg?1783907855"
+    },
+    {
+      "name": "The Aetherspark",
+      "grade": "A-",
+      "winRate": 60.9,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "mythic",
+      "type": "Legendary Artifact Planeswalker \u2014 Equipment",
+      "manaCost": "{4}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/5/05690d52-06c4-40b1-8360-380418a83250.jpg?1783907850"
+    },
+    {
+      "name": "Gloryheath Lynx",
+      "grade": "B+",
+      "winRate": 59.6,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Cat Mount",
+      "manaCost": "{1}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/a/ea3ac678-8b74-4865-a896-c42692c02341.jpg?1783907919"
+    },
+    {
+      "name": "Possession Engine",
+      "grade": "B+",
+      "winRate": 60.3,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "rare",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{3}{U}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/2/f206b0a1-50d8-4d53-850d-fb15fd328267.jpg?1783907906"
+    },
+    {
+      "name": "Riverchurn Monument",
+      "grade": "B+",
+      "winRate": 59.9,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "rare",
+      "type": "Artifact",
+      "manaCost": "{1}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/6/e66ff696-fd39-49ad-9ee5-c0868167df37.jpg?1783907906"
+    },
+    {
+      "name": "Mindspring Merfolk",
+      "grade": "B+",
+      "winRate": 59.7,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Merfolk Wizard",
+      "manaCost": "{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/b/6/b6250b8b-1943-445f-ada9-30b41eb6d29b.jpg?1783907907"
+    },
+    {
+      "name": "Stock Up",
+      "grade": "B+",
+      "winRate": 59.6,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Sorcery",
+      "manaCost": "{2}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/a/0a786855-6eb4-42c0-a528-4842db46809d.jpg?1783907902"
+    },
+    {
+      "name": "Thopter Fabricator",
+      "grade": "B+",
+      "winRate": 59.6,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "rare",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{2}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/9/8924b785-b140-4212-a1eb-a10340e09fea.jpg?1783907901"
+    },
+    {
+      "name": "The Speed Demon",
+      "grade": "B+",
+      "winRate": 60.4,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "mythic",
+      "type": "Legendary Creature \u2014 Demon",
+      "manaCost": "{3}{B}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/2/62242a80-0444-4a0e-a868-97eabcc77648.jpg?1783907890"
+    },
+    {
+      "name": "Brightglass Gearhulk",
+      "grade": "B+",
+      "winRate": 60.6,
+      "setCode": "DFT",
+      "colors": [
+        "G",
+        "W"
+      ],
+      "rarity": "mythic",
+      "type": "Artifact Creature \u2014 Construct",
+      "manaCost": "{G}{G}{W}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/d/3dea5b45-925c-4732-8e9d-fa8232792736.jpg?1783907862"
+    },
+    {
+      "name": "Sita Varma, Masked Racer",
+      "grade": "B+",
+      "winRate": 60.3,
+      "setCode": "DFT",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Human Rogue",
+      "manaCost": "{G}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/b/eb523c06-6f3e-4e19-b777-19aefc4a4e02.jpg?1783907851"
+    },
+    {
+      "name": "Gastal Thrillseeker",
+      "grade": "B+",
+      "winRate": 59.8,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Lizard Berserker",
+      "manaCost": "{B}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/a/8/a8e5205d-d734-4292-a3c8-70cf5f131289.jpg?1783907857"
+    },
+    {
+      "name": "Haunt the Network",
+      "grade": "B+",
+      "winRate": 59.8,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Sorcery",
+      "manaCost": "{3}{U}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/7/478d236c-9778-435a-ac21-bd0017a17d5b.jpg?1783907857"
+    },
+    {
+      "name": "Veteran Beastrider",
+      "grade": "B+",
+      "winRate": 59.7,
+      "setCode": "DFT",
+      "colors": [
+        "G",
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Human Knight",
+      "manaCost": "{1}{G}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/a/cab38f35-b60c-464c-a0b5-9d5f2dc6de7f.jpg?1783907850"
+    },
+    {
+      "name": "Far Fortune, End Boss",
+      "grade": "B+",
+      "winRate": 59.5,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Human Mercenary",
+      "manaCost": "{2}{B}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/5/f523e96d-9df1-4854-accb-9876aef787e5.jpg?1783907858"
+    },
+    {
+      "name": "Guardian Sunmare",
+      "grade": "B",
+      "winRate": 58.8,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Horse Mount",
+      "manaCost": "{3}{W}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/c/7c274595-94e2-4587-9cef-b38639d6429a.jpg?1783907919"
+    },
+    {
+      "name": "Rangers' Refueler",
+      "grade": "B",
+      "winRate": 59.4,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{1}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/7/67d2d713-8acb-4e3d-bd1d-0416fe9b9ef6.jpg?1783907906"
+    },
+    {
+      "name": "Spikeshell Harrier",
+      "grade": "B",
+      "winRate": 59.4,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact Creature \u2014 Robot Turtle",
+      "manaCost": "{4}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/f/8f1ece22-ca32-45bb-b5f4-480f9b366cb5.jpg?1783907901"
+    },
+    {
+      "name": "Transit Mage",
+      "grade": "B",
+      "winRate": 59.0,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Human Wizard",
+      "manaCost": "{2}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/7/6727169f-c33a-4ca5-889d-a63bcfc5a3f0.jpg?1783907900"
+    },
+    {
+      "name": "Cursecloth Wrappings",
+      "grade": "B",
+      "winRate": 58.9,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "rare",
+      "type": "Artifact",
+      "manaCost": "{2}{B}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/5/d5803b32-4a81-46c2-9b10-3198a709611d.jpg?1783907896"
+    },
+    {
+      "name": "Burnout Bashtronaut",
+      "grade": "B",
+      "winRate": 59.2,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Goblin Warrior",
+      "manaCost": "{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/d/4db66e7b-cb7a-4d86-a563-d570946aeb0d.jpg?1783907886"
+    },
+    {
+      "name": "Chandra, Spark Hunter",
+      "grade": "B",
+      "winRate": 58.5,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "mythic",
+      "type": "Legendary Planeswalker \u2014 Chandra",
+      "manaCost": "{3}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/1/1/11f9b98e-48a1-491e-bdab-6e94e4ec747a.jpg?1783907885"
+    },
+    {
+      "name": "Boommobile",
+      "grade": "B",
+      "winRate": 58.3,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "rare",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{2}{R}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/3/930c8289-4043-401a-8a7f-22349b7148b4.jpg?1783907886"
+    },
+    {
+      "name": "Afterburner Expert",
+      "grade": "B",
+      "winRate": 59.1,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Goblin Artificer",
+      "manaCost": "{2}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/5/555e1bfc-6d07-4979-a914-b2bd1fb031f2.jpg?1783907875"
+    },
+    {
+      "name": "Stampeding Scurryfoot",
+      "grade": "B",
+      "winRate": 58.6,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Mouse",
+      "manaCost": "{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/f/7fc713d7-4a7e-4f1f-b461-e89bb1457d7d.jpg?1783907865"
+    },
+    {
+      "name": "Autarch Mammoth",
+      "grade": "B",
+      "winRate": 58.4,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Elephant Mount",
+      "manaCost": "{4}{G}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/d/4d313ea7-2456-48f3-8b12-97d8e8c2a5b3.jpg?1783907873"
+    },
+    {
+      "name": "District Mascot",
+      "grade": "B",
+      "winRate": 58.4,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Dog Mount",
+      "manaCost": "{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/1/3171b16f-cd67-416d-be5e-5d9cccb8d0a0.jpg?1783907873"
+    },
+    {
+      "name": "Embalmed Ascendant",
+      "grade": "B",
+      "winRate": 59.3,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Zombie",
+      "manaCost": "{1}{W}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/c/5cf181ae-daa7-42f9-b667-5e679d80cf34.jpg?1783907858"
+    },
+    {
+      "name": "Skyserpent Seeker",
+      "grade": "B",
+      "winRate": 59.2,
+      "setCode": "DFT",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Snake",
+      "manaCost": "{G}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/d/8dbd9fc0-c0df-4119-a0d3-2e1790998c21.jpg?1783907852"
+    },
+    {
+      "name": "Captain Howler, Sea Scourge",
+      "grade": "B",
+      "winRate": 58.8,
+      "setCode": "DFT",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Shark Pirate",
+      "manaCost": "{2}{U}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/9/0957c90f-e10d-40f8-a4be-9e9ef623dd43.jpg?1783907861"
+    },
+    {
+      "name": "Oildeep Gearhulk",
+      "grade": "B",
+      "winRate": 58.7,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "rarity": "mythic",
+      "type": "Artifact Creature \u2014 Construct",
+      "manaCost": "{U}{U}{B}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/a/5/a5e2d09e-b9f5-4a0d-96d3-984b5c2c387d.jpg?1783907855"
+    },
+    {
+      "name": "Aatchik, Emerald Radian",
+      "grade": "B",
+      "winRate": 58.3,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Insect Druid",
+      "manaCost": "{3}{B}{B}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/b/fbdaa29b-85ff-4a06-b27e-fcdbdfd4a3fe.jpg?1783907862"
+    },
+    {
+      "name": "Marshals' Pathcruiser",
+      "grade": "B",
+      "winRate": 58.8,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{3}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/f/8f920f83-6380-4e4f-be68-6bf9df3110d8.jpg?1783907847"
+    },
+    {
+      "name": "Basri, Tomorrow's Champion",
+      "grade": "B-",
+      "winRate": 57.4,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Human Knight",
+      "manaCost": "{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/9/991270fa-a391-4c2e-bd9a-19151386fb67.jpg?1783907922"
+    },
+    {
+      "name": "Ride's End",
+      "grade": "B-",
+      "winRate": 57.3,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{4}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/f/2f96b33b-c952-45ac-9626-40169b2bd4ef.jpg?1783907915"
+    },
+    {
+      "name": "Gallant Strike",
+      "grade": "B-",
+      "winRate": 57.0,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Instant",
+      "manaCost": "{1}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/b/9bdb58b7-e1ef-496b-b8dd-d1fabf3d2e7a.jpg?1783907918"
+    },
+    {
+      "name": "Quag Feast",
+      "grade": "B-",
+      "winRate": 58.2,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "rare",
+      "type": "Sorcery",
+      "manaCost": "{1}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/d/dd8b6033-63e6-484e-8efb-a4eb9ca59fbf.jpg?1783907891"
+    },
+    {
+      "name": "Gonti, Night Minister",
+      "grade": "B-",
+      "winRate": 58.0,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Aetherborn Rogue",
+      "manaCost": "{2}{B}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/7/d79ca40a-e5c0-4956-8df0-ecbd2a25656f.jpg?1783907895"
+    },
+    {
+      "name": "Engine Rat",
+      "grade": "B-",
+      "winRate": 57.8,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Zombie Rat",
+      "manaCost": "{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/4/949d6137-98d3-4f46-ab1e-08d7492af307.jpg?1783907896"
+    },
+    {
+      "name": "Back on Track",
+      "grade": "B-",
+      "winRate": 57.8,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "type": "Sorcery",
+      "manaCost": "{4}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/8/884c0032-9c62-4028-a55f-6a3da2545654.jpg?1783907899"
+    },
+    {
+      "name": "Wreckage Wickerfolk",
+      "grade": "B-",
+      "winRate": 57.7,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "type": "Artifact Creature \u2014 Scarecrow",
+      "manaCost": "{1}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/a/e/aeff3db7-81ac-4c51-9954-bc1dbcb8c4e3.jpg?1783907888"
+    },
+    {
+      "name": "Pactdoll Terror",
+      "grade": "B-",
+      "winRate": 57.6,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "type": "Artifact Creature \u2014 Toy",
+      "manaCost": "{3}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/0/70226354-47b7-4f9d-a5a8-559d17f07720.jpg?1783907891"
+    },
+    {
+      "name": "Grim Bauble",
+      "grade": "B-",
+      "winRate": 57.6,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "type": "Artifact",
+      "manaCost": "{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/b/9bfdf60a-6f67-4872-8961-d63776b192c3.jpg?1783907895"
+    },
+    {
+      "name": "Spin Out",
+      "grade": "B-",
+      "winRate": 57.2,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{1}{B}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/b/e/be722ac5-e8c4-4180-aed0-7c28895afc0d.jpg?1783907889"
+    },
+    {
+      "name": "Demonic Junker",
+      "grade": "B-",
+      "winRate": 57.0,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "rare",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{6}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/a/4aad569e-4acb-4416-9d4f-64e6991de3ed.jpg?1783907896"
+    },
+    {
+      "name": "Hazoret, Godseeker",
+      "grade": "B-",
+      "winRate": 57.9,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "mythic",
+      "type": "Legendary Creature \u2014 God",
+      "manaCost": "{1}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/2/e2f66043-0872-4334-a91f-0e9bbbdddf66.jpg?1783907881"
+    },
+    {
+      "name": "Greasewrench Goblin",
+      "grade": "B-",
+      "winRate": 57.5,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Goblin Artificer",
+      "manaCost": "{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/8/c8f0b123-fdb0-4f3e-ba78-fa155c227e20.jpg?1783907881"
+    },
+    {
+      "name": "Chandra's Ignition",
+      "grade": "B-",
+      "winRate": 57.4,
+      "setCode": "LCC",
+      "colors": [
+        "R"
+      ],
+      "rarity": "rare",
+      "type": "Sorcery",
+      "manaCost": "{3}{R}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/6/960f45a3-f9cf-41e6-b813-f3dee620a944.jpg?1783913867"
+    },
+    {
+      "name": "Greenbelt Guardian",
+      "grade": "B-",
+      "winRate": 58.2,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Elf Ranger",
+      "manaCost": "{1}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/f/2f6b0000-5fd3-483b-bac5-f9b888d8755b.jpg?1783907870"
+    },
+    {
+      "name": "Fang-Druid Summoner",
+      "grade": "B-",
+      "winRate": 57.9,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Ape Druid",
+      "manaCost": "{3}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/9/496442f6-48c7-464e-bcf3-4c14f49fa065.jpg?1783907871"
+    },
+    {
+      "name": "Regal Imperiosaur",
+      "grade": "B-",
+      "winRate": 57.7,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Dinosaur",
+      "manaCost": "{1}{G}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/6/36f569cc-ed09-4c27-b753-18b22ad7f425.jpg?1783907868"
+    },
+    {
+      "name": "Webstrike Elite",
+      "grade": "B-",
+      "winRate": 57.6,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Insect Archer",
+      "manaCost": "{G}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/6/064cc22d-d424-4bc9-b8f0-88b170fd6c28.jpg?1783907863"
+    },
+    {
+      "name": "Migrating Ketradon",
+      "grade": "B-",
+      "winRate": 57.5,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Dinosaur",
+      "manaCost": "{4}{G}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/a/9/a9ba2219-8184-4141-8708-845cb0957299.jpg?1783907868"
+    },
+    {
+      "name": "Molt Tender",
+      "grade": "B-",
+      "winRate": 57.5,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Insect Druid",
+      "manaCost": "{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/8/f800bf4e-4bfb-45b6-950b-c76952f52bb1.jpg?1783907868"
+    },
+    {
+      "name": "Run Over",
+      "grade": "B-",
+      "winRate": 57.4,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{1}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/4/642f8fdd-6c58-49a3-904c-27f717cae980.jpg?1783907865"
+    },
+    {
+      "name": "Thunderous Velocipede",
+      "grade": "B-",
+      "winRate": 57.3,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "mythic",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{1}{G}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/8/98a79557-8ed6-4d9a-b4e1-cece05664984.jpg?1783907865"
+    },
+    {
+      "name": "Pathbreaker Ibex",
+      "grade": "B-",
+      "winRate": 57.3,
+      "setCode": "CMA",
+      "colors": [
+        "G"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Goat",
+      "manaCost": "{4}{G}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/6/4608ea44-e1b2-42de-a0a2-e6d6d24d89d0.jpg?1783936252"
+    },
+    {
+      "name": "Dredger's Insight",
+      "grade": "B-",
+      "winRate": 57.3,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Enchantment",
+      "manaCost": "{1}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/1/4/148400a0-7819-4551-9815-9357eed1db4d.jpg?1783907872"
+    },
+    {
+      "name": "Broadside Barrage",
+      "grade": "B-",
+      "winRate": 58.2,
+      "setCode": "DFT",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Instant",
+      "manaCost": "{1}{U}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/0/d086e4e5-98fa-437e-85aa-d8849c94ce94.jpg?1783907862"
+    },
+    {
+      "name": "Caradora, Heart of Alacria",
+      "grade": "B-",
+      "winRate": 57.9,
+      "setCode": "DFT",
+      "colors": [
+        "G",
+        "W"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Human Knight",
+      "manaCost": "{2}{G}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/1/2/1256d22d-a2a9-41fb-b669-0661ba230bc7.jpg?1783907860"
+    },
+    {
+      "name": "Zahur, Glory's Past",
+      "grade": "B-",
+      "winRate": 57.1,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Zombie Cat Warrior",
+      "manaCost": "{W}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/1/31944ea5-045d-481d-9aff-3c7ed663813a.jpg?1783907851"
+    },
+    {
+      "name": "Voyager Glidecar",
+      "grade": "C+",
+      "winRate": 56.4,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "rare",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/1/3/13eb445a-dd41-4760-8299-9ba5d6de6aaf.jpg?1783907912"
+    },
+    {
+      "name": "Valor's Flagship",
+      "grade": "C+",
+      "winRate": 56.4,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "mythic",
+      "type": "Legendary Artifact \u2014 Vehicle",
+      "manaCost": "{4}{W}{W}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/a/8af1dddf-6c95-448b-acc8-df5a99202e9a.jpg?1783907911"
+    },
+    {
+      "name": "Broadcast Rambler",
+      "grade": "C+",
+      "winRate": 56.1,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{4}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/9/89ce2385-e33d-47b3-96c8-5a4672d9df7c.jpg?1783907921"
+    },
+    {
+      "name": "Nesting Bot",
+      "grade": "C+",
+      "winRate": 56.0,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact Creature \u2014 Robot",
+      "manaCost": "{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/8/7829c0ae-f72f-4195-ad43-775d7218565c.jpg?1783907917"
+    },
+    {
+      "name": "Detention Chariot",
+      "grade": "C+",
+      "winRate": 56.0,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{4}{W}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/5/75d5e64f-7af2-4cb4-abd1-23992e346bee.jpg?1783907920"
+    },
+    {
+      "name": "Spectacular Pileup",
+      "grade": "C+",
+      "winRate": 55.9,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "rare",
+      "type": "Sorcery",
+      "manaCost": "{3}{W}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/a/2/a24a6309-0e69-45f0-a9ff-44d4997e7e4d.jpg?1783907914"
+    },
+    {
+      "name": "Scrounging Skyray",
+      "grade": "C+",
+      "winRate": 56.4,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Fish Pirate",
+      "manaCost": "{1}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/6/d60bece3-6f63-4d9e-bca0-cef2d38f1472.jpg?1783907904"
+    },
+    {
+      "name": "Memory Guardian",
+      "grade": "C+",
+      "winRate": 56.4,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact Creature \u2014 Robot Artificer",
+      "manaCost": "{4}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/b/6b199ce2-0ea0-47e5-a36c-36373be53fec.jpg?1783907909"
+    },
+    {
+      "name": "Roadside Blowout",
+      "grade": "C+",
+      "winRate": 56.4,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Sorcery",
+      "manaCost": "{2}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/6/d6153a76-56f7-46ee-bba5-b62c0143388a.jpg?1783907905"
+    },
+    {
+      "name": "Spectral Interference",
+      "grade": "C+",
+      "winRate": 56.2,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{1}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/6/860cb8af-a5f6-47e7-a34b-7b9f11ddc8c6.jpg?1783907903"
+    },
+    {
+      "name": "Flood the Engine",
+      "grade": "C+",
+      "winRate": 56.2,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Enchantment \u2014 Aura",
+      "manaCost": "{2}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/7/57402f7c-5d4c-4f1e-8bce-a2328a297111.jpg?1783907909"
+    },
+    {
+      "name": "Aether Syphon",
+      "grade": "C+",
+      "winRate": 55.9,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact",
+      "manaCost": "{1}{U}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/7/d7033739-4cd8-4727-b9b5-099fb597006b.jpg?1783907911"
+    },
+    {
+      "name": "Diversion Unit",
+      "grade": "C+",
+      "winRate": 55.9,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact Creature \u2014 Robot",
+      "manaCost": "{1}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/0/e04d4fa6-1fa3-4bfd-a462-47c23ccf9124.jpg?1783907910"
+    },
+    {
+      "name": "Bounce Off",
+      "grade": "C+",
+      "winRate": 55.9,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/b/7b3c8dda-2405-4879-8dd1-e790a833c42d.jpg?1783907911"
+    },
+    {
+      "name": "Carrion Cruiser",
+      "grade": "C+",
+      "winRate": 56.9,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{2}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/c/dc00fdee-3d24-4360-a4d2-ffd3c08a462d.jpg?1783907898"
+    },
+    {
+      "name": "Momentum Breaker",
+      "grade": "C+",
+      "winRate": 56.8,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "type": "Enchantment",
+      "manaCost": "{1}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/8/38513b53-384f-45e7-9905-80dd2c3c4918.jpg?1783907891"
+    },
+    {
+      "name": "Gas Guzzler",
+      "grade": "C+",
+      "winRate": 56.5,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Vampire Rogue",
+      "manaCost": "{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/d/4db3a28c-e4b4-4b18-8d56-e3842184d105.jpg?1783907896"
+    },
+    {
+      "name": "Maximum Overdrive",
+      "grade": "C+",
+      "winRate": 56.2,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{1}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/f/5f6e5bb2-cfe9-48e5-86f9-e21f3d328327.jpg?1783907893"
+    },
+    {
+      "name": "Marauding Mako",
+      "grade": "C+",
+      "winRate": 56.2,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Shark Pirate",
+      "manaCost": "{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/e/9efbfd67-e0f5-43e0-9fff-1eb4a2bed0d8.jpg?1783907879"
+    },
+    {
+      "name": "Thunderhead Gunner",
+      "grade": "C+",
+      "winRate": 56.1,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Shark Pirate",
+      "manaCost": "{4}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/f/ef537868-b2cb-4bbd-a935-b7f73f19bd06.jpg?1783907876"
+    },
+    {
+      "name": "Road Rage",
+      "grade": "C+",
+      "winRate": 56.0,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Instant",
+      "manaCost": "{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/c/fca022de-0c7b-48ea-b3b5-af28987a5070.jpg?1783907876"
+    },
+    {
+      "name": "Hazard of the Dunes",
+      "grade": "C+",
+      "winRate": 57.0,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Wurm",
+      "manaCost": "{3}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/3/c3fbee7a-7e73-43cf-bc39-ccb1c63bf837.jpg?1783907871"
+    },
+    {
+      "name": "Pothole Mole",
+      "grade": "C+",
+      "winRate": 56.7,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Mole",
+      "manaCost": "{2}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/1/21c7b59f-fdae-4a11-9784-497a8165d75a.jpg?1783907868"
+    },
+    {
+      "name": "Terrian, World Tyrant",
+      "grade": "C+",
+      "winRate": 56.7,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Legendary Creature \u2014 Dinosaur Ooze",
+      "manaCost": "{2}{G}{G}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/b/4/b44255cf-5264-4ead-9de0-20cc0f7cac6f.jpg?1783907865"
+    },
+    {
+      "name": "Fang Guardian",
+      "grade": "C+",
+      "winRate": 56.6,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Ape Druid",
+      "manaCost": "{3}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/d/6db483a7-c9f0-449d-be97-77dbd6d3a27a.jpg?1783907872"
+    },
+    {
+      "name": "Beastrider Vanguard",
+      "grade": "C+",
+      "winRate": 56.3,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Human Knight",
+      "manaCost": "{1}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/4/f4b99a61-49f1-46a2-9eb7-b6c88c236215.jpg?1783907873"
+    },
+    {
+      "name": "Venomsac Lagac",
+      "grade": "C+",
+      "winRate": 56.0,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Lizard Mount",
+      "manaCost": "{1}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/1/9142b1c9-09d7-42e4-8138-6c15d31f2470.jpg?1783907863"
+    },
+    {
+      "name": "Broodheart Engine",
+      "grade": "C+",
+      "winRate": 56.8,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact",
+      "manaCost": "{B}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/d/ed09139b-a66e-4cd1-b45a-23a4648d3401.jpg?1783907862"
+    },
+    {
+      "name": "Guidelight Pathmaker",
+      "grade": "C+",
+      "winRate": 56.8,
+      "setCode": "DFT",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{4}{W}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/b/2/b2e00cd7-925e-4bab-b064-c96aa2935f8c.jpg?1783907857"
+    },
+    {
+      "name": "Rocketeer Boostbuggy",
+      "grade": "C+",
+      "winRate": 56.4,
+      "setCode": "DFT",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{R}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/c/4c80c91e-dd3d-4c7b-89e4-bfb253eeaee2.jpg?1783907853"
+    },
+    {
+      "name": "Mendicant Core, Guidelight",
+      "grade": "C+",
+      "winRate": 56.3,
+      "setCode": "DFT",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Artifact Creature \u2014 Robot",
+      "manaCost": "{W}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/4/f434b103-490f-424e-a0a1-efb1b931c8e6.jpg?1783907856"
+    },
+    {
+      "name": "Samut, the Driving Force",
+      "grade": "C+",
+      "winRate": 56.2,
+      "setCode": "DFT",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Human Warrior Cleric",
+      "manaCost": "{3}{R}{G}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/e/8efd8222-5c37-46d8-a2ec-1d7aae25320b.jpg?1783907852"
+    },
+    {
+      "name": "Voyage Home",
+      "grade": "C+",
+      "winRate": 56.2,
+      "setCode": "DFT",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Sorcery",
+      "manaCost": "{5}{W}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/b/4ba835da-0247-4716-9079-1b605297f6d5.jpg?1783907851"
+    },
+    {
+      "name": "Explosive Getaway",
+      "grade": "C+",
+      "winRate": 55.8,
+      "setCode": "DFT",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "rarity": "rare",
+      "type": "Sorcery",
+      "manaCost": "{3}{R}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/a/8/a876edac-b8c8-4994-94f5-548e0fe70fe4.jpg?1783907859"
+    },
+    {
+      "name": "Marketback Walker",
+      "grade": "C+",
+      "winRate": 56.6,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "rare",
+      "type": "Artifact Creature \u2014 Construct",
+      "manaCost": "{X}{X}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/2/c2152030-6007-493f-a616-545723a00249.jpg?1783907848"
+    },
+    {
+      "name": "Thornwood Falls",
+      "grade": "C+",
+      "winRate": 56.2,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/7/4723a303-7f20-4399-8bc6-6a27a61a3532.jpg?1783907838"
+    },
+    {
+      "name": "Bulwark Ox",
+      "grade": "C",
+      "winRate": 55.5,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Ox Mount",
+      "manaCost": "{1}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/1/0/106944b2-f3ae-4350-be33-61b9f92fc92f.jpg?1783907920"
+    },
+    {
+      "name": "Sundial, Dawn Tyrant",
+      "grade": "C",
+      "winRate": 55.3,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Legendary Artifact Creature \u2014 Construct",
+      "manaCost": "{1}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/b/2/b2e5435c-52f3-42d7-bcee-5aa13afd6626.jpg?1783907914"
+    },
+    {
+      "name": "Salvation Engine",
+      "grade": "C",
+      "winRate": 55.2,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "mythic",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{4}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/4/34ed1bf2-0f3c-4528-b570-e5bdcd7ffda9.jpg?1783907915"
+    },
+    {
+      "name": "Voyager Quickwelder",
+      "grade": "C",
+      "winRate": 55.2,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "type": "Artifact Creature \u2014 Robot Artificer",
+      "manaCost": "{2}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/6/f6dcdc8c-fba1-4ea1-bf93-65072d10f0da.jpg?1783907912"
+    },
+    {
+      "name": "Guidelight Synergist",
+      "grade": "C",
+      "winRate": 55.2,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact Creature \u2014 Robot Artificer",
+      "manaCost": "{3}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/d/fdaeea2c-d8aa-416f-95d6-6af888591fdf.jpg?1783907917"
+    },
+    {
+      "name": "Skyseer's Chariot",
+      "grade": "C",
+      "winRate": 54.8,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "rare",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{1}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/6/96ed5b66-8e74-4a90-ad4e-c39d15993994.jpg?1783907914"
+    },
+    {
+      "name": "Canyon Vaulter",
+      "grade": "C",
+      "winRate": 54.7,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Kor Pilot",
+      "manaCost": "{1}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/c/cc0b15da-a45c-42f5-aafc-20ad9e38bf24.jpg?1783907921"
+    },
+    {
+      "name": "Skystreak Engineer",
+      "grade": "C",
+      "winRate": 55.8,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Human Pilot",
+      "manaCost": "{1}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/b/5bc9c501-098d-4560-9826-329b05689e0f.jpg?1783907903"
+    },
+    {
+      "name": "Nimble Thopterist",
+      "grade": "C",
+      "winRate": 55.4,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Vedalken Artificer",
+      "manaCost": "{3}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/7/47717312-f6c6-4e86-ba6a-a30698962430.jpg?1783907906"
+    },
+    {
+      "name": "Hulldrifter",
+      "grade": "C",
+      "winRate": 55.3,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{3}{U}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/0/402666f8-c9cc-4e8f-abaa-6c38be90cdd2.jpg?1783907907"
+    },
+    {
+      "name": "Keen Buccaneer",
+      "grade": "C",
+      "winRate": 55.2,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Octopus Pirate",
+      "manaCost": "{2}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/e/0ed90a63-5aca-470a-8e1e-518d8aeb6d91.jpg?1783907908"
+    },
+    {
+      "name": "Howler's Heavy",
+      "grade": "C",
+      "winRate": 55.0,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Seal Pirate",
+      "manaCost": "{3}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/b/8bbd7758-59c7-4ae1-9af8-c3580f4aa958.jpg?1783907909"
+    },
+    {
+      "name": "Sabotage Strategist",
+      "grade": "C",
+      "winRate": 54.8,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Vedalken Ranger",
+      "manaCost": "{2}{U}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/8/c8bb15e2-e1ad-4645-aab0-df4a1a68563d.jpg?1783907905"
+    },
+    {
+      "name": "Trip Up",
+      "grade": "C",
+      "winRate": 54.6,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{3}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/7/273061f3-7aa7-4cb0-afd6-616252b88948.jpg?1783907901"
+    },
+    {
+      "name": "Gastal Raider",
+      "grade": "C",
+      "winRate": 55.4,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Vampire Rogue",
+      "manaCost": "{2}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/e/6e4877b5-4ce5-466a-810f-6501f2a0f217.jpg?1783907897"
+    },
+    {
+      "name": "Hour of Victory",
+      "grade": "C",
+      "winRate": 55.2,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "type": "Enchantment",
+      "manaCost": "{2}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/1/9192abc8-05a3-4e72-a634-fc5acbe97b26.jpg?1783907894"
+    },
+    {
+      "name": "Shefet Archfiend",
+      "grade": "C",
+      "winRate": 55.2,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Demon",
+      "manaCost": "{5}{B}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/7/079dc8d2-0de3-415e-8af8-b8dec669368a.jpg?1783907890"
+    },
+    {
+      "name": "Wretched Doll",
+      "grade": "C",
+      "winRate": 55.1,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact Creature \u2014 Toy",
+      "manaCost": "{1}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/9/4983177d-fbf4-47fa-997f-9d08294870f2.jpg?1783907888"
+    },
+    {
+      "name": "Intimidation Tactics",
+      "grade": "C",
+      "winRate": 55.0,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "type": "Sorcery",
+      "manaCost": "{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/b/9b4e6022-44d2-4dfe-8f7a-51581e298f23.jpg?1783907893"
+    },
+    {
+      "name": "Risky Shortcut",
+      "grade": "C",
+      "winRate": 54.6,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "type": "Sorcery",
+      "manaCost": "{2}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/8/c80aa587-4445-43d7-abc0-654d94ff4cda.jpg?1783907890"
+    },
+    {
+      "name": "Syphon Fuel",
+      "grade": "C",
+      "winRate": 54.6,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{4}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/a/4af17ae0-1035-4cb2-8974-98b377bfaa48.jpg?1783907888"
+    },
+    {
+      "name": "Gastal Thrillroller",
+      "grade": "C",
+      "winRate": 55.6,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "rare",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{2}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/8/d8b1762b-ff03-4312-afcc-cb6b5f280ade.jpg?1783907881"
+    },
+    {
+      "name": "Outpace Oblivion",
+      "grade": "C",
+      "winRate": 55.2,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Enchantment",
+      "manaCost": "{2}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/2/c22e415f-636f-4394-9b21-600ab720ac98.jpg?1783907878"
+    },
+    {
+      "name": "Galvanic Blast",
+      "grade": "C",
+      "winRate": 54.9,
+      "setCode": "2XM",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/c/0cf8cb1e-314a-4894-82df-f9812825f52e.jpg?1783930164"
+    },
+    {
+      "name": "Lightning Strike",
+      "grade": "C",
+      "winRate": 54.8,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{1}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/0/30077b49-b825-4dbb-a0c7-f3992f647df0.jpg?1783907880"
+    },
+    {
+      "name": "Dracosaur Auxiliary",
+      "grade": "C",
+      "winRate": 54.7,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Dinosaur Dragon Mount",
+      "manaCost": "{4}{R}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/f/cf800b8c-d08e-4644-8ed2-11b839153861.jpg?1783907885"
+    },
+    {
+      "name": "Bestow Greatness",
+      "grade": "C",
+      "winRate": 55.8,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{2}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/b/6/b6a5adee-3482-4c5b-9260-58efa8fec5ba.jpg?1783907873"
+    },
+    {
+      "name": "Earthrumbler",
+      "grade": "C",
+      "winRate": 55.7,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{4}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/e/ee386cd0-934a-4b33-9db3-0a9033ab577e.jpg?1783907872"
+    },
+    {
+      "name": "Veloheart Bike",
+      "grade": "C",
+      "winRate": 55.6,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "common",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{2}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/5/85edde1a-f05c-4ce8-bedd-88359647aa0d.jpg?1783907865"
+    },
+    {
+      "name": "Defend the Rider",
+      "grade": "C",
+      "winRate": 55.6,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Instant",
+      "manaCost": "{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/9/59ed23a2-6153-47b2-ab73-062195cafb74.jpg?1783907873"
+    },
+    {
+      "name": "Elvish Refueler",
+      "grade": "C",
+      "winRate": 55.4,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Elf Druid",
+      "manaCost": "{2}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/5/25dfbcb6-9b67-4151-b10f-dde70c5fd16d.jpg?1783907872"
+    },
+    {
+      "name": "Plow Through",
+      "grade": "C",
+      "winRate": 55.4,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Sorcery",
+      "manaCost": "{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/a/3/a311d4b3-ab2a-43c2-8480-6c5daac41178.jpg?1783907867"
+    },
+    {
+      "name": "Jibbirik Omnivore",
+      "grade": "C",
+      "winRate": 55.3,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Beast",
+      "manaCost": "{1}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/8/68a0569b-65c8-49ce-91ac-e639b8faf939.jpg?1783907870"
+    },
+    {
+      "name": "Broken Wings",
+      "grade": "C",
+      "winRate": 55.1,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{2}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/1/d/1d7d5b71-7c1b-4fc2-a5ec-7285e17ffe0f.jpg?1783907872"
+    },
+    {
+      "name": "Silken Strength",
+      "grade": "C",
+      "winRate": 54.6,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "common",
+      "type": "Enchantment \u2014 Aura",
+      "manaCost": "{1}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/e/ce0e1ded-9b00-4d7b-884c-70a429783b1f.jpg?1783907865"
+    },
+    {
+      "name": "Ooze Patrol",
+      "grade": "C",
+      "winRate": 54.6,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Ooze",
+      "manaCost": "{3}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/1/0/101d22c6-830d-4908-9003-6b206f694eba.jpg?1783907868"
+    },
+    {
+      "name": "Winter, Cursed Rider",
+      "grade": "C",
+      "winRate": 55.5,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Human Warlock",
+      "manaCost": "{U}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/2/02d46d0e-3161-45b5-a49e-5cd592c67ddd.jpg?1783907852"
+    },
+    {
+      "name": "Coalstoke Gearhulk",
+      "grade": "C",
+      "winRate": 55.5,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "rarity": "mythic",
+      "type": "Artifact Creature \u2014 Construct",
+      "manaCost": "{1}{B}{B}{R}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/3/73431628-b9b0-41e6-8e9b-8a090939b0c1.jpg?1783907861"
+    },
+    {
+      "name": "Fearless Swashbuckler",
+      "grade": "C",
+      "winRate": 55.5,
+      "setCode": "DFT",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Fish Pirate",
+      "manaCost": "{1}{U}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/d/0d86d66b-481f-44ec-86d8-6fc91b52ef38.jpg?1783907859"
+    },
+    {
+      "name": "Lagorin, Soul of Alacria",
+      "grade": "C",
+      "winRate": 55.4,
+      "setCode": "DFT",
+      "colors": [
+        "G",
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Legendary Creature \u2014 Beast Mount",
+      "manaCost": "{G}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/b/7b04e3f4-103b-4845-b3f0-5417971c7666.jpg?1783907856"
+    },
+    {
+      "name": "Rangers' Aetherhive",
+      "grade": "C",
+      "winRate": 54.9,
+      "setCode": "DFT",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{1}{G}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/1/b/1b238d2c-d10f-496d-aa34-5a1536e056b5.jpg?1783907854"
+    },
+    {
+      "name": "Willowrush Verge",
+      "grade": "C",
+      "winRate": 55.8,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "rare",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/5/758d93d5-3f66-4395-a928-000485396c87.jpg?1783907837"
+    },
+    {
+      "name": "Jungle Hollow",
+      "grade": "C",
+      "winRate": 55.5,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/d/7dd24a1a-08db-4fa7-8939-f5541677327e.jpg?1783907841"
+    },
+    {
+      "name": "Dismal Backwater",
+      "grade": "C",
+      "winRate": 55.5,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/2/f20aef3f-79f6-4357-8631-1d141f437def.jpg?1783907843"
+    },
+    {
+      "name": "Night Market",
+      "grade": "C",
+      "winRate": 55.4,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/a/8/a8c1dce3-6136-4294-9d2b-5ef8527d733b.jpg?1783907841"
+    },
+    {
+      "name": "Wild Roads",
+      "grade": "C",
+      "winRate": 55.4,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "uncommon",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/d/4d3d48d1-a98e-40af-b04c-c40b9d52e9ee.jpg?1783907837"
+    },
+    {
+      "name": "Wastewood Verge",
+      "grade": "C",
+      "winRate": 55.4,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "rare",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/c/5ceacc7d-d407-4f82-af58-9bdf8426924e.jpg?1783907837"
+    },
+    {
+      "name": "Tranquil Cove",
+      "grade": "C",
+      "winRate": 55.3,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/0/70688800-7675-4e75-bb3c-9e05b95a685c.jpg?1783907838"
+    },
+    {
+      "name": "Scoured Barrens",
+      "grade": "C",
+      "winRate": 55.2,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/a/c/ac52be0c-49f4-4956-820e-bdd7d2744d2f.jpg?1783907839"
+    },
+    {
+      "name": "Reef Roads",
+      "grade": "C",
+      "winRate": 55.1,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "uncommon",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/3/73a8171a-2629-4356-ae86-b4d03aa14bd3.jpg?1783907840"
+    },
+    {
+      "name": "Swiftwater Cliffs",
+      "grade": "C",
+      "winRate": 55.0,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/4/949bf6bb-1e97-48a3-8547-0a780664c275.jpg?1783907839"
+    },
+    {
+      "name": "Foul Roads",
+      "grade": "C",
+      "winRate": 55.0,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "uncommon",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/a/3/a37c026a-c89f-41f3-8812-424124dd3760.jpg?1783907842"
+    },
+    {
+      "name": "Blossoming Sands",
+      "grade": "C",
+      "winRate": 54.9,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/9/69949863-2510-4fe2-a815-0682beeb08a3.jpg?1783907843"
+    },
+    {
+      "name": "Bleachbone Verge",
+      "grade": "C",
+      "winRate": 54.8,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "rare",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/2/52dcdabd-a186-45fe-9fee-6c0f1afeaf16.jpg?1783907843"
+    },
+    {
+      "name": "Riverpyre Verge",
+      "grade": "C",
+      "winRate": 54.7,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "rare",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/7/57a93a71-d77c-417f-85d0-cd420f573331.jpg?1783907841"
+    },
+    {
+      "name": "Rugged Highlands",
+      "grade": "C",
+      "winRate": 54.6,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/3/73b7484f-923c-46c5-95bf-c2c6706c0d48.jpg?1783907840"
+    },
+    {
+      "name": "Collision Course",
+      "grade": "C-",
+      "winRate": 53.9,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "type": "Sorcery",
+      "manaCost": "{1}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/b/6b60da34-b622-42de-a249-79545bcbf30d.jpg?1783907919"
+    },
+    {
+      "name": "Guidelight Optimizer",
+      "grade": "C-",
+      "winRate": 54.4,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Artifact Creature \u2014 Robot",
+      "manaCost": "{1}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/9/e9fc07dd-05b1-49ed-a3ee-46c31b8e0a3d.jpg?1783907909"
+    },
+    {
+      "name": "Midnight Mangler",
+      "grade": "C-",
+      "winRate": 54.1,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{1}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/3/237568e3-7331-4bbb-a091-a766723134fc.jpg?1783907906"
+    },
+    {
+      "name": "Caelorna, Coral Tyrant",
+      "grade": "C-",
+      "winRate": 53.6,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Legendary Creature \u2014 Octopus",
+      "manaCost": "{1}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/8/e8654e38-4230-4094-b815-778bfb5d06f2.jpg?1783907911"
+    },
+    {
+      "name": "Vnwxt, Verbose Host",
+      "grade": "C-",
+      "winRate": 53.5,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Homunculus",
+      "manaCost": "{1}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/9/893254c7-64cc-4cb9-b79f-2c41a8935ea0.jpg?1783907900"
+    },
+    {
+      "name": "Mutant Surveyor",
+      "grade": "C-",
+      "winRate": 54.5,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Mutant Scout",
+      "manaCost": "{2}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/c/7cec5105-3907-40d2-8e46-95acfaaaa0cc.jpg?1783907891"
+    },
+    {
+      "name": "Hellish Sideswipe",
+      "grade": "C-",
+      "winRate": 54.5,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "type": "Sorcery",
+      "manaCost": "{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/a/7a9db650-47f9-46d7-ac17-8d19fef6d6b0.jpg?1783907894"
+    },
+    {
+      "name": "Grim Javelineer",
+      "grade": "C-",
+      "winRate": 54.4,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Human Warrior",
+      "manaCost": "{2}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/7/87154116-e306-4e15-bd5a-dcdb5ddbcd36.jpg?1783907895"
+    },
+    {
+      "name": "Streaking Oilgorger",
+      "grade": "C-",
+      "winRate": 54.1,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Vampire",
+      "manaCost": "{4}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/f/6ff120a2-e2bb-42a2-bcb7-a48eb7a6d9b2.jpg?1783907889"
+    },
+    {
+      "name": "Risen Necroregent",
+      "grade": "C-",
+      "winRate": 53.9,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Zombie Cat Knight",
+      "manaCost": "{4}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/a/5a68482a-401d-48e7-854e-46e3db07ff35.jpg?1783907889"
+    },
+    {
+      "name": "Chitin Gravestalker",
+      "grade": "C-",
+      "winRate": 53.7,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Insect Warrior",
+      "manaCost": "{5}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/0/903b4141-04a3-44c4-9d3e-aa2a773d9883.jpg?1783907898"
+    },
+    {
+      "name": "Deathless Pilot",
+      "grade": "C-",
+      "winRate": 53.6,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Zombie Pilot",
+      "manaCost": "{1}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/7/e704fb95-17b7-432a-831c-18abe7d9cc73.jpg?1783907896"
+    },
+    {
+      "name": "Locust Spray",
+      "grade": "C-",
+      "winRate": 53.4,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "type": "Instant",
+      "manaCost": "{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/4/54b3a547-6f74-4cb4-ad98-7e1b75f1a120.jpg?1783907893"
+    },
+    {
+      "name": "Skycrash",
+      "grade": "C-",
+      "winRate": 54.5,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Instant",
+      "manaCost": "{1}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/7/87e82be6-d2b4-4c95-8466-477e8c6832e9.jpg?1783907877"
+    },
+    {
+      "name": "Push the Limit",
+      "grade": "C-",
+      "winRate": 54.4,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Sorcery",
+      "manaCost": "{5}{R}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/1/21de84a2-2654-4e1a-a569-bf385bb43685.jpg?1783907878"
+    },
+    {
+      "name": "Crash and Burn",
+      "grade": "C-",
+      "winRate": 53.6,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{3}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/3/339a41a1-b36f-4b81-b74c-220d279c0e26.jpg?1783907885"
+    },
+    {
+      "name": "Endrider Catalyzer",
+      "grade": "C-",
+      "winRate": 53.6,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Human Warrior",
+      "manaCost": "{1}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/5/55a5a67b-d969-4ba4-9dcc-32d0c2e5c04a.jpg?1783907883"
+    },
+    {
+      "name": "Fuel the Flames",
+      "grade": "C-",
+      "winRate": 53.6,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Instant",
+      "manaCost": "{2}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/2/624335fb-8a0b-4fa9-aefb-60ac641a7934.jpg?1783907884"
+    },
+    {
+      "name": "Clamorous Ironclad",
+      "grade": "C-",
+      "winRate": 53.5,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{3}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/7/4701da52-b9c8-4ce9-9d57-53e10899f19d.jpg?1783907885"
+    },
+    {
+      "name": "Tyrox, Saurid Tyrant",
+      "grade": "C-",
+      "winRate": 53.3,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Legendary Creature \u2014 Dinosaur Warrior",
+      "manaCost": "{1}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/1/5/159dc5a8-5cba-4c20-8c07-28a3d86c8411.jpg?1783907876"
+    },
+    {
+      "name": "Loxodon Surveyor",
+      "grade": "C-",
+      "winRate": 53.9,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Elephant Scout",
+      "manaCost": "{2}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/d/cd1cecb1-6776-4495-be56-b7dde65453f1.jpg?1783907870"
+    },
+    {
+      "name": "Rise from the Wreck",
+      "grade": "C-",
+      "winRate": 53.9,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Sorcery",
+      "manaCost": "{2}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/3/43e6ac32-a7a4-4c15-81b0-8485d6a0e7ca.jpg?1783907866"
+    },
+    {
+      "name": "Cloudspire Coordinator",
+      "grade": "C-",
+      "winRate": 54.4,
+      "setCode": "DFT",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Human Pilot",
+      "manaCost": "{R}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/e/eef16cda-9150-4e7d-8490-d9f287b81b62.jpg?1783907860"
+    },
+    {
+      "name": "Redshift, Rocketeer Chief",
+      "grade": "C-",
+      "winRate": 54.3,
+      "setCode": "DFT",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Goblin Pilot",
+      "manaCost": "{R}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/f/5fba3820-32ba-47e9-9fa8-f985ff471b3f.jpg?1783907854"
+    },
+    {
+      "name": "Dune Drifter",
+      "grade": "C-",
+      "winRate": 54.1,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{X}{W}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/6/36185de4-55c2-4e5d-9bcc-ea12b7052728.jpg?1783907860"
+    },
+    {
+      "name": "Boosted Sloop",
+      "grade": "C-",
+      "winRate": 54.1,
+      "setCode": "DFT",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{1}{U}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/5/3563cb48-9dcb-4b92-af3a-4793adf03125.jpg?1783907863"
+    },
+    {
+      "name": "Boom Scholar",
+      "grade": "C-",
+      "winRate": 53.7,
+      "setCode": "DFT",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Goblin Advisor",
+      "manaCost": "{1}{R}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/2/f2b84684-10c9-4635-a922-620f04809bb1.jpg?1783907862"
+    },
+    {
+      "name": "Apocalypse Runner",
+      "grade": "C-",
+      "winRate": 53.7,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{2}{B}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/7/971286f5-77ea-4824-91de-f0ac88c46238.jpg?1783907863"
+    },
+    {
+      "name": "Starting Column",
+      "grade": "C-",
+      "winRate": 54.2,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Artifact",
+      "manaCost": "{3}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/5/0530b343-98c2-440a-b32e-d1566d318c3b.jpg?1783907846"
+    },
+    {
+      "name": "Pit Automaton",
+      "grade": "C-",
+      "winRate": 54.1,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "uncommon",
+      "type": "Artifact Creature \u2014 Construct",
+      "manaCost": "{2}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/7/c72527ef-ac05-44c8-8c76-10532ce3da6e.jpg?1783907847"
+    },
+    {
+      "name": "Bloodfell Caves",
+      "grade": "C-",
+      "winRate": 54.1,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/9/49195d90-de0c-4290-aa1c-9f4d948b5521.jpg?1783907846"
+    },
+    {
+      "name": "Scrap Compactor",
+      "grade": "C-",
+      "winRate": 53.9,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Artifact",
+      "manaCost": "{1}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/1/2/12ccd555-60d4-49a1-b022-1e119344172a.jpg?1783907846"
+    },
+    {
+      "name": "Country Roads",
+      "grade": "C-",
+      "winRate": 53.5,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "uncommon",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/9/897acd91-12ba-4fa8-a26e-c09f009167a8.jpg?1783907843"
+    },
+    {
+      "name": "Camera Launcher",
+      "grade": "C-",
+      "winRate": 53.5,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Artifact Creature \u2014 Construct",
+      "manaCost": "{3}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/6/968651db-92fb-46cd-acda-9e097668b7c9.jpg?1783907850"
+    },
+    {
+      "name": "Ticket Tortoise",
+      "grade": "C-",
+      "winRate": 53.3,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Artifact Creature \u2014 Turtle",
+      "manaCost": "{2}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/a/fa178ed7-8f3a-45f0-817d-5fbc7993b04a.jpg?1783907846"
+    },
+    {
+      "name": "Swiftwing Assailant",
+      "grade": "D+",
+      "winRate": 53.3,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Bird Warrior",
+      "manaCost": "{3}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/2/72db9bb9-d930-40e5-b144-01ebfd377996.jpg?1783907913"
+    },
+    {
+      "name": "Roadside Assistance",
+      "grade": "D+",
+      "winRate": 53.1,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Enchantment \u2014 Aura",
+      "manaCost": "{2}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/f/8f2a9154-7b43-4b8d-9d81-d11cfda5d597.jpg?1783907914"
+    },
+    {
+      "name": "Lotusguard Disciple",
+      "grade": "D+",
+      "winRate": 53.0,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Bird Cleric",
+      "manaCost": "{2}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/0/80645651-3804-481f-8f8f-ade762a011e1.jpg?1783907916"
+    },
+    {
+      "name": "Unswerving Sloth",
+      "grade": "D+",
+      "winRate": 53.0,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Sloth Mount",
+      "manaCost": "{3}{W}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/1/2/12296a74-5d60-4ee3-aa53-2289f84da776.jpg?1783907912"
+    },
+    {
+      "name": "Tune Up",
+      "grade": "D+",
+      "winRate": 52.8,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Sorcery",
+      "manaCost": "{3}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/8/f8bddc5f-8f25-4313-b5bb-e5eae2923878.jpg?1783907912"
+    },
+    {
+      "name": "Brightfield Glider",
+      "grade": "D+",
+      "winRate": 52.7,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Possum Mount",
+      "manaCost": "{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/e/7eb819eb-ba5c-4449-87b5-3894380558bc.jpg?1783907922"
+    },
+    {
+      "name": "Leonin Surveyor",
+      "grade": "D+",
+      "winRate": 52.3,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Cat Scout",
+      "manaCost": "{1}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/0/e08e4107-213f-491b-a032-8e3367009ba8.jpg?1783907918"
+    },
+    {
+      "name": "Pride of the Road",
+      "grade": "D+",
+      "winRate": 52.1,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Zombie Cat Warrior",
+      "manaCost": "{3}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/1/4172222f-d871-4354-9a02-7af0001d8956.jpg?1783907916"
+    },
+    {
+      "name": "Waxen Shapethief",
+      "grade": "D+",
+      "winRate": 52.7,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Shapeshifter",
+      "manaCost": "{3}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/1/412aaa30-b9cd-4cf8-beb8-1c1229667b31.jpg?1783907899"
+    },
+    {
+      "name": "Gearseeker Serpent",
+      "grade": "D+",
+      "winRate": 52.4,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Serpent",
+      "manaCost": "{5}{U}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/d/3dca0007-42d3-4ee2-8e88-361d80a7103c.jpg?1783907909"
+    },
+    {
+      "name": "Slick Imitator",
+      "grade": "D+",
+      "winRate": 52.4,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Ooze",
+      "manaCost": "{1}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/e/3e86ef50-4939-4e7c-853d-438f0f3e0411.jpg?1783907902"
+    },
+    {
+      "name": "The Last Ride",
+      "grade": "D+",
+      "winRate": 52.9,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "mythic",
+      "type": "Legendary Artifact \u2014 Vehicle",
+      "manaCost": "{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/c/9cbb7b4e-bd32-44a0-9396-16738c5e4381.jpg?1783907893"
+    },
+    {
+      "name": "Kalakscion, Hunger Tyrant",
+      "grade": "D+",
+      "winRate": 52.1,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "type": "Legendary Creature \u2014 Crocodile",
+      "manaCost": "{1}{B}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/1/2/1214fc6d-ae47-418d-88cc-58633ec2ac7a.jpg?1783907893"
+    },
+    {
+      "name": "Endrider Spikespitter",
+      "grade": "D+",
+      "winRate": 52.9,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Human Mercenary",
+      "manaCost": "{3}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/e/4e58cb18-f216-4248-8f0d-65b0263c5c28.jpg?1783907883"
+    },
+    {
+      "name": "Gilded Ghoda",
+      "grade": "D+",
+      "winRate": 52.8,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Horse Mount",
+      "manaCost": "{1}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/5/55685602-a18c-43a4-ac60-13b039672fa4.jpg?1783907881"
+    },
+    {
+      "name": "Dynamite Diver",
+      "grade": "D+",
+      "winRate": 52.7,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Goblin Pilot",
+      "manaCost": "{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/a/5a4f96f6-dd91-4357-ae19-1c35db2c2bcb.jpg?1783907883"
+    },
+    {
+      "name": "Prowcatcher Specialist",
+      "grade": "D+",
+      "winRate": 52.4,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Goblin Warrior",
+      "manaCost": "{1}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/a/f/affbc8db-4ff7-4a86-954a-910493e5a2ef.jpg?1783907877"
+    },
+    {
+      "name": "Oviya, Automech Artisan",
+      "grade": "D+",
+      "winRate": 53.2,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Human Artificer",
+      "manaCost": "{3}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/e/ee5f504c-33fc-4a91-b69b-8ef555987c79.jpg?1783907867"
+    },
+    {
+      "name": "Haunted Hellride",
+      "grade": "D+",
+      "winRate": 53.1,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{1}{U}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/2/e2ce0d37-d5d7-49dd-885e-9998bb8abede.jpg?1783907857"
+    },
+    {
+      "name": "Guidelight Matrix",
+      "grade": "D+",
+      "winRate": 53.1,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Artifact",
+      "manaCost": "{2}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/c/cccf7fb5-c043-4a1f-ad2f-edb280cb5037.jpg?1783907849"
+    },
+    {
+      "name": "Walking Sarcophagus",
+      "grade": "D+",
+      "winRate": 53.0,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Artifact Creature \u2014 Zombie Cat",
+      "manaCost": "{2}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/9/89ccbd73-9414-48a3-bdcf-e838fcffc08f.jpg?1783907846"
+    },
+    {
+      "name": "Avishkar Raceway",
+      "grade": "D+",
+      "winRate": 52.8,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/8/08a6b378-c7fa-4226-a310-4ee7e550b4d6.jpg?1783907845"
+    },
+    {
+      "name": "Sunbillow Verge",
+      "grade": "D+",
+      "winRate": 52.7,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "rare",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/4/94ed132f-b818-4dbf-9b4a-e5acb067e0a4.jpg?1783907839"
+    },
+    {
+      "name": "Wind-Scarred Crag",
+      "grade": "D+",
+      "winRate": 52.6,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/8/882969d8-7e3e-4f32-858a-00da20c67b83.jpg?1783907837"
+    },
+    {
+      "name": "Wreck Remover",
+      "grade": "D+",
+      "winRate": 52.6,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Artifact Creature \u2014 Construct",
+      "manaCost": "{4}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/3/e3151960-cc0c-47b5-b476-295d7a17ae14.jpg?1783907845"
+    },
+    {
+      "name": "Rocky Roads",
+      "grade": "D+",
+      "winRate": 52.4,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "uncommon",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/f/6f0d4e8a-aab5-458e-bc0e-2b6b0054646a.jpg?1783907840"
+    },
+    {
+      "name": "Amonkhet Raceway",
+      "grade": "D+",
+      "winRate": 52.1,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "uncommon",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/f/4f312807-ea2a-4385-8774-4e23b4a5d4a6.jpg?1783907845"
+    },
+    {
+      "name": "Cloudspire Captain",
+      "grade": "D",
+      "winRate": 51.8,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Human Pilot",
+      "manaCost": "{2}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/3/3380d87a-c460-409c-8d47-9b2fc5ddd2ea.jpg?1783907920"
+    },
+    {
+      "name": "Lightshield Parry",
+      "grade": "D",
+      "winRate": 51.4,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/c/dcf6a0e7-1fd4-425f-b634-c93236daea35.jpg?1783907918"
+    },
+    {
+      "name": "Spotcycle Scouter",
+      "grade": "D",
+      "winRate": 51.3,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{1}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/0/f0489108-75b7-441c-888d-12987c0c1080.jpg?1783907914"
+    },
+    {
+      "name": "Air Response Unit",
+      "grade": "D",
+      "winRate": 51.1,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{2}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/7/d77c8e29-de24-4664-baf8-959608dd99ca.jpg?1783907923"
+    },
+    {
+      "name": "Daring Mechanic",
+      "grade": "D",
+      "winRate": 51.0,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Human Artificer",
+      "manaCost": "{2}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/3/3382552c-2740-409a-83a1-80b60627beb8.jpg?1783907920"
+    },
+    {
+      "name": "Trade the Helm",
+      "grade": "D",
+      "winRate": 51.7,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Sorcery",
+      "manaCost": "{4}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/b/eb0b5c09-6c21-4080-81c4-a8376deb729f.jpg?1783907901"
+    },
+    {
+      "name": "Glitch Ghost Surveyor",
+      "grade": "D",
+      "winRate": 51.3,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Spirit Scout",
+      "manaCost": "{2}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/b/9/b9bb89b9-50dd-4b36-aa10-aba585e50246.jpg?1783907909"
+    },
+    {
+      "name": "Cryptcaller Chariot",
+      "grade": "D",
+      "winRate": 51.9,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "rare",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{3}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/a/0/a0c8259c-055e-4bff-b945-c0ecb057a8f0.jpg?1783907897"
+    },
+    {
+      "name": "Ripclaw Wrangler",
+      "grade": "D",
+      "winRate": 51.7,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "common",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{3}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/4/d4981a4a-6eca-4f84-8715-8e2672507b59.jpg?1783907891"
+    },
+    {
+      "name": "Burner Rocket",
+      "grade": "D",
+      "winRate": 51.7,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{1}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/c/ecee6509-1103-4ae5-a2e7-0441f5d4a872.jpg?1783907886"
+    },
+    {
+      "name": "Daretti, Rocketeer Engineer",
+      "grade": "D",
+      "winRate": 51.6,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Goblin Artificer",
+      "manaCost": "{4}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/b/e/be626e2f-1075-4497-bd5b-bd805777afd3.jpg?1783907885"
+    },
+    {
+      "name": "Goblin Surveyor",
+      "grade": "D",
+      "winRate": 51.6,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Goblin Scout",
+      "manaCost": "{2}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/1/e1efffe9-00f8-4177-a9e6-4ad62887d32f.jpg?1783907881"
+    },
+    {
+      "name": "Pacesetter Paragon",
+      "grade": "D",
+      "winRate": 51.5,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Human Pilot",
+      "manaCost": "{2}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/3/7364b4dc-8cce-498d-a62e-eabc612b062a.jpg?1783907879"
+    },
+    {
+      "name": "Kickoff Celebrations",
+      "grade": "D",
+      "winRate": 51.4,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Enchantment",
+      "manaCost": "{1}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/e/4e5590e1-0ac0-4bdd-815b-136bf24ced03.jpg?1783907880"
+    },
+    {
+      "name": "Pedal to the Metal",
+      "grade": "D",
+      "winRate": 51.3,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Instant",
+      "manaCost": "{X}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/5/75d07295-78b7-4f90-82c7-e7a639db9993.jpg?1783907878"
+    },
+    {
+      "name": "Adrenaline Jockey",
+      "grade": "D",
+      "winRate": 51.2,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Minotaur Pilot",
+      "manaCost": "{2}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/8/c8655373-320d-440d-b700-d03413f743fd.jpg?1783907888"
+    },
+    {
+      "name": "Gastal Blockbuster",
+      "grade": "D",
+      "winRate": 51.1,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Human Berserker",
+      "manaCost": "{2}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/c/dca41ec6-8f8f-42ef-abac-cc645c6440b7.jpg?1783907882"
+    },
+    {
+      "name": "Kolodin, Triumph Caster",
+      "grade": "D",
+      "winRate": 51.2,
+      "setCode": "DFT",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "rarity": "rare",
+      "type": "Legendary Creature \u2014 Human Pilot",
+      "manaCost": "{R}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/6/36bcd476-a236-4434-b191-5c8b6fa7be7b.jpg?1783907857"
+    },
+    {
+      "name": "Mimeoplasm, Revered One",
+      "grade": "D",
+      "winRate": 51.0,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "rarity": "mythic",
+      "type": "Legendary Creature \u2014 Ooze",
+      "manaCost": "{X}{B}{G}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/3/4/34e4c342-dc22-4e9c-81fc-a691ae9e21c1.jpg?1783907855"
+    },
+    {
+      "name": "Lifecraft Engine",
+      "grade": "D",
+      "winRate": 51.7,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "rare",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{3}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/0/40c92203-17df-4f10-92c6-ebcc79f01357.jpg?1783907849"
+    },
+    {
+      "name": "Monument to Endurance",
+      "grade": "D",
+      "winRate": 51.5,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "rare",
+      "type": "Artifact",
+      "manaCost": "{3}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/2/d21433ba-0a14-42bc-ad0b-a4ef823a3295.jpg?1783907848"
+    },
+    {
+      "name": "Muraganda Raceway",
+      "grade": "D",
+      "winRate": 51.2,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "rare",
+      "type": "Land",
+      "manaCost": "",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/0/5041ae16-29ff-4ad5-8a37-4736e9409294.jpg?1783907840"
+    },
+    {
+      "name": "Aetherjacket",
+      "grade": "D",
+      "winRate": 50.9,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Artifact Creature \u2014 Thopter",
+      "manaCost": "{3}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/a/0a29c8a5-fd98-422c-9518-2db0993495e5.jpg?1783907851"
+    },
+    {
+      "name": "Brightfield Mustang",
+      "grade": "D-",
+      "winRate": 50.2,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Horse Mount",
+      "manaCost": "{3}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/b/2/b2c7cacc-f15e-46c1-9c25-b567bb3e8680.jpg?1783907922"
+    },
+    {
+      "name": "Wickerfolk Indomitable",
+      "grade": "D-",
+      "winRate": 50.5,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact Creature \u2014 Scarecrow",
+      "manaCost": "{3}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/b/a/ba78e076-8962-4b3f-b86f-04400b062951.jpg?1783907888"
+    },
+    {
+      "name": "Lord of the Undead",
+      "grade": "D-",
+      "winRate": 50.1,
+      "setCode": "10E",
+      "colors": [
+        "B"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Zombie",
+      "manaCost": "{1}{B}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/9/792e773b-5feb-407f-a162-f35d6e693cca.jpg?1783943034"
+    },
+    {
+      "name": "Magmakin Artillerist",
+      "grade": "D-",
+      "winRate": 50.6,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Elemental Pirate",
+      "manaCost": "{2}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/a/2ac26341-a100-424d-be84-33fbbf1b4078.jpg?1783907878"
+    },
+    {
+      "name": "Spire Mechcycle",
+      "grade": "D-",
+      "winRate": 49.9,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{4}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/4/f483debe-9c54-4323-aec5-226587ece2c9.jpg?1783907876"
+    },
+    {
+      "name": "Count on Luck",
+      "grade": "D-",
+      "winRate": 49.9,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "rare",
+      "type": "Enchantment",
+      "manaCost": "{R}{R}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/f/8f31beae-9b8f-4c32-af84-9f3ee767ba1d.jpg?1783907886"
+    },
+    {
+      "name": "Alacrian Jaguar",
+      "grade": "D-",
+      "winRate": 50.8,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "common",
+      "type": "Creature \u2014 Cat Mount",
+      "manaCost": "{4}{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/b/2bd40bca-aa54-4e52-8d48-b3709a11e633.jpg?1783907875"
+    },
+    {
+      "name": "Cloudspire Skycycle",
+      "grade": "D-",
+      "winRate": 50.4,
+      "setCode": "DFT",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{2}{R}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/8/881f01a4-a923-4d56-bacb-984a389296fa.jpg?1783907860"
+    },
+    {
+      "name": "Skybox Ferry",
+      "grade": "D-",
+      "winRate": 50.4,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "common",
+      "type": "Artifact \u2014 Vehicle",
+      "manaCost": "{5}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/5/75d9ef34-ae95-4465-a30c-372e231bd733.jpg?1783907846"
+    },
+    {
+      "name": "Rover Blades",
+      "grade": "D-",
+      "winRate": 49.8,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "uncommon",
+      "type": "Artifact \u2014 Equipment Vehicle",
+      "manaCost": "{3}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/8/8855a999-83f6-4c0d-9444-3ff292f77d58.jpg?1783907846"
+    },
+    {
+      "name": "Interface Ace",
+      "grade": "F",
+      "winRate": 49.4,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "type": "Artifact Creature \u2014 Robot Pilot",
+      "manaCost": "{1}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/c/fcfd487a-a9e6-44e3-80af-bc384316106f.jpg?1783907918"
+    },
+    {
+      "name": "Lightwheel Enhancements",
+      "grade": "F",
+      "winRate": 48.7,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "common",
+      "type": "Enchantment \u2014 Aura",
+      "manaCost": "{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/9/a/9ab169c1-4e25-4a5d-8961-4f06298c3781.jpg?1783907917"
+    },
+    {
+      "name": "Alacrian Armory",
+      "grade": "F",
+      "winRate": 46.5,
+      "setCode": "DFT",
+      "colors": [
+        "W"
+      ],
+      "rarity": "uncommon",
+      "type": "Artifact",
+      "manaCost": "{3}{W}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/3/d39f7f98-ad5e-4e5e-9f7b-abe0984ffe17.jpg?1783907923"
+    },
+    {
+      "name": "Thoughtcast",
+      "grade": "F",
+      "winRate": 49.5,
+      "setCode": "MOC",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Sorcery",
+      "manaCost": "{4}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/6/466a0be8-31b9-4ea0-9a96-b09a76f4ec69.jpg?1783917163"
+    },
+    {
+      "name": "Spell Pierce",
+      "grade": "F",
+      "winRate": 49.3,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "uncommon",
+      "type": "Instant",
+      "manaCost": "{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/d/8dd4374f-0301-4b2e-bc99-2cd19568cb3b.jpg?1783907902"
+    },
+    {
+      "name": "Stall Out",
+      "grade": "F",
+      "winRate": 49.1,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "common",
+      "type": "Sorcery",
+      "manaCost": "{1}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/e/4ea0e0d3-833f-4353-b648-57b0b657cc1c.jpg?1783907902"
+    },
+    {
+      "name": "Repurposing Bay",
+      "grade": "F",
+      "winRate": 46.8,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "rare",
+      "type": "Artifact",
+      "manaCost": "{2}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/c/0cf1ace1-b7f5-4bd9-a494-ee7cb6c1f854.jpg?1783907906"
+    },
+    {
+      "name": "Unstoppable Plan",
+      "grade": "F",
+      "winRate": 37.7,
+      "setCode": "DFT",
+      "colors": [
+        "U"
+      ],
+      "rarity": "rare",
+      "type": "Enchantment",
+      "manaCost": "{2}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/a/a/aaeb5981-7e6a-4ffd-bb02-4757b2e92f08.jpg?1783907901"
+    },
+    {
+      "name": "Bloodghast",
+      "grade": "F",
+      "winRate": 49.0,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Vampire Spirit",
+      "manaCost": "{B}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/d/fdceefe6-f083-4955-b53a-8e6f8aeb2083.jpg?1783907898"
+    },
+    {
+      "name": "Bone Miser",
+      "grade": "F",
+      "winRate": 46.8,
+      "setCode": "C19",
+      "colors": [
+        "B"
+      ],
+      "rarity": "rare",
+      "type": "Creature \u2014 Zombie Wizard",
+      "manaCost": "{4}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/a/7/a7fa6901-e74f-448c-9d26-99a692092512.jpg?1783932810"
+    },
+    {
+      "name": "Reckless Velocitaur",
+      "grade": "F",
+      "winRate": 49.3,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "uncommon",
+      "type": "Creature \u2014 Minotaur Pilot",
+      "manaCost": "{3}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/e/8edd18be-3861-4510-ba6d-38ccba60bb5b.jpg?1783907877"
+    },
+    {
+      "name": "Full Throttle",
+      "grade": "F",
+      "winRate": 45.6,
+      "setCode": "DFT",
+      "colors": [
+        "R"
+      ],
+      "rarity": "rare",
+      "type": "Sorcery",
+      "manaCost": "{4}{R}{R}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/d/9/d91f7cad-89e8-45cb-a78e-b35b0ee64783.jpg?1783907882"
+    },
+    {
+      "name": "Point the Way",
+      "grade": "F",
+      "winRate": 43.7,
+      "setCode": "DFT",
+      "colors": [
+        "G"
+      ],
+      "rarity": "uncommon",
+      "type": "Enchantment",
+      "manaCost": "{G}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/8/f/8fd4c73d-0e9a-4ffe-8062-f2f4d0e601fe.jpg?1783907867"
+    },
+    {
+      "name": "Ketramose, the New Dawn",
+      "grade": "F",
+      "winRate": 46.8,
+      "setCode": "DFT",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "rarity": "mythic",
+      "type": "Legendary Creature \u2014 God",
+      "manaCost": "{1}{W}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/f/cffae8d0-7b4e-42ed-8124-24a86b38f490.jpg?1783907856"
+    },
+    {
+      "name": "Racers' Scoreboard",
+      "grade": "F",
+      "winRate": 48.5,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "uncommon",
+      "type": "Artifact",
+      "manaCost": "{4}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/0/50bae2ba-a6a0-4a6a-96e9-0e0372e55108.jpg?1783907847"
+    },
+    {
+      "name": "Whir of Invention",
+      "grade": "-",
+      "winRate": null,
+      "setCode": "AER",
+      "colors": [
+        "U"
+      ],
+      "rarity": "rare",
+      "type": "Instant",
+      "manaCost": "{X}{U}{U}{U}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/2/0279fd3c-9252-4958-9d7a-5f33aa25907e.jpg?1783936767"
+    },
+    {
+      "name": "Ancient Vendetta",
+      "grade": "-",
+      "winRate": null,
+      "setCode": "DFT",
+      "colors": [
+        "B"
+      ],
+      "rarity": "uncommon",
+      "type": "Sorcery",
+      "manaCost": "{3}{B}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/3/230301f2-f288-4b13-9f62-e649ad8357bb.jpg?1783907900"
+    },
+    {
+      "name": "Chrome Mox",
+      "grade": "-",
+      "winRate": null,
+      "setCode": "2XM",
+      "colors": [],
+      "rarity": "mythic",
+      "type": "Artifact",
+      "manaCost": "{0}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/3/f340cbf7-5bbe-45b9-a4bf-d1caa500ff93.jpg?1783930116"
+    },
+    {
+      "name": "Radiant Lotus",
+      "grade": "-",
+      "winRate": null,
+      "setCode": "DFT",
+      "colors": [],
+      "rarity": "mythic",
+      "type": "Artifact",
+      "manaCost": "{6}",
+      "imageUrl": "https://cards.scryfall.io/normal/front/b/e/be6dac83-39c2-40dc-a322-76a3ea4e7aee.jpg?1783907846"
+    }
+  ],
+  "metadataSource": "Scryfall; bonus-card rarities checked against 17Lands table"
+}

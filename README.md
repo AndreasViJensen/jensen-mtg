@@ -1,6 +1,6 @@
 # MTG Card Evaluation Trainer
 
-Local browser app for practicing draft card comparisons using the `Avg Norm` scores from the SOS ratings page as the answer key.
+Local browser app for practicing draft card comparisons. Select SOS (Avg Norm ratings) or Aetherdrift (17Lands win rate in hand).
 
 ## Run it in a browser
 
@@ -38,7 +38,13 @@ That opens the generated iOS project in Xcode, where you choose your personal te
 - The local dataset is derived from `https://toskicologist.github.io/MTG-draft-sets-infographics/sos-ratings-v2.html`.
 - Each round picks two random cards from the same rarity and the same color bucket.
 - Card images are fetched live from Scryfall in the browser.
-- After you click one card, the app reveals both `Avg Norm` values and tells you whether your pick was correct.
+- After you click one card, the app reveals both scores and letter grades and tells you whether your pick was correct.
+- Aetherdrift uses the stored 17Lands DFT / PremierDraft / All Time / All users snapshot. Higher displayed win rate in hand wins, including within the same grade; equal percentages tie.
+- The original 17Lands letter grades are stored directly. Four unrated cards are excluded from play and rankings.
+- Switching sets resets the training score and updates Browse rankings and the source link.
+- Aetherdrift provenance and refresh notes are in `docs/aetherdrift-source.md`.
+
+Run verification with `npm test`. After web changes, run `npm run cap:sync:ios` before rebuilding the iPhone app.
 
 ## Refresh the dataset
 

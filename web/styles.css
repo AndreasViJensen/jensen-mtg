@@ -878,3 +878,14 @@ select {
     width: 100%;
   }
 }
+
+.set-panel { margin-bottom: 14px; }
+#setSelect {
+  max-width: 100%;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: var(--ink);
+  background: var(--panel-strong);
+}
+#setSelect:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
