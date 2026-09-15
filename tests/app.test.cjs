@@ -45,6 +45,23 @@ test('DFT snapshot has complete verified values and excludes only missing scores
  for(const c of metadata)h=Math.imul(h^c.charCodeAt(0),16777619)>>>0;
  assert.equal(h,1308456291,'Must match the 17Lands table colors and rarities');
 });
+test('FIN uses stored 17Lands grades and one-decimal GIH scores',()=>{
+ const data=JSON.parse(fs.readFileSync('web/data/final-fantasy.json'));
+ assert.equal(data.cards.length,357); assert.equal(new Set(data.cards.map(c=>c.name)).size,357);
+ assert.equal(data.cards.filter(c=>c.grade==='F').length,23);
+ assert.equal(data.cards.filter(c=>c.winRate!==null).length,348);
+ const run=app();run('state.setCode="FIN"');
+ assert.equal(run('cardGrade({grade:"A+",winRate:64.5})'),'A+');
+ assert.equal(run('formatScore(64.5)'),'64.5%');
+ assert.equal(run('cardScore({winRate:56.7})'),56.7);
+ let h=2166136261; const canonical=data.cards.map(c=>`${c.name}|${c.grade}|${c.winRate===null?'':c.winRate.toFixed(1)+'%'}`).sort().join('\n');
+ for(const c of canonical) h=Math.imul(h^c.charCodeAt(0),16777619)>>>0;
+ assert.equal(h,3328844481,'Must match the complete rendered 17Lands FIN grade grid');
+ const rarity={common:'C',uncommon:'U',rare:'R',mythic:'M'};
+ const metadata=data.cards.map(c=>`${c.name}|${[...c.colors].sort().join('')}|${rarity[c.rarity]}`).sort().join('\n');h=2166136261;
+ for(const c of metadata)h=Math.imul(h^c.charCodeAt(0),16777619)>>>0;
+ assert.equal(h,2431312925,'Must match the 17Lands FIN table colors and rarities');
+});
 test('switching sets discards an older pending load and resets accuracy',async()=>{
  const run=app();run(`var pending={};fetch=url=>new Promise(resolve=>pending[url]=resolve);state.correctDecisions=5;state.decisiveRounds=6;var old=selectSet('SOS');var latest=selectSet('DFT');`);
  const payload={cards:[{name:'One',winRate:50,grade:'F',colors:['U'],rarity:'common',imageUrl:'one'},{name:'Two',winRate:51,grade:'D',colors:['U'],rarity:'common',imageUrl:'two'}],sourceUrl:'https://www.17lands.com',sourceName:'17Lands'};

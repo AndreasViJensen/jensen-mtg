@@ -1,7 +1,9 @@
 const SETS = {
   SOS: { name: "SOS", url: "data/cards.json", scoreKey: "avgNorm", metric: "Avg Norm" },
   DFT: { name: "Aetherdrift", url: "data/aetherdrift.json", scoreKey: "winRate", metric: "win rate in hand" },
+  FIN: { name: "Final Fantasy", url: "data/final-fantasy.json", scoreKey: "winRate", metric: "win rate in hand" },
 };
+const WIN_RATE_SET_CODES = new Set(["DFT", "FIN"]);
 const SCRYFALL_NAMED_URL = "https://api.scryfall.com/cards/named";
 const EPSILON = 0.000001;
 const SCRYFALL_TIMEOUT_MS = 4500;
@@ -61,7 +63,7 @@ const sourceLink = document.getElementById("sourceLink");
 const sourceDescription = document.getElementById("sourceDescription");
 const metricLabel = () => SETS[state.setCode].metric;
 const cardScore = (card) => card[SETS[state.setCode].scoreKey];
-const cardGrade = (card) => state.setCode === "DFT" ? card.grade : avgNormToGrade(card.avgNorm);
+const cardGrade = (card) => WIN_RATE_SET_CODES.has(state.setCode) ? card.grade : avgNormToGrade(card.avgNorm);
 
 const sourceStatus = document.getElementById("sourceStatus");
 const roundLabel = document.getElementById("roundLabel");
@@ -426,7 +428,7 @@ function renderTrainerPair(pair) {
 }
 
 function formatScore(score) {
-  return state.setCode === "DFT" ? `${score.toFixed(1)}%` : score.toFixed(3);
+  return WIN_RATE_SET_CODES.has(state.setCode) ? `${score.toFixed(1)}%` : score.toFixed(3);
 }
 
 function setResultCardState(element, card, tone) {
@@ -764,8 +766,18 @@ async function selectSet(setCode) {
     state.buckets = buildBuckets(state.cards);
     if (!state.buckets.length) throw new Error("No comparable cards found.");
     const excluded = payload.cards.length - state.cards.length;
+    const userGroup = payload.userGroup === "All" ? "All users" : payload.userGroup ? `${payload.userGroup} users` : "";
+    const snapshotParts = [
+      payload.format,
+      userGroup,
+      payload.timePeriod === "ALL_TIME" ? "All time" : payload.timePeriod,
+      payload.retrievedAt ? `Snapshot ${payload.retrievedAt}` : "",
+    ].filter(Boolean);
+    const snapshotDetails = WIN_RATE_SET_CODES.has(setCode) && snapshotParts.length
+      ? ` • ${snapshotParts.join(" • ")}`
+      : "";
     sourceStatus.textContent = `${state.cards.length} rated cards from ${payload.sourceName}` +
-      (setCode === "DFT" ? ` • Premier Draft • All users • All time • Snapshot ${payload.retrievedAt}` : "") +
+      snapshotDetails +
       (excluded ? ` • ${excluded} unrated cards excluded` : "");
     sourceLink.href = payload.sourceUrl;
     sourceLink.hidden = false;
