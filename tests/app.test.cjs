@@ -74,13 +74,11 @@ test('switching sets discards an older pending load and resets accuracy',async()
 test('comparison reports disagreement and ties neutrally',()=>{
  const run=app();
  run(`state.setCode='DFT';state.currentPair={bucket:{rarity:'common',colorKey:'U'},leftCard:{name:'One',grade:'C',winRate:50},rightCard:{name:'Two',grade:'B',winRate:55}};revealOutcome('left');`);
- assert.equal(run('resultText.textContent'),'Two has the higher win rate in hand in this dataset.');
- assert.equal(run('document.getElementById("yourPick").textContent'),'One');
+ assert.equal(run('resultText.textContent'),'THE DATA DISAGREES.');
  assert.equal(run('state.correctDecisions'),0);
  assert.equal(run('state.decisiveRounds'),1);
  run('clearResultState();state.currentPair.rightCard.winRate=50;revealOutcome("right");');
  assert.equal(run('state.ties'),1);
  assert.match(run('accuracyStat.textContent'),/0 of 1 comparisons. Equal scores: 1/);
- assert.equal(run('resultCardRight.querySelector("[data-choice]").textContent'),'● Your choice');
- assert.match(run('resultText.textContent'),/same displayed/);
+ assert.match(run('resultText.textContent'),/data ties/);
 });

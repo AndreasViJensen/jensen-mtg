@@ -461,7 +461,6 @@ function setButtonsEnabled(enabled) {
 function clearResultState() {
   state.revealed = false;
   resultText.textContent = "Choose a card to reveal the source comparison.";
-  document.getElementById("yourPickSummary").hidden = true;
   nextButton.hidden = true;
   resultCallout.hidden = true;
   resultPanel.classList.remove("is-correct", "is-wrong", "is-tie");
@@ -706,26 +705,29 @@ function revealOutcome(selectedSide) {
   }
 
   resultCallout.hidden = false;
-  document.getElementById("yourPickSummary").hidden = false;
-
-  const selectedCard = selectedSide === "left" ? state.currentPair.leftCard : state.currentPair.rightCard;
-  document.getElementById("yourPick").textContent = selectedCard.name;
-  setResultCardState(resultCardLeft, state.currentPair.leftCard, "neutral");
-  setResultCardState(resultCardRight, state.currentPair.rightCard, "neutral");
-  resultCardLeft.querySelector("[data-choice]").textContent = selectedSide === "left" ? "● Your choice" : "—";
-  resultCardRight.querySelector("[data-choice]").textContent = selectedSide === "right" ? "● Your choice" : "—";
-  for (const card of [resultCardLeft, resultCardRight]) {
-    card.querySelector("[data-metric]").textContent = metricLabel();
-  }
   if (Math.abs(leftScore - rightScore) <= EPSILON) {
     state.ties += 1;
-    resultText.textContent = `Both cards have the same displayed ${metricLabel()} in this dataset.`;
+    resultPanel.classList.add("is-tie");
+    cardButtons[0].classList.add("is-tie");
+    cardButtons[1].classList.add("is-tie");
+    setResultCardState(resultCardLeft, state.currentPair.leftCard, "is-tie");
+    setResultCardState(resultCardRight, state.currentPair.rightCard, "is-tie");
+    resultText.textContent = `The data ties: both cards have the same displayed ${metricLabel()}.`;
   } else {
     state.decisiveRounds += 1;
     const leftHigher = leftScore > rightScore;
-    if ((selectedSide === "left") === leftHigher) state.correctDecisions += 1;
-    const higherCard = leftHigher ? state.currentPair.leftCard : state.currentPair.rightCard;
-    resultText.textContent = `${higherCard.name} has the higher ${metricLabel()} in this dataset.`;
+    const dataAgrees = (selectedSide === "left") === leftHigher;
+    if (dataAgrees) state.correctDecisions += 1;
+    const winnerButton = leftHigher ? cardButtons[0] : cardButtons[1];
+    const loserButton = leftHigher ? cardButtons[1] : cardButtons[0];
+    winnerButton.classList.add("is-correct");
+    winnerButton.classList.add("is-hero");
+    loserButton.classList.add("is-wrong");
+    loserButton.classList.add("is-sunken");
+    setResultCardState(resultCardLeft, state.currentPair.leftCard, leftHigher ? "is-winner" : "is-loser");
+    setResultCardState(resultCardRight, state.currentPair.rightCard, leftHigher ? "is-loser" : "is-winner");
+    resultPanel.classList.add(dataAgrees ? "is-correct" : "is-wrong");
+    resultText.textContent = dataAgrees ? "THE DATA AGREES!" : "THE DATA DISAGREES.";
   }
   updateTrainerStatus();
   scrollResultIntoView();

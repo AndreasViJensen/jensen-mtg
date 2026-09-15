@@ -73,18 +73,23 @@
       </section>
 
       <section class="result-panel" aria-live="polite">
-        <div id="yourPickSummary" hidden><span class="control-label">Your pick</span><h2 id="yourPick"></h2></div>
+        <p id="resultText">Choose a card to reveal the source comparison.</p>
         <div class="result-callout" id="resultCallout" hidden>
           <article class="result-card result-card-left" id="resultCardLeft">
             <h2 class="result-card-name">Waiting...</h2>
-            <dl class="comparison-values"><div><dt>Your choice</dt><dd data-choice>—</dd></div><div><dt data-metric>Win rate in hand</dt><dd data-score>--</dd></div><div><dt>Source grade</dt><dd data-grade>--</dd></div></dl>
+            <div class="result-grade-row">
+              <span class="result-grade" data-grade>--</span>
+              <span class="result-score" data-score>--</span>
+            </div>
           </article>
           <article class="result-card result-card-right" id="resultCardRight">
             <h2 class="result-card-name">Waiting...</h2>
-            <dl class="comparison-values"><div><dt>Your choice</dt><dd data-choice>—</dd></div><div><dt data-metric>Win rate in hand</dt><dd data-score>--</dd></div><div><dt>Source grade</dt><dd data-grade>--</dd></div></dl>
+            <div class="result-grade-row">
+              <span class="result-grade" data-grade>--</span>
+              <span class="result-score" data-score>--</span>
+            </div>
           </article>
         </div>
-        <p id="resultText">Choose a card to reveal the source comparison.</p>
         <button id="nextButton" type="button" hidden>Next Pair</button>
       </section>
 
