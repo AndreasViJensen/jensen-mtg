@@ -97,6 +97,7 @@ select {
 }
 
 .app-shell {
+  margin-top: 18px;
   padding: clamp(16px, 3vw, 28px);
   border-radius: 28px;
   background:
@@ -106,6 +107,7 @@ select {
 }
 
 .status-panel {
+  margin-top: 14px;
   display: grid;
   gap: 12px;
   grid-template-columns: repeat(3, minmax(0, 1fr));
