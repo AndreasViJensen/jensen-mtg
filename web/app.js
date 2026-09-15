@@ -423,7 +423,7 @@ function renderTrainerPair(pair) {
   bucketLabel.textContent = describeBucket(pair.bucket);
   promptText.replaceChildren();
   const instruction = document.createElement("strong");
-  instruction.textContent = "Choose the better card.";
+  instruction.textContent = "Which card do you think is better?";
   const context = document.createElement("span");
   context.className = "prompt-context";
   context.textContent = "(Same rarity, same color identity)";
@@ -460,12 +460,13 @@ function setButtonsEnabled(enabled) {
 
 function clearResultState() {
   state.revealed = false;
-  resultText.textContent = "Results appear here after you choose.";
+  resultText.textContent = "Choose a card to reveal the source comparison.";
+  document.getElementById("yourPickSummary").hidden = true;
   nextButton.hidden = true;
   resultCallout.hidden = true;
   resultPanel.classList.remove("is-correct", "is-wrong", "is-tie");
   if (state.viewMode === "train") {
-    promptText.textContent = `Click the card you think has the higher ${metricLabel()}.`;
+    promptText.textContent = `Which card do you think is better?`;
   }
   resetResultCardState(resultCardLeft);
   resetResultCardState(resultCardRight);
@@ -476,10 +477,10 @@ function clearResultState() {
 }
 
 function updateTrainerStatus() {
-  roundLabel.textContent = "Round";
+  roundLabel.textContent = "Pair";
   roundCount.textContent = String(state.round);
-  accuracyLabel.textContent = "Decisive Accuracy";
-  accuracyStat.textContent = `${state.correctDecisions}/${state.decisiveRounds}`;
+  accuracyLabel.textContent = "This session";
+  accuracyStat.textContent = `You picked the higher-scoring card in ${state.correctDecisions} of ${state.decisiveRounds} comparisons. Equal scores: ${state.ties}.`;
   bucketLabelTitle.textContent = "Current Bucket";
   bucketLabel.textContent = state.currentPair ? describeBucket(state.currentPair.bucket) : "Waiting for data";
 }
@@ -629,6 +630,7 @@ function setViewMode(mode) {
   setButtonGroupState(viewModeButtons, mode, "viewMode");
 
   const isBrowseMode = mode === "browse";
+  document.getElementById("comparisonNote").hidden = isBrowseMode;
   arena.hidden = isBrowseMode;
   resultPanel.hidden = isBrowseMode;
   browsePanel.hidden = !isBrowseMode;
@@ -704,42 +706,28 @@ function revealOutcome(selectedSide) {
   }
 
   resultCallout.hidden = false;
+  document.getElementById("yourPickSummary").hidden = false;
 
+  const selectedCard = selectedSide === "left" ? state.currentPair.leftCard : state.currentPair.rightCard;
+  document.getElementById("yourPick").textContent = selectedCard.name;
+  setResultCardState(resultCardLeft, state.currentPair.leftCard, "neutral");
+  setResultCardState(resultCardRight, state.currentPair.rightCard, "neutral");
+  resultCardLeft.querySelector("[data-choice]").textContent = selectedSide === "left" ? "● Your choice" : "—";
+  resultCardRight.querySelector("[data-choice]").textContent = selectedSide === "right" ? "● Your choice" : "—";
+  for (const card of [resultCardLeft, resultCardRight]) {
+    card.querySelector("[data-metric]").textContent = metricLabel();
+  }
   if (Math.abs(leftScore - rightScore) <= EPSILON) {
     state.ties += 1;
-    resultPanel.classList.add("is-tie");
-    cardButtons[0].classList.add("is-tie");
-    cardButtons[1].classList.add("is-tie");
-    setResultCardState(resultCardLeft, state.currentPair.leftCard, "is-tie");
-    setResultCardState(resultCardRight, state.currentPair.rightCard, "is-tie");
-    resultText.textContent = `Tie. Both cards have the same ${metricLabel()}.`;
-    scrollResultIntoView();
-    return;
-  }
-
-  const leftWins = leftScore > rightScore;
-  const pickedCorrectly =
-    (selectedSide === "left" && leftWins) || (selectedSide === "right" && !leftWins);
-  const winnerButton = leftWins ? cardButtons[0] : cardButtons[1];
-  const loserButton = leftWins ? cardButtons[1] : cardButtons[0];
-
-  state.decisiveRounds += 1;
-  if (pickedCorrectly) {
-    state.correctDecisions += 1;
+    resultText.textContent = `Both cards have the same displayed ${metricLabel()} in this dataset.`;
+  } else {
+    state.decisiveRounds += 1;
+    const leftHigher = leftScore > rightScore;
+    if ((selectedSide === "left") === leftHigher) state.correctDecisions += 1;
+    const higherCard = leftHigher ? state.currentPair.leftCard : state.currentPair.rightCard;
+    resultText.textContent = `${higherCard.name} has the higher ${metricLabel()} in this dataset.`;
   }
   updateTrainerStatus();
-
-  winnerButton.classList.add("is-correct");
-  winnerButton.classList.add("is-hero");
-  loserButton.classList.add("is-wrong");
-  loserButton.classList.add("is-sunken");
-  setResultCardState(resultCardLeft, state.currentPair.leftCard, leftWins ? "is-winner" : "is-loser");
-  setResultCardState(resultCardRight, state.currentPair.rightCard, leftWins ? "is-loser" : "is-winner");
-  resultPanel.classList.add(pickedCorrectly ? "is-correct" : "is-wrong");
-
-  resultText.textContent = pickedCorrectly
-    ? "CORRECT."
-    : "INCORRECT.";
   scrollResultIntoView();
 }
 
@@ -759,7 +747,7 @@ async function selectSet(setCode) {
   browseList.innerHTML = "";
   sourceStatus.textContent = `Loading ${SETS[setCode].name}…`;
   sourceLink.hidden = true;
-  sourceDescription.textContent = `Pick the stronger card using ${metricLabel()} as the answer key.`;
+  sourceDescription.textContent = `Explore how your picks compare with draft data.`;
   updateTrainerStatus();
   promptText.textContent = "Loading cards…";
 

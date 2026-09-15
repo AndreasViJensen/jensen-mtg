@@ -910,3 +910,27 @@ select {
 .site-credits p { margin: 0; }
 .site-credits p + p { margin-top: 10px; }
 .site-credits a { color: var(--accent-deep); text-decoration: underline; }
+
+/* Neutral comparison: selection is highlighted, source rank is informational. */
+.result-panel { flex-direction: column; align-items: stretch; position: static; }
+#yourPick { margin: 6px 0 4px; font-family: var(--font-display); font-size: 1.45rem; }
+.result-callout { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.result-card { min-width: 0; }
+.result-card-name { line-height: 1.35; overflow-wrap: anywhere; }
+.comparison-values { margin: 18px 0 0; }
+.comparison-values div { display: flex; flex-direction: column; gap: 4px; margin-top: 12px; }
+.comparison-values dt { color: var(--muted); font-size: .8rem; }
+.comparison-values dd { margin: 0; font-weight: 700; }
+.card-option.is-selected { border-color: #526b80; box-shadow: 0 0 0 3px rgba(82,107,128,.35); transform: none; }
+#resultText { font-weight: 500; }
+#nextButton { align-self: flex-end; }
+.status-panel { grid-template-columns: 1fr 2fr 1fr; }
+#accuracyStat { font-size: .92rem; line-height: 1.5; font-weight: 500; display: block; }
+.comparison-note { margin: 22px 0 0; color: var(--muted); line-height: 1.6; }
+.comparison-note h2 { font-size: 1rem; margin-bottom: 6px; }
+.comparison-note p { margin: 0; max-width: 75ch; }
+@media (max-width: 760px) {
+  .status-panel { grid-template-columns: 1fr; }
+  .bucket-block { grid-column: auto; }
+  .comparison-values dd { font-size: .95rem; }
+}

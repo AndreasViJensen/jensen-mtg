@@ -12,13 +12,13 @@
   <div class="page-shell">
     <header class="hero">
       <p class="eyebrow">Magic: The Gathering</p>
-      <h1>Card Evaluation Trainer</h1>
+      <h1>Jensen MTG</h1>
       <p class="hero-copy" id="sourceDescription">
-        Pick the stronger card using the source page’s <strong>Avg Norm</strong> as the answer key.
+        Explore how your picks compare with draft data.
       </p>
       <div class="hero-meta">
         <span id="sourceStatus">Loading source data...</span>
-        <a id="sourceLink" href="https://toskicologist.github.io/MTG-draft-sets-infographics/sos-ratings-v2.html" target="_blank" rel="noreferrer">Open ranking source</a>
+        <a id="sourceLink" href="https://toskicologist.github.io/MTG-draft-sets-infographics/sos-ratings-v2.html" target="_blank" rel="noreferrer">Explore the source</a>
       </div>
     </header>
     <main class="app-shell">
@@ -33,7 +33,7 @@
       <section class="mode-panel" aria-label="View mode">
         <span class="control-label">Mode</span>
         <div class="segmented-control" id="viewModeControls">
-          <button class="segmented-button is-active" type="button" data-view-mode="train">Train</button>
+          <button class="segmented-button is-active" type="button" data-view-mode="train">Compare picks</button>
           <button class="segmented-button" type="button" data-view-mode="browse">Browse Top 30</button>
         </div>
       </section>
@@ -72,41 +72,38 @@
         </button>
       </section>
 
-      <section class="result-panel">
-        <p id="resultText">Results appear here after you choose.</p>
+      <section class="result-panel" aria-live="polite">
+        <div id="yourPickSummary" hidden><span class="control-label">Your pick</span><h2 id="yourPick"></h2></div>
         <div class="result-callout" id="resultCallout" hidden>
           <article class="result-card result-card-left" id="resultCardLeft">
             <h2 class="result-card-name">Waiting...</h2>
-            <div class="result-grade-row">
-              <span class="result-grade" data-grade>--</span>
-              <span class="result-score" data-score>--</span>
-            </div>
+            <dl class="comparison-values"><div><dt>Your choice</dt><dd data-choice>—</dd></div><div><dt data-metric>Win rate in hand</dt><dd data-score>--</dd></div><div><dt>Source grade</dt><dd data-grade>--</dd></div></dl>
           </article>
           <article class="result-card result-card-right" id="resultCardRight">
             <h2 class="result-card-name">Waiting...</h2>
-            <div class="result-grade-row">
-              <span class="result-grade" data-grade>--</span>
-              <span class="result-score" data-score>--</span>
-            </div>
+            <dl class="comparison-values"><div><dt>Your choice</dt><dd data-choice>—</dd></div><div><dt data-metric>Win rate in hand</dt><dd data-score>--</dd></div><div><dt>Source grade</dt><dd data-grade>--</dd></div></dl>
           </article>
         </div>
+        <p id="resultText">Choose a card to reveal the source comparison.</p>
         <button id="nextButton" type="button" hidden>Next Pair</button>
       </section>
 
       <section class="status-panel">
         <div class="status-block">
-          <span class="status-label" id="roundLabel">Round</span>
+          <span class="status-label" id="roundLabel">Pair</span>
           <strong id="roundCount">0</strong>
         </div>
         <div class="status-block">
-          <span class="status-label" id="accuracyLabel">Decisive Accuracy</span>
-          <strong id="accuracyStat">0/0</strong>
+          <span class="status-label" id="accuracyLabel">This session</span>
+          <strong id="accuracyStat">No comparisons yet.</strong>
         </div>
         <div class="status-block bucket-block">
           <span class="status-label" id="bucketLabelTitle">Current Bucket</span>
           <strong id="bucketLabel">Waiting for data</strong>
         </div>
       </section>
+
+      <aside class="comparison-note" id="comparisonNote"><h2>About the comparison</h2><p>Your pick may reflect deck fit, play style, or considerations these ratings leave out. The source figures are a point of comparison, not a verdict on your judgment.</p></aside>
 
       <section class="browse-panel" id="browsePanel" hidden>
         <div class="browse-toolbar">
