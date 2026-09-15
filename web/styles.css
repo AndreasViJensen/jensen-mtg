@@ -889,3 +889,16 @@ select {
   background: var(--panel-strong);
 }
 #setSelect:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+.site-credits {
+  margin-top: 18px;
+  padding: 18px 22px;
+  border-radius: 18px;
+  background: var(--panel);
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+.site-credits p { margin: 0; }
+.site-credits p + p { margin-top: 10px; }
+.site-credits a { color: var(--accent-deep); text-decoration: underline; }

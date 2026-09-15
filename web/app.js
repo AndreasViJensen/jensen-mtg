@@ -836,4 +836,8 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
+// Capacitor injects its native bridge before this script runs in the iOS shell.
+const siteCredits = document.getElementById("siteCredits");
+siteCredits.hidden = Boolean(window.Capacitor?.isNativePlatform?.());
+
 selectSet(setSelect.value);
