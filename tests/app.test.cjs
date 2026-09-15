@@ -27,7 +27,7 @@ test('DFT uses win rate even within the same grade; exact displayed scores tie',
  assert.equal(run('state.decisiveRounds'),1);
 });
 test('SOS keeps its original metric and grade thresholds',()=>{
- const run=app(); assert.equal(run('cardScore({avgNorm:1.8,winRate:50})'),1.8);
+ const run=app(); run('state.setCode="SOS"'); assert.equal(run('cardScore({avgNorm:1.8,winRate:50})'),1.8);
  assert.equal(run('cardGrade({avgNorm:1.8})'),'A');
  assert.equal(run('formatScore(1.8)'),'1.800');
 });

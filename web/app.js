@@ -29,7 +29,7 @@ const BROWSE_RARITY_LABELS = {
 };
 
 const state = {
-  setCode: "SOS",
+  setCode: "DFT",
   loadId: 0,
   pairId: 0,
   loading: false,
