@@ -214,6 +214,12 @@ select {
   line-height: 1.5;
 }
 
+.prompt-context {
+  color: var(--muted);
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
 .arena {
   display: grid;
   gap: 18px;

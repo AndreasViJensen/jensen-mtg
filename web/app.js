@@ -421,7 +421,13 @@ function renderCard(button, card, imageUrl) {
 
 function renderTrainerPair(pair) {
   bucketLabel.textContent = describeBucket(pair.bucket);
-  promptText.textContent = `Same rarity and same color bucket: ${describeBucket(pair.bucket)}. Which card is better?`;
+  promptText.replaceChildren();
+  const instruction = document.createElement("strong");
+  instruction.textContent = "Choose the better card.";
+  const context = document.createElement("span");
+  context.className = "prompt-context";
+  context.textContent = `(Same rarity, same color identity: ${describeBucket(pair.bucket)})`;
+  promptText.append(instruction, " ", context);
   renderCard(cardButtons[0], pair.leftCard, pair.leftImage);
   renderCard(cardButtons[1], pair.rightCard, pair.rightImage);
   setButtonsEnabled(!state.revealed);
@@ -454,7 +460,7 @@ function setButtonsEnabled(enabled) {
 
 function clearResultState() {
   state.revealed = false;
-  resultText.textContent = "Choose the better card.";
+  resultText.textContent = "Results appear here after you choose.";
   nextButton.hidden = true;
   resultCallout.hidden = true;
   resultPanel.classList.remove("is-correct", "is-wrong", "is-tie");

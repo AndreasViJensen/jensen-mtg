@@ -6,7 +6,7 @@ function element() {
   const children = new Map();
   return { dataset: {}, classList: { add(){}, remove(){}, toggle(){} },
     querySelector(key) { if (!children.has(key)) children.set(key, element()); return children.get(key); },
-    addEventListener(){}, removeAttribute(){}, setAttribute(){}, append(){}, scrollIntoView(){} };
+    addEventListener(){}, removeAttribute(){}, setAttribute(){}, append(){}, replaceChildren(){}, scrollIntoView(){} };
 }
 function app() {
   const els = new Map();
