@@ -80,5 +80,5 @@ test('comparison reports disagreement and ties neutrally',()=>{
  run('clearResultState();state.currentPair.rightCard.winRate=50;revealOutcome("right");');
  assert.equal(run('state.ties'),1);
  assert.match(run('accuracyStat.textContent'),/0 of 1 comparisons. Equal scores: 1/);
- assert.match(run('resultText.textContent'),/data ties/);
+ assert.equal(run('resultText.textContent'),'The data has them tied.');
 });

@@ -629,7 +629,6 @@ function setViewMode(mode) {
   setButtonGroupState(viewModeButtons, mode, "viewMode");
 
   const isBrowseMode = mode === "browse";
-  document.getElementById("comparisonNote").hidden = isBrowseMode;
   arena.hidden = isBrowseMode;
   resultPanel.hidden = isBrowseMode;
   browsePanel.hidden = !isBrowseMode;
@@ -712,7 +711,7 @@ function revealOutcome(selectedSide) {
     cardButtons[1].classList.add("is-tie");
     setResultCardState(resultCardLeft, state.currentPair.leftCard, "is-tie");
     setResultCardState(resultCardRight, state.currentPair.rightCard, "is-tie");
-    resultText.textContent = `The data ties: both cards have the same displayed ${metricLabel()}.`;
+    resultText.textContent = "The data has them tied.";
   } else {
     state.decisiveRounds += 1;
     const leftHigher = leftScore > rightScore;
