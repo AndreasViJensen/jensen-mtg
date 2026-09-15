@@ -426,7 +426,7 @@ function renderTrainerPair(pair) {
   instruction.textContent = "Choose the better card.";
   const context = document.createElement("span");
   context.className = "prompt-context";
-  context.textContent = `(Same rarity, same color identity: ${describeBucket(pair.bucket)})`;
+  context.textContent = "(Same rarity, same color identity)";
   promptText.append(instruction, " ", context);
   renderCard(cardButtons[0], pair.leftCard, pair.leftImage);
   renderCard(cardButtons[1], pair.rightCard, pair.rightImage);
