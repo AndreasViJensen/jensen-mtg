@@ -145,15 +145,35 @@ function pickRandom(items) {
   return items[Math.floor(Math.random() * items.length)];
 }
 
-function pickPairFromBucket(bucketCards) {
-  const firstIndex = Math.floor(Math.random() * bucketCards.length);
-  let secondIndex = Math.floor(Math.random() * bucketCards.length);
-
-  while (secondIndex === firstIndex) {
-    secondIndex = Math.floor(Math.random() * bucketCards.length);
+function sharesAtLeastOneColor(leftCard, rightCard) {
+  if (leftCard.colorKey === "C" || rightCard.colorKey === "C") {
+    return false;
   }
 
-  return [bucketCards[firstIndex], bucketCards[secondIndex]];
+  return [...leftCard.colorKey].some((color) => rightCard.colorKey.includes(color));
+}
+
+function getPartnerCandidates(firstCard, cards = state.cards) {
+  const exactPool = cards.filter((card) =>
+    card !== firstCard &&
+    card.rarity === firstCard.rarity &&
+    card.colorKey === firstCard.colorKey
+  );
+
+  if (exactPool.length > 0) {
+    return { cards: exactPool, usesFallback: false };
+  }
+
+  const oppositeRarity = firstCard.rarity === "rare" ? "mythic" : "rare";
+  const fallbackPool = cards.filter((card) =>
+    card !== firstCard &&
+    (
+      (card.rarity === firstCard.rarity && sharesAtLeastOneColor(card, firstCard)) ||
+      (card.rarity === oppositeRarity && card.colorKey === firstCard.colorKey)
+    )
+  );
+
+  return { cards: fallbackPool, usesFallback: true };
 }
 
 function normalizeCards(rawCards) {
@@ -188,7 +208,7 @@ function buildBuckets(cards) {
     grouped.get(bucketKey).cards.push(card);
   }
 
-  return [...grouped.values()].filter((bucket) => bucket.cards.length >= 2);
+  return [...grouped.values()];
 }
 
 function avgNormToGrade(avgNorm) {
@@ -426,7 +446,9 @@ function renderTrainerPair(pair) {
   instruction.textContent = "Which card do you think is better?";
   const context = document.createElement("span");
   context.className = "prompt-context";
-  context.textContent = "(Same rarity, same color identity)";
+  context.textContent = pair.usesFallback
+    ? "(Fallback: same-rarity shared color or opposite-rarity same color identity)"
+    : "(Same rarity, same color identity)";
   promptText.append(instruction, " ", context);
   renderCard(cardButtons[0], pair.leftCard, pair.leftImage);
   renderCard(cardButtons[1], pair.rightCard, pair.rightImage);
@@ -480,7 +502,7 @@ function updateTrainerStatus() {
   roundCount.textContent = String(state.round);
   accuracyLabel.textContent = "This session";
   accuracyStat.textContent = `You picked the higher-scoring card in ${state.correctDecisions} of ${state.decisiveRounds} comparisons. Equal scores: ${state.ties}.`;
-  bucketLabelTitle.textContent = "Current Bucket";
+  bucketLabelTitle.textContent = "First Card Bucket";
   bucketLabel.textContent = state.currentPair ? describeBucket(state.currentPair.bucket) : "Waiting for data";
 }
 
@@ -647,7 +669,12 @@ function setViewMode(mode) {
 }
 
 async function nextRound() {
-  if (state.loading || !state.buckets.length) return;
+  if (state.loading || !state.cards.length) return;
+
+  const firstCard = pickRandom(state.cards);
+  const partnerSelection = getPartnerCandidates(firstCard);
+  if (!partnerSelection.cards.length) return;
+
   const pairId = ++state.pairId;
   state.currentPair = null;
   clearResultState();
@@ -657,8 +684,11 @@ async function nextRound() {
     resetCardButton(button);
   }
 
-  const bucket = pickRandom(state.buckets);
-  const [leftCard, rightCard] = pickPairFromBucket(bucket.cards);
+  const bucket = state.buckets.find((candidate) =>
+    candidate.rarity === firstCard.rarity && candidate.colorKey === firstCard.colorKey
+  );
+  const leftCard = firstCard;
+  const rightCard = pickRandom(partnerSelection.cards);
 
   const [leftImage, rightImage] = await Promise.all([
     fetchCardImage(leftCard),
@@ -671,6 +701,7 @@ async function nextRound() {
     bucket,
     leftCard,
     rightCard,
+    usesFallback: partnerSelection.usesFallback,
     leftImage,
     rightImage,
   };

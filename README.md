@@ -36,7 +36,7 @@ That opens the generated iOS project in Xcode, where you choose your personal te
 ## How it works
 
 - The local dataset is derived from `https://toskicologist.github.io/MTG-draft-sets-infographics/sos-ratings-v2.html`.
-- Each round picks two random cards from the same rarity and the same color bucket.
+- Each round first picks uniformly from all rated cards. It then picks a partner from the same rarity and exact color identity when possible. If no such partner exists, it uses same-rarity cards sharing at least one color or opposite-rarity cards with the exact same color identity.
 - Card images are fetched live from Scryfall in the browser.
 - After you click one card, the app reveals both scores and letter grades and tells you whether your pick was correct.
 - Aetherdrift uses the stored 17Lands DFT / PremierDraft / All Time / All users snapshot. Higher displayed win rate in hand wins, including within the same grade; equal percentages tie.

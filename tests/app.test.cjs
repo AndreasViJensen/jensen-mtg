@@ -31,6 +31,40 @@ test('SOS keeps its original metric and grade thresholds',()=>{
  assert.equal(run('cardGrade({avgNorm:1.8})'),'A');
  assert.equal(run('formatScore(1.8)'),'1.800');
 });
+test('pair selection prefers the exact rarity and color pool',()=>{
+ const run=app();
+ run('state.setCode="DFT"');
+ run(`var cards=normalizeCards(${JSON.stringify([
+   {name:'First',rarity:'rare',colors:['U','W'],winRate:50},
+   {name:'Exact partner',rarity:'rare',colors:['W','U'],winRate:51},
+   {name:'Shared color',rarity:'rare',colors:['U'],winRate:52},
+   {name:'Opposite rarity',rarity:'mythic',colors:['U','W'],winRate:53},
+ ])});state.cards=cards;`);
+ assert.equal(run('JSON.stringify(getPartnerCandidates(cards[0]).cards.map(card=>card.name))'),JSON.stringify(['Exact partner']));
+ assert.equal(run('getPartnerCandidates(cards[0]).usesFallback'),false);
+});
+test('singleton fallback uses same-rarity shared colors or opposite-rarity exact colors',()=>{
+ const run=app();
+ run('state.setCode="DFT"');
+ run(`var cards=normalizeCards(${JSON.stringify([
+   {name:'Rare UW',rarity:'rare',colors:['U','W'],winRate:50},
+   {name:'Rare U',rarity:'rare',colors:['U'],winRate:51},
+   {name:'Rare G',rarity:'rare',colors:['G'],winRate:52},
+   {name:'Mythic UW',rarity:'mythic',colors:['U','W'],winRate:53},
+   {name:'Mythic U',rarity:'mythic',colors:['U'],winRate:54},
+   {name:'Uncommon W',rarity:'uncommon',colors:['W'],winRate:55},
+ ])});state.cards=cards;`);
+ assert.equal(run('JSON.stringify(getPartnerCandidates(cards[0]).cards.map(card=>card.name).sort())'),JSON.stringify(['Mythic UW','Rare U']));
+ assert.equal(run('getPartnerCandidates(cards[0]).usesFallback'),true);
+
+ run(`var cards=normalizeCards(${JSON.stringify([
+   {name:'Mythic UW',rarity:'mythic',colors:['U','W'],winRate:50},
+   {name:'Mythic U',rarity:'mythic',colors:['U'],winRate:51},
+   {name:'Rare UW',rarity:'rare',colors:['U','W'],winRate:52},
+   {name:'Rare U',rarity:'rare',colors:['U'],winRate:53},
+ ])});state.cards=cards;`);
+ assert.equal(run('JSON.stringify(getPartnerCandidates(cards[0]).cards.map(card=>card.name).sort())'),JSON.stringify(['Mythic U','Rare UW']));
+});
 test('DFT snapshot has complete verified values and excludes only missing scores',()=>{
  const data=JSON.parse(fs.readFileSync('web/data/aetherdrift.json'));
  assert.equal(data.cards.length,281); assert.equal(new Set(data.cards.map(c=>c.name)).size,281);
