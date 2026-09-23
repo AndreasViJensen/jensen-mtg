@@ -65,6 +65,14 @@ test('singleton fallback uses same-rarity shared colors or opposite-rarity exact
  ])});state.cards=cards;`);
  assert.equal(run('JSON.stringify(getPartnerCandidates(cards[0]).cards.map(card=>card.name).sort())'),JSON.stringify(['Mythic U','Rare UW']));
 });
+test('DFT image lookup prefers Special Guests for reprinted cards',()=>{
+ const run=app();
+ run('state.setCode="DFT"');
+ assert.equal(run('JSON.stringify(getImageSetCodes({setCode:"10E"}))'),JSON.stringify(['SPG','10E']));
+ assert.equal(run('JSON.stringify(getImageSetCodes({setCode:"DFT"}))'),JSON.stringify(['DFT']));
+ run('state.setCode="FIN"');
+ assert.equal(run('JSON.stringify(getImageSetCodes({setCode:"M20"}))'),JSON.stringify(['M20']));
+});
 test('DFT snapshot has complete verified values and excludes only missing scores',()=>{
  const data=JSON.parse(fs.readFileSync('web/data/aetherdrift.json'));
  assert.equal(data.cards.length,281); assert.equal(new Set(data.cards.map(c=>c.name)).size,281);

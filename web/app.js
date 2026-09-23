@@ -260,7 +260,21 @@ function buildScryfallUrl(name, setCode) {
   return url.toString();
 }
 
-function getNameCandidates(card) {
+function getImageSetCodes(card) {
+  const setCodes = [];
+
+  if (state.setCode === "DFT" && card.setCode !== "DFT") {
+    setCodes.push("SPG");
+  }
+
+  if (card.setCode) {
+    setCodes.push(card.setCode);
+  }
+
+  return [...new Set(setCodes)];
+}
+
+function getNameCandidates(card, setCodes = getImageSetCodes(card)) {
   const rawCandidates = [card.name];
   const splitParts = card.name.includes(" // ")
     ? card.name.split(" // ").map((part) => part.trim()).filter(Boolean)
@@ -279,7 +293,7 @@ function getNameCandidates(card) {
   }
 
   return uniqueCandidates.flatMap((candidate) => [
-    { name: candidate, setCode: card.setCode },
+    ...setCodes.map((setCode) => ({ name: candidate, setCode })),
     { name: candidate, setCode: null },
   ]);
 }
@@ -359,8 +373,9 @@ async function fetchJsonWithTimeout(url, timeoutMs) {
 }
 
 async function fetchCardImage(card) {
-  if (card.imageUrl) return card.imageUrl;
-  const cacheKey = `${card.name}::${card.setCode || ""}`;
+  const needsSetSpecificLookup = state.setCode === "DFT" && card.setCode && card.setCode !== "DFT";
+  if (card.imageUrl && !needsSetSpecificLookup) return card.imageUrl;
+  const cacheKey = `${state.setCode}::${card.name}::${card.setCode || ""}`;
   if (imageCache.has(cacheKey)) {
     return imageCache.get(cacheKey);
   }
@@ -387,11 +402,12 @@ async function fetchCardImage(card) {
       }
     }
 
-    if (!sawTransientFailure) {
-      imageCache.set(cacheKey, null);
+    const fallbackImage = card.imageUrl || null;
+    if (!sawTransientFailure || fallbackImage) {
+      imageCache.set(cacheKey, fallbackImage);
     }
 
-    return null;
+    return fallbackImage;
   }, cacheKey);
 
   pendingImageRequests.set(cacheKey, request);
